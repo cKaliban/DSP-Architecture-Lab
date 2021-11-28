@@ -1,0 +1,33 @@
+Mon Nov 29 00:44:01 CET 2021
+ERROR org.eclipse.rse.ui  RSEG1064U: SUB#0:ADC-list
+--------------------------------------------
+Mon Nov 29 00:44:01 CET 2021
+ERROR org.eclipse.rse.ui  RSEG1064U: SUB#1:org.eclipse.core.internal.resources.ResourceException: Project 'ADC-config-1' is not open.
+org.eclipse.core.internal.resources.ResourceException(/ADC-config-1)[372]: java.lang.Exception: Project 'ADC-config-1' is not open.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:148)
+	at org.eclipse.core.internal.resources.Resource.checkAccessibleAndLocal(Resource.java:210)
+	at org.eclipse.core.internal.resources.Resource.checkMoveRequirements(Resource.java:375)
+	at org.eclipse.core.internal.resources.Resource.assertMoveRequirements(Resource.java:195)
+	at org.eclipse.core.internal.resources.Resource.move(Resource.java:1482)
+	at org.eclipse.core.internal.resources.Resource.move(Resource.java:1467)
+	at org.eclipse.rse.internal.files.ui.view.SystemViewRemoteFileAdapter.doRename(SystemViewRemoteFileAdapter.java:3140)
+	at org.eclipse.rse.internal.ui.view.SystemView$RenameJob.runInWorkspace(SystemView.java:5507)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+org.eclipse.core.internal.resources.ResourceException(/ADC-config-1)[372]: java.lang.Exception: Project 'ADC-config-1' is not open.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:148)
+	at org.eclipse.core.internal.resources.Resource.checkAccessibleAndLocal(Resource.java:210)
+	at org.eclipse.core.internal.resources.Resource.checkMoveRequirements(Resource.java:375)
+	at org.eclipse.core.internal.resources.Resource.assertMoveRequirements(Resource.java:195)
+	at org.eclipse.core.internal.resources.Resource.move(Resource.java:1482)
+	at org.eclipse.core.internal.resources.Resource.move(Resource.java:1467)
+	at org.eclipse.rse.internal.files.ui.view.SystemViewRemoteFileAdapter.doRename(SystemViewRemoteFileAdapter.java:3140)
+	at org.eclipse.rse.internal.ui.view.SystemView$RenameJob.runInWorkspace(SystemView.java:5507)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+--------------------------------------------

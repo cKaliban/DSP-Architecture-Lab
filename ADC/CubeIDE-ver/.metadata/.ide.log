@@ -5054,3 +5054,421 @@
 2021-12-04 17:06:50,403 [INFO] IPUIPlugin:74 - create IPUIPlugin
 2021-12-04 17:06:50,406 [INFO] ApiDbMcu:468 - Load IP Config File for PDM2PCM
 2021-12-04 17:06:50,435 [INFO] OpenFileManager:333 - Restore cursor
+2021-12-04 17:45:37,571 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,452x187,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021-12-04 17:48:26,062 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 17:53:09,712 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 871003960 Bytes (1073741824)
+2021-12-04 17:53:11,399 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 889356088 Bytes (1073741824)
+2021-12-04 17:53:13,981 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 635625560 Bytes (1073741824)
+2021-12-04 17:53:14,434 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8
+2021-12-04 17:53:14,434 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2021-12-04 17:53:14,434 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: ADC
+2021-12-04 17:53:14,434 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2021-12-04 17:53:14,434 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2021-12-04 17:53:14,435 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2021-12-04 17:53:14,436 [INFO] CodeGenerator:663 - code generatio: config db path: C:\ST\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\
+2021-12-04 17:53:14,922 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\MXTmpFiles\license.tmp_save
+2021-12-04 17:53:15,066 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\MXTmpFiles\license.tmp
+2021-12-04 17:53:15,102 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\MXTmpFiles\gpio.tmp_save
+2021-12-04 17:53:15,174 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\MXTmpFiles\gpio.tmp
+2021-12-04 17:53:15,369 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Src\stm32f4xx_it.c_save
+2021-12-04 17:53:15,473 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Src\stm32f4xx_it.c
+2021-12-04 17:53:15,482 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Inc\stm32f4xx_it.h_save
+2021-12-04 17:53:15,560 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Inc\stm32f4xx_it.h
+2021-12-04 17:53:15,578 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Src\stm32f4xx_hal_msp.c_save
+2021-12-04 17:53:15,743 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Src\stm32f4xx_hal_msp.c
+2021-12-04 17:53:15,746 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\MXTmpFiles\system.tmp_save
+2021-12-04 17:53:15,799 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\MXTmpFiles\system.tmp
+2021-12-04 17:53:15,813 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Inc\stm32f4xx_hal_conf.h_save
+2021-12-04 17:53:15,945 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Inc\stm32f4xx_hal_conf.h
+2021-12-04 17:53:15,988 [WARN] IPConfigManager:3148 - IP not found : TIM
+2021-12-04 17:53:15,989 [WARN] CodeGenerator:3268 - IP not found : null
+2021-12-04 17:53:16,002 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Inc\main.h_save
+2021-12-04 17:53:16,069 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Inc\main.h
+2021-12-04 17:53:16,079 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Src\main.c_save
+2021-12-04 17:53:16,213 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Src\main.c
+2021-12-04 17:53:17,145 [INFO] ProjectBuilder:2578 - Time for Copy HAL[1] : 225mS.
+2021-12-04 17:53:17,149 [INFO] ProjectBuilder:3622 - Project Generator version: 3.14.1
+2021-12-04 17:53:17,625 [INFO] ConfigFileManager:1271 - The Die is : DIE413
+2021-12-04 17:53:17,637 [INFO] ApiDbMcu:468 - Load IP Config File for FATFS
+2021-12-04 17:53:17,673 [INFO] ApiDbMcu:468 - Load IP Config File for FREERTOS
+2021-12-04 17:53:17,681 [INFO] ApiDbMcu:468 - Load IP Config File for LIBJPEG
+2021-12-04 17:53:17,841 [INFO] ApiDbMcu:468 - Load IP Config File for LWIP
+2021-12-04 17:53:17,885 [INFO] ApiDbMcu:468 - Load IP Config File for MBEDTLS
+2021-12-04 17:53:17,926 [INFO] ApiDbMcu:468 - Load IP Config File for USB_DEVICE
+2021-12-04 17:53:17,939 [INFO] ApiDbMcu:468 - Load IP Config File for USB_HOST
+2021-12-04 17:53:19,973 [INFO] ProjectBuilder:3789 - Time for Generating toolchain IDE Files: 2824mS.
+2021-12-04 17:53:19,974 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
+2021-12-04 17:53:19,975 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
+2021-12-04 18:01:50,865 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,452x205,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021-12-04 18:01:53,836 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 695303912 Bytes (1073741824)
+2021-12-04 18:01:55,147 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 713222032 Bytes (1073741824)
+2021-12-04 18:01:57,210 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 816656736 Bytes (1073741824)
+2021-12-04 18:01:57,659 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8
+2021-12-04 18:01:57,659 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2021-12-04 18:01:57,659 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: ADC
+2021-12-04 18:01:57,659 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2021-12-04 18:01:57,659 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2021-12-04 18:01:57,660 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2021-12-04 18:01:57,660 [INFO] CodeGenerator:663 - code generatio: config db path: C:\ST\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\
+2021-12-04 18:01:58,100 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\MXTmpFiles\license.tmp_save
+2021-12-04 18:01:58,159 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\MXTmpFiles\license.tmp
+2021-12-04 18:01:58,177 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\MXTmpFiles\gpio.tmp_save
+2021-12-04 18:01:58,258 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\MXTmpFiles\gpio.tmp
+2021-12-04 18:01:58,481 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Src\stm32f4xx_it.c_save
+2021-12-04 18:01:58,569 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Src\stm32f4xx_it.c
+2021-12-04 18:01:58,573 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Inc\stm32f4xx_it.h_save
+2021-12-04 18:01:58,637 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Inc\stm32f4xx_it.h
+2021-12-04 18:01:58,652 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Src\stm32f4xx_hal_msp.c_save
+2021-12-04 18:01:58,752 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Src\stm32f4xx_hal_msp.c
+2021-12-04 18:01:58,756 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\MXTmpFiles\system.tmp_save
+2021-12-04 18:01:58,802 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\MXTmpFiles\system.tmp
+2021-12-04 18:01:58,817 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Inc\stm32f4xx_hal_conf.h_save
+2021-12-04 18:01:58,898 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Inc\stm32f4xx_hal_conf.h
+2021-12-04 18:01:58,972 [WARN] IPConfigManager:3148 - IP not found : TIM
+2021-12-04 18:01:58,973 [WARN] CodeGenerator:3268 - IP not found : null
+2021-12-04 18:01:58,987 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Inc\main.h_save
+2021-12-04 18:01:59,046 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Inc\main.h
+2021-12-04 18:01:59,057 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Src\main.c_save
+2021-12-04 18:01:59,235 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Src\main.c
+2021-12-04 18:02:00,115 [INFO] ProjectBuilder:2578 - Time for Copy HAL[1] : 213mS.
+2021-12-04 18:02:00,119 [INFO] ProjectBuilder:3622 - Project Generator version: 3.14.1
+2021-12-04 18:02:00,651 [INFO] ConfigFileManager:1271 - The Die is : DIE413
+2021-12-04 18:02:02,627 [INFO] ProjectBuilder:3789 - Time for Generating toolchain IDE Files: 2508mS.
+2021-12-04 18:02:02,628 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 1mS.
+2021-12-04 18:02:02,630 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
+2021-12-04 18:05:23,928 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021-12-04 18:05:24,085 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021-12-04 18:05:26,402 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 682245608 Bytes (1073741824)
+2021-12-04 18:05:27,956 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 700597736 Bytes (1073741824)
+2021-12-04 18:05:30,404 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 792346088 Bytes (1073741824)
+2021-12-04 18:05:30,753 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8
+2021-12-04 18:05:30,753 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2021-12-04 18:05:30,753 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: ADC
+2021-12-04 18:05:30,753 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2021-12-04 18:05:30,754 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2021-12-04 18:05:30,754 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2021-12-04 18:05:30,755 [INFO] CodeGenerator:663 - code generatio: config db path: C:\ST\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\
+2021-12-04 18:05:31,226 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\MXTmpFiles\license.tmp_save
+2021-12-04 18:05:31,311 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\MXTmpFiles\license.tmp
+2021-12-04 18:05:31,332 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\MXTmpFiles\gpio.tmp_save
+2021-12-04 18:05:31,396 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\MXTmpFiles\gpio.tmp
+2021-12-04 18:05:31,570 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Src\stm32f4xx_it.c_save
+2021-12-04 18:05:31,653 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Src\stm32f4xx_it.c
+2021-12-04 18:05:31,657 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Inc\stm32f4xx_it.h_save
+2021-12-04 18:05:31,713 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Inc\stm32f4xx_it.h
+2021-12-04 18:05:31,727 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Src\stm32f4xx_hal_msp.c_save
+2021-12-04 18:05:31,816 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Src\stm32f4xx_hal_msp.c
+2021-12-04 18:05:31,819 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\MXTmpFiles\system.tmp_save
+2021-12-04 18:05:31,877 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\MXTmpFiles\system.tmp
+2021-12-04 18:05:31,891 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Inc\stm32f4xx_hal_conf.h_save
+2021-12-04 18:05:32,027 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Inc\stm32f4xx_hal_conf.h
+2021-12-04 18:05:32,105 [WARN] IPConfigManager:3148 - IP not found : TIM
+2021-12-04 18:05:32,106 [WARN] CodeGenerator:3268 - IP not found : null
+2021-12-04 18:05:32,119 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Inc\main.h_save
+2021-12-04 18:05:32,180 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Inc\main.h
+2021-12-04 18:05:32,190 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Src\main.c_save
+2021-12-04 18:05:32,329 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Src\main.c
+2021-12-04 18:05:33,247 [INFO] ProjectBuilder:2578 - Time for Copy HAL[1] : 213mS.
+2021-12-04 18:05:33,250 [INFO] ProjectBuilder:3622 - Project Generator version: 3.14.1
+2021-12-04 18:05:33,799 [INFO] ConfigFileManager:1271 - The Die is : DIE413
+2021-12-04 18:05:37,176 [INFO] ProjectBuilder:3789 - Time for Generating toolchain IDE Files: 3926mS.
+2021-12-04 18:05:37,177 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 1mS.
+2021-12-04 18:05:37,183 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 1mS.
+2021-12-04 18:07:21,139 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 754940216 Bytes (1073741824)
+2021-12-04 18:07:22,607 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 657860272 Bytes (1073741824)
+2021-12-04 18:07:25,023 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 677256880 Bytes (1073741824)
+2021-12-04 18:07:25,400 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8
+2021-12-04 18:07:25,400 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2021-12-04 18:07:25,400 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: ADC
+2021-12-04 18:07:25,400 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2021-12-04 18:07:25,400 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2021-12-04 18:07:25,401 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2021-12-04 18:07:25,402 [INFO] CodeGenerator:663 - code generatio: config db path: C:\ST\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\
+2021-12-04 18:07:25,864 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\MXTmpFiles\license.tmp_save
+2021-12-04 18:07:25,915 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\MXTmpFiles\license.tmp
+2021-12-04 18:07:25,933 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\MXTmpFiles\gpio.tmp_save
+2021-12-04 18:07:26,018 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\MXTmpFiles\gpio.tmp
+2021-12-04 18:07:26,265 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Src\stm32f4xx_it.c_save
+2021-12-04 18:07:26,346 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Src\stm32f4xx_it.c
+2021-12-04 18:07:26,350 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Inc\stm32f4xx_it.h_save
+2021-12-04 18:07:26,405 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Inc\stm32f4xx_it.h
+2021-12-04 18:07:26,420 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Src\stm32f4xx_hal_msp.c_save
+2021-12-04 18:07:26,508 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Src\stm32f4xx_hal_msp.c
+2021-12-04 18:07:26,511 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\MXTmpFiles\system.tmp_save
+2021-12-04 18:07:26,557 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\MXTmpFiles\system.tmp
+2021-12-04 18:07:26,570 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Inc\stm32f4xx_hal_conf.h_save
+2021-12-04 18:07:26,649 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Inc\stm32f4xx_hal_conf.h
+2021-12-04 18:07:26,690 [WARN] IPConfigManager:3148 - IP not found : TIM
+2021-12-04 18:07:26,691 [WARN] CodeGenerator:3268 - IP not found : null
+2021-12-04 18:07:26,704 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Inc\main.h_save
+2021-12-04 18:07:26,763 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Inc\main.h
+2021-12-04 18:07:26,773 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Src\main.c_save
+2021-12-04 18:07:26,924 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Src\main.c
+2021-12-04 18:07:27,938 [INFO] ProjectBuilder:2578 - Time for Copy HAL[1] : 210mS.
+2021-12-04 18:07:27,942 [INFO] ProjectBuilder:3622 - Project Generator version: 3.14.1
+2021-12-04 18:07:28,476 [INFO] ConfigFileManager:1271 - The Die is : DIE413
+2021-12-04 18:07:30,322 [INFO] ProjectBuilder:3789 - Time for Generating toolchain IDE Files: 2380mS.
+2021-12-04 18:07:30,322 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
+2021-12-04 18:07:30,324 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
+2021-12-04 18:12:26,235 [INFO] ParamManager:825 - [Generic UI] PropertyChangeEvent: TAB_STATUS_CHANGED , "dont care", "never mind"
+2021-12-04 18:12:26,365 [INFO] ParamManager:825 - [Generic UI] PropertyChangeEvent: TAB_STATUS_CHANGED , "dont care", "never mind"
+2021-12-04 18:12:31,817 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:12:31,817 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:12:31,817 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:12:31,818 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:12:31,818 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:12:31,818 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:12:31,818 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:12:31,819 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:12:31,819 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:12:31,819 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:12:31,819 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:12:31,820 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:12:31,820 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:12:31,820 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:12:31,858 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:12:39,416 [INFO] Gpio:254 - dependency for GPIO [ADC1, RCC, SYS]
+2021-12-04 18:12:52,537 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 629834256 Bytes (1073741824)
+2021-12-04 18:13:06,307 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 727874064 Bytes (1073741824)
+2021-12-04 18:13:07,347 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 748845584 Bytes (1073741824)
+2021-12-04 18:13:09,228 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 794982928 Bytes (1073741824)
+2021-12-04 18:13:09,547 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8
+2021-12-04 18:13:09,548 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2021-12-04 18:13:09,548 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: ADC
+2021-12-04 18:13:09,548 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2021-12-04 18:13:09,548 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2021-12-04 18:13:09,548 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2021-12-04 18:13:09,551 [INFO] CodeGenerator:663 - code generatio: config db path: C:\ST\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\
+2021-12-04 18:13:10,065 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\MXTmpFiles\license.tmp_save
+2021-12-04 18:13:10,122 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\MXTmpFiles\license.tmp
+2021-12-04 18:13:10,140 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\MXTmpFiles\gpio.tmp_save
+2021-12-04 18:13:10,201 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\MXTmpFiles\gpio.tmp
+2021-12-04 18:13:10,411 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Src\stm32f4xx_it.c_save
+2021-12-04 18:13:10,495 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Src\stm32f4xx_it.c
+2021-12-04 18:13:10,499 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Inc\stm32f4xx_it.h_save
+2021-12-04 18:13:10,600 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Inc\stm32f4xx_it.h
+2021-12-04 18:13:10,616 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Src\stm32f4xx_hal_msp.c_save
+2021-12-04 18:13:10,707 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Src\stm32f4xx_hal_msp.c
+2021-12-04 18:13:10,710 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\MXTmpFiles\system.tmp_save
+2021-12-04 18:13:10,756 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\MXTmpFiles\system.tmp
+2021-12-04 18:13:10,771 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Inc\stm32f4xx_hal_conf.h_save
+2021-12-04 18:13:10,855 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Inc\stm32f4xx_hal_conf.h
+2021-12-04 18:13:10,899 [WARN] IPConfigManager:3148 - IP not found : TIM
+2021-12-04 18:13:10,900 [WARN] CodeGenerator:3268 - IP not found : null
+2021-12-04 18:13:10,911 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Inc\main.h_save
+2021-12-04 18:13:10,973 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Inc\main.h
+2021-12-04 18:13:10,984 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Src\main.c_save
+2021-12-04 18:13:11,128 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Src\main.c
+2021-12-04 18:13:12,179 [INFO] ProjectBuilder:2578 - Time for Copy HAL[1] : 179mS.
+2021-12-04 18:13:12,182 [INFO] ProjectBuilder:3622 - Project Generator version: 3.14.1
+2021-12-04 18:13:12,704 [INFO] ConfigFileManager:1271 - The Die is : DIE413
+2021-12-04 18:13:14,556 [INFO] ProjectBuilder:3789 - Time for Generating toolchain IDE Files: 2374mS.
+2021-12-04 18:13:14,556 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
+2021-12-04 18:13:14,558 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
+2021-12-04 18:13:50,354 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:13:50,354 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:13:50,355 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:13:50,355 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:13:50,355 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:13:50,355 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:13:50,356 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:13:50,356 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:13:50,356 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:13:50,356 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:13:50,356 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:13:50,357 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:13:50,357 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:13:50,357 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:13:50,397 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:13:51,797 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,452x187,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021-12-04 18:13:54,807 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 660126888 Bytes (1073741824)
+2021-12-04 18:13:56,390 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 678416384 Bytes (1073741824)
+2021-12-04 18:13:58,202 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 691938984 Bytes (1073741824)
+2021-12-04 18:13:58,566 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8
+2021-12-04 18:13:58,566 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2021-12-04 18:13:58,566 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: ADC
+2021-12-04 18:13:58,566 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2021-12-04 18:13:58,566 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2021-12-04 18:13:58,567 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2021-12-04 18:13:58,567 [INFO] CodeGenerator:663 - code generatio: config db path: C:\ST\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\
+2021-12-04 18:13:59,015 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\MXTmpFiles\license.tmp_save
+2021-12-04 18:13:59,064 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\MXTmpFiles\license.tmp
+2021-12-04 18:13:59,083 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\MXTmpFiles\gpio.tmp_save
+2021-12-04 18:13:59,166 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\MXTmpFiles\gpio.tmp
+2021-12-04 18:13:59,333 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Src\stm32f4xx_it.c_save
+2021-12-04 18:13:59,497 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Src\stm32f4xx_it.c
+2021-12-04 18:13:59,501 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Inc\stm32f4xx_it.h_save
+2021-12-04 18:13:59,567 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Inc\stm32f4xx_it.h
+2021-12-04 18:13:59,582 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Src\stm32f4xx_hal_msp.c_save
+2021-12-04 18:13:59,682 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Src\stm32f4xx_hal_msp.c
+2021-12-04 18:13:59,685 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\MXTmpFiles\system.tmp_save
+2021-12-04 18:13:59,735 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\MXTmpFiles\system.tmp
+2021-12-04 18:13:59,752 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Inc\stm32f4xx_hal_conf.h_save
+2021-12-04 18:13:59,839 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Inc\stm32f4xx_hal_conf.h
+2021-12-04 18:13:59,880 [WARN] IPConfigManager:3148 - IP not found : TIM
+2021-12-04 18:13:59,881 [WARN] CodeGenerator:3268 - IP not found : null
+2021-12-04 18:13:59,894 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Inc\main.h_save
+2021-12-04 18:13:59,955 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Inc\main.h
+2021-12-04 18:13:59,965 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Src\main.c_save
+2021-12-04 18:14:00,092 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Src\main.c
+2021-12-04 18:14:01,098 [INFO] ProjectBuilder:2578 - Time for Copy HAL[1] : 211mS.
+2021-12-04 18:14:01,102 [INFO] ProjectBuilder:3622 - Project Generator version: 3.14.1
+2021-12-04 18:14:01,616 [INFO] ConfigFileManager:1271 - The Die is : DIE413
+2021-12-04 18:14:03,728 [INFO] ProjectBuilder:3789 - Time for Generating toolchain IDE Files: 2626mS.
+2021-12-04 18:14:03,729 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 1mS.
+2021-12-04 18:14:03,730 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
+2021-12-04 18:25:49,001 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:25:49,002 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:25:49,002 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:25:49,002 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:25:49,002 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:25:49,003 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:25:49,003 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:25:49,003 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:25:49,003 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:25:49,003 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:25:49,004 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:25:49,004 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:25:49,004 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:25:49,004 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:25:49,054 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:25:49,171 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021-12-04 18:25:49,499 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:25:49,500 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:25:49,500 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:25:49,500 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:25:49,500 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:25:49,501 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:25:49,501 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:25:49,501 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:25:49,501 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:25:49,501 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:25:49,502 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:25:49,502 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:25:49,502 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:25:49,502 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:25:49,541 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:25:49,622 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021-12-04 18:25:52,548 [INFO] Gpio:254 - dependency for GPIO [ADC1, RCC, SYS]
+2021-12-04 18:26:13,454 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 646993656 Bytes (1073741824)
+2021-12-04 18:26:14,620 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 669013752 Bytes (1073741824)
+2021-12-04 18:26:17,118 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 604122608 Bytes (1073741824)
+2021-12-04 18:26:17,538 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8
+2021-12-04 18:26:17,538 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2021-12-04 18:26:17,538 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: ADC
+2021-12-04 18:26:17,538 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2021-12-04 18:26:17,538 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2021-12-04 18:26:17,539 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2021-12-04 18:26:17,539 [INFO] CodeGenerator:663 - code generatio: config db path: C:\ST\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\
+2021-12-04 18:26:18,031 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\MXTmpFiles\license.tmp_save
+2021-12-04 18:26:18,095 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\MXTmpFiles\license.tmp
+2021-12-04 18:26:18,142 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\MXTmpFiles\gpio.tmp_save
+2021-12-04 18:26:18,214 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\MXTmpFiles\gpio.tmp
+2021-12-04 18:26:18,449 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Src\stm32f4xx_it.c_save
+2021-12-04 18:26:18,525 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Src\stm32f4xx_it.c
+2021-12-04 18:26:18,529 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Inc\stm32f4xx_it.h_save
+2021-12-04 18:26:18,584 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Inc\stm32f4xx_it.h
+2021-12-04 18:26:18,598 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Src\stm32f4xx_hal_msp.c_save
+2021-12-04 18:26:18,687 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Src\stm32f4xx_hal_msp.c
+2021-12-04 18:26:18,689 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\MXTmpFiles\system.tmp_save
+2021-12-04 18:26:18,738 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\MXTmpFiles\system.tmp
+2021-12-04 18:26:18,752 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Inc\stm32f4xx_hal_conf.h_save
+2021-12-04 18:26:18,832 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Inc\stm32f4xx_hal_conf.h
+2021-12-04 18:26:18,874 [WARN] IPConfigManager:3148 - IP not found : TIM
+2021-12-04 18:26:18,875 [WARN] CodeGenerator:3268 - IP not found : null
+2021-12-04 18:26:18,886 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Inc\main.h_save
+2021-12-04 18:26:18,952 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Inc\main.h
+2021-12-04 18:26:18,963 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Src\main.c_save
+2021-12-04 18:26:19,114 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Src\main.c
+2021-12-04 18:26:20,100 [INFO] ProjectBuilder:2578 - Time for Copy HAL[1] : 222mS.
+2021-12-04 18:26:20,104 [INFO] ProjectBuilder:3622 - Project Generator version: 3.14.1
+2021-12-04 18:26:20,541 [INFO] ConfigFileManager:1271 - The Die is : DIE413
+2021-12-04 18:26:22,428 [INFO] ProjectBuilder:3789 - Time for Generating toolchain IDE Files: 2324mS.
+2021-12-04 18:26:22,429 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 1mS.
+2021-12-04 18:26:22,430 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
+2021-12-04 18:34:44,589 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:34:44,591 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:34:44,591 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:34:44,592 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:34:44,592 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:34:44,593 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:34:44,593 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:34:44,594 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:34:44,594 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:34:44,594 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:34:44,595 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:34:44,595 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:34:44,595 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:34:44,596 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:34:44,684 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:34:44,780 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021-12-04 18:34:48,479 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:34:48,480 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:34:48,480 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:34:48,481 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:34:48,482 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:34:48,482 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:34:48,483 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:34:48,483 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:34:48,484 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:34:48,485 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:34:48,485 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:34:48,486 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:34:48,486 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:34:48,486 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:34:48,570 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:34:58,709 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:34:58,714 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:34:58,715 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:34:58,715 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:34:58,715 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:34:58,715 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:34:58,715 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:34:58,716 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:34:58,716 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:34:58,716 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:34:58,716 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:34:58,716 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:34:58,717 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:34:58,717 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:34:58,756 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-04 18:35:16,702 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 856066144 Bytes (1073741824)
+2021-12-04 18:35:17,866 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 876511328 Bytes (1073741824)
+2021-12-04 18:35:19,674 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 603532736 Bytes (1073741824)
+2021-12-04 18:35:20,133 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8
+2021-12-04 18:35:20,134 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2021-12-04 18:35:20,134 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: ADC
+2021-12-04 18:35:20,134 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2021-12-04 18:35:20,134 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2021-12-04 18:35:20,134 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2021-12-04 18:35:20,135 [INFO] CodeGenerator:663 - code generatio: config db path: C:\ST\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\
+2021-12-04 18:35:20,541 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\MXTmpFiles\license.tmp_save
+2021-12-04 18:35:20,654 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\MXTmpFiles\license.tmp
+2021-12-04 18:35:20,676 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\MXTmpFiles\gpio.tmp_save
+2021-12-04 18:35:20,763 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\MXTmpFiles\gpio.tmp
+2021-12-04 18:35:20,949 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Src\stm32f4xx_it.c_save
+2021-12-04 18:35:21,035 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Src\stm32f4xx_it.c
+2021-12-04 18:35:21,038 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Inc\stm32f4xx_it.h_save
+2021-12-04 18:35:21,100 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Inc\stm32f4xx_it.h
+2021-12-04 18:35:21,116 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Src\stm32f4xx_hal_msp.c_save
+2021-12-04 18:35:21,213 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Src\stm32f4xx_hal_msp.c
+2021-12-04 18:35:21,216 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\MXTmpFiles\system.tmp_save
+2021-12-04 18:35:21,273 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\MXTmpFiles\system.tmp
+2021-12-04 18:35:21,288 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Inc\stm32f4xx_hal_conf.h_save
+2021-12-04 18:35:21,455 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Inc\stm32f4xx_hal_conf.h
+2021-12-04 18:35:21,494 [WARN] IPConfigManager:3148 - IP not found : TIM
+2021-12-04 18:35:21,495 [WARN] CodeGenerator:3268 - IP not found : null
+2021-12-04 18:35:21,506 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Inc\main.h_save
+2021-12-04 18:35:21,568 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Inc\main.h
+2021-12-04 18:35:21,578 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Src\main.c_save
+2021-12-04 18:35:21,756 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\Core\Src\main.c
+2021-12-04 18:35:22,650 [INFO] ProjectBuilder:2578 - Time for Copy HAL[1] : 217mS.
+2021-12-04 18:35:22,653 [INFO] ProjectBuilder:3622 - Project Generator version: 3.14.1
+2021-12-04 18:35:23,119 [INFO] ConfigFileManager:1271 - The Die is : DIE413
+2021-12-04 18:35:25,141 [INFO] ProjectBuilder:3789 - Time for Generating toolchain IDE Files: 2488mS.
+2021-12-04 18:35:25,142 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
+2021-12-04 18:35:25,144 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
+2021-12-04 19:38:02,271 [INFO] Activator:177 - 
+
+
+2021-12-04 19:38:02,275 [INFO] Activator:178 - !SESSION log4j initialized

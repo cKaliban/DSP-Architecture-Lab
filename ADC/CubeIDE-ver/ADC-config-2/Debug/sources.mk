@@ -1,5 +1,6 @@
 ################################################################################
 # Automatically-generated file. Do not edit!
+# Toolchain: GNU Tools for STM32 (9-2020-q2-update)
 ################################################################################
 
 ELF_SRCS := 
@@ -22,8 +23,4 @@ SUBDIRS := \
 Core/Src \
 Core/Startup \
 Drivers/STM32F4xx_HAL_Driver/Src \
-Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Src \
-Middlewares/ST/STM32_USB_Host_Library/Core/Src \
-USB_HOST/App \
-USB_HOST/Target \
 

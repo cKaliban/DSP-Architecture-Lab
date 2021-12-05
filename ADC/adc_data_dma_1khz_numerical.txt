@@ -1,4 +1,4 @@
-S3 = [6446
+6446
 6722
 7023
 7346
@@ -1022,20 +1022,3 @@ S3 = [6446
 11060
 10930
 10759
-];
-
-L = 1024;
-Fs = 50000;
-X = fft(S3,1024);
-P2 = abs(X/L);
-P1 = P2(1:L/2+1);
-P1(2:end-1) = 2*P1(2:end-1);
-
-f = Fs*(0:L/2)/L;
-figure
-plot(f,P1)
-title('Single-Sided Amplitude Spectrum of X(t)')
-xlabel('f (Hz)')
-ylabel('|P1(f)|')
-figure
-sinad(S3)

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Sine-generator/DAC-configuration.ioc&apos; to &apos;Sine-generator.ioc&apos;" description="Rename resource &apos;DAC-configuration.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="DAC-configuration.ioc" name="Sine-generator.ioc" stamp="1638734793934" updateReferences="true"/>
+</session>

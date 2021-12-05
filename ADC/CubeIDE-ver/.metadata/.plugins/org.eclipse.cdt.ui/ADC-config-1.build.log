@@ -1,10 +1,20 @@
-19:56:13 **** Incremental Build of configuration Debug for project ADC-config-1 ****
+14:54:27 **** Incremental Build of configuration Debug for project ADC-config-1 ****
 make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DDEBUG -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "ADC-config-1.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\ADC-config-1\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC-config-1.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADC-config-1.elf
+ 
 arm-none-eabi-size   ADC-config-1.elf 
+arm-none-eabi-objdump -h -S  ADC-config-1.elf  > "ADC-config-1.list"
+arm-none-eabi-objcopy  -O binary  ADC-config-1.elf  "ADC-config-1.bin"
    text	   data	    bss	    dec	    hex	filename
-  12268	     20	   2116	  14404	   3844	ADC-config-1.elf
+  12272	     20	   3844	  16136	   3f08	ADC-config-1.elf
 Finished building: default.size.stdout
  
+Finished building: ADC-config-1.bin
+ 
+Finished building: ADC-config-1.list
+ 
 
-19:56:13 Build Finished. 0 errors, 0 warnings. (took 327ms)
+14:54:28 Build Finished. 0 errors, 0 warnings. (took 1s.357ms)
 

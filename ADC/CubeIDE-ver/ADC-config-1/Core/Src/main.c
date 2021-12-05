@@ -32,7 +32,7 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
-#define ADC_BUFF_LEN	100
+#define ADC_BUFF_LEN	1064
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -46,7 +46,7 @@ ADC_HandleTypeDef hadc1;
 TIM_HandleTypeDef htim3;
 
 /* USER CODE BEGIN PV */
-uint32_t adc_data[ADC_BUFF_LEN];
+uint16_t adc_data[ADC_BUFF_LEN];
 uint16_t adc_data_counter = 0;
 /* USER CODE END PV */
 

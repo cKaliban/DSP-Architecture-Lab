@@ -32,7 +32,7 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
-#define ADC_BUFF_LEN	100
+#define ADC_BUFF_LEN	1024
 #define  DMA_BUFF_LEN	16
 /* USER CODE END PD */
 
@@ -333,7 +333,7 @@ void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef *hadc){
 		for(uint8_t i = 0; i < DMA_BUFF_LEN; i++){
 			ovs += dma_buff[i];
 		}
-		adc_data[adc_data_counter] = (ovs >> 2);
+		adc_data[adc_data_counter] = (ovs >> 2); // 12-bit measurements -> 14-bit result
 		adc_data_counter++;
 	}
 	else{

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="EXPORT_DIALOG">
+		<item key="Start" value="0x200000bc"/>
+		<item key="End" value="0x200008bc"/>
+		<item key="Initial address" value="0x200000bc"/>
+		<item key="File" value="D:\GitHub\DSP-Architecture-Lab\ADC\CubeIDE-ver\adc_data_irq_1khz.txt"/>
+		<item key="SELECTED_EXPORTER" value="PlainTextExporter"/>
+	</section>
+</section>

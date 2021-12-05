@@ -21,29 +21,29 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, ALLOC, LOAD, DATA
   8 .data         0000000c  20000000  08003660  00020000  2**2
                   CONTENTS, ALLOC, LOAD, DATA
-  9 .bss          000001fc  2000000c  0800366c  0002000c  2**2
+  9 .bss          00000934  2000000c  0800366c  0002000c  2**2
                   ALLOC
- 10 ._user_heap_stack 00000600  20000208  0800366c  00020208  2**0
+ 10 ._user_heap_stack 00000600  20000940  0800366c  00020940  2**0
                   ALLOC
  11 .ARM.attributes 00000030  00000000  00000000  0002000c  2**0
                   CONTENTS, READONLY
- 12 .debug_info   0000b0b9  00000000  00000000  0002003c  2**0
+ 12 .debug_info   0000b0ba  00000000  00000000  0002003c  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 13 .debug_abbrev 000019d9  00000000  00000000  0002b0f5  2**0
+ 13 .debug_abbrev 000019e2  00000000  00000000  0002b0f6  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 14 .debug_aranges 00000ae8  00000000  00000000  0002cad0  2**3
+ 14 .debug_aranges 00000ae8  00000000  00000000  0002cad8  2**3
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 15 .debug_ranges 00000a20  00000000  00000000  0002d5b8  2**3
+ 15 .debug_ranges 00000a20  00000000  00000000  0002d5c0  2**3
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 16 .debug_macro  000211d1  00000000  00000000  0002dfd8  2**0
+ 16 .debug_macro  000211d1  00000000  00000000  0002dfe0  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 17 .debug_line   0000c197  00000000  00000000  0004f1a9  2**0
+ 17 .debug_line   0000c197  00000000  00000000  0004f1b1  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 18 .debug_str    000d1339  00000000  00000000  0005b340  2**0
+ 18 .debug_str    000d133a  00000000  00000000  0005b348  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 19 .comment      00000053  00000000  00000000  0012c679  2**0
+ 19 .comment      00000053  00000000  00000000  0012c682  2**0
                   CONTENTS, READONLY
- 20 .debug_frame  00002dac  00000000  00000000  0012c6cc  2**2
+ 20 .debug_frame  00002dac  00000000  00000000  0012c6d8  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
 Disassembly of section .text:
@@ -1027,63 +1027,62 @@ void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef *hadc){
 	if(adc_data_counter < ADC_BUFF_LEN){
  80008b8:	4b17      	ldr	r3, [pc, #92]	; (8000918 <HAL_ADC_ConvCpltCallback+0x68>)
  80008ba:	881b      	ldrh	r3, [r3, #0]
- 80008bc:	2b63      	cmp	r3, #99	; 0x63
- 80008be:	d821      	bhi.n	8000904 <HAL_ADC_ConvCpltCallback+0x54>
+ 80008bc:	f5b3 6f80 	cmp.w	r3, #1024	; 0x400
+ 80008c0:	d221      	bcs.n	8000906 <HAL_ADC_ConvCpltCallback+0x56>
 		uint16_t ovs = 0;
- 80008c0:	2300      	movs	r3, #0
- 80008c2:	81fb      	strh	r3, [r7, #14]
+ 80008c2:	2300      	movs	r3, #0
+ 80008c4:	81fb      	strh	r3, [r7, #14]
 		for(uint8_t i = 0; i < DMA_BUFF_LEN; i++){
- 80008c4:	2300      	movs	r3, #0
- 80008c6:	737b      	strb	r3, [r7, #13]
- 80008c8:	e009      	b.n	80008de <HAL_ADC_ConvCpltCallback+0x2e>
+ 80008c6:	2300      	movs	r3, #0
+ 80008c8:	737b      	strb	r3, [r7, #13]
+ 80008ca:	e009      	b.n	80008e0 <HAL_ADC_ConvCpltCallback+0x30>
 			ovs += dma_buff[i];
- 80008ca:	7b7b      	ldrb	r3, [r7, #13]
- 80008cc:	4a13      	ldr	r2, [pc, #76]	; (800091c <HAL_ADC_ConvCpltCallback+0x6c>)
- 80008ce:	f832 2013 	ldrh.w	r2, [r2, r3, lsl #1]
- 80008d2:	89fb      	ldrh	r3, [r7, #14]
- 80008d4:	4413      	add	r3, r2
- 80008d6:	81fb      	strh	r3, [r7, #14]
+ 80008cc:	7b7b      	ldrb	r3, [r7, #13]
+ 80008ce:	4a13      	ldr	r2, [pc, #76]	; (800091c <HAL_ADC_ConvCpltCallback+0x6c>)
+ 80008d0:	f832 2013 	ldrh.w	r2, [r2, r3, lsl #1]
+ 80008d4:	89fb      	ldrh	r3, [r7, #14]
+ 80008d6:	4413      	add	r3, r2
+ 80008d8:	81fb      	strh	r3, [r7, #14]
 		for(uint8_t i = 0; i < DMA_BUFF_LEN; i++){
- 80008d8:	7b7b      	ldrb	r3, [r7, #13]
- 80008da:	3301      	adds	r3, #1
- 80008dc:	737b      	strb	r3, [r7, #13]
- 80008de:	7b7b      	ldrb	r3, [r7, #13]
- 80008e0:	2b0f      	cmp	r3, #15
- 80008e2:	d9f2      	bls.n	80008ca <HAL_ADC_ConvCpltCallback+0x1a>
+ 80008da:	7b7b      	ldrb	r3, [r7, #13]
+ 80008dc:	3301      	adds	r3, #1
+ 80008de:	737b      	strb	r3, [r7, #13]
+ 80008e0:	7b7b      	ldrb	r3, [r7, #13]
+ 80008e2:	2b0f      	cmp	r3, #15
+ 80008e4:	d9f2      	bls.n	80008cc <HAL_ADC_ConvCpltCallback+0x1c>
 		}
-		adc_data[adc_data_counter] = (ovs >> 2);
- 80008e4:	4b0c      	ldr	r3, [pc, #48]	; (8000918 <HAL_ADC_ConvCpltCallback+0x68>)
- 80008e6:	881b      	ldrh	r3, [r3, #0]
- 80008e8:	461a      	mov	r2, r3
- 80008ea:	89fb      	ldrh	r3, [r7, #14]
- 80008ec:	089b      	lsrs	r3, r3, #2
- 80008ee:	b299      	uxth	r1, r3
- 80008f0:	4b0b      	ldr	r3, [pc, #44]	; (8000920 <HAL_ADC_ConvCpltCallback+0x70>)
- 80008f2:	f823 1012 	strh.w	r1, [r3, r2, lsl #1]
+		adc_data[adc_data_counter] = (ovs >> 2); // 12-bit measurements -> 14-bit result
+ 80008e6:	4b0c      	ldr	r3, [pc, #48]	; (8000918 <HAL_ADC_ConvCpltCallback+0x68>)
+ 80008e8:	881b      	ldrh	r3, [r3, #0]
+ 80008ea:	461a      	mov	r2, r3
+ 80008ec:	89fb      	ldrh	r3, [r7, #14]
+ 80008ee:	089b      	lsrs	r3, r3, #2
+ 80008f0:	b299      	uxth	r1, r3
+ 80008f2:	4b0b      	ldr	r3, [pc, #44]	; (8000920 <HAL_ADC_ConvCpltCallback+0x70>)
+ 80008f4:	f823 1012 	strh.w	r1, [r3, r2, lsl #1]
 		adc_data_counter++;
- 80008f6:	4b08      	ldr	r3, [pc, #32]	; (8000918 <HAL_ADC_ConvCpltCallback+0x68>)
- 80008f8:	881b      	ldrh	r3, [r3, #0]
- 80008fa:	3301      	adds	r3, #1
- 80008fc:	b29a      	uxth	r2, r3
- 80008fe:	4b06      	ldr	r3, [pc, #24]	; (8000918 <HAL_ADC_ConvCpltCallback+0x68>)
- 8000900:	801a      	strh	r2, [r3, #0]
+ 80008f8:	4b07      	ldr	r3, [pc, #28]	; (8000918 <HAL_ADC_ConvCpltCallback+0x68>)
+ 80008fa:	881b      	ldrh	r3, [r3, #0]
+ 80008fc:	3301      	adds	r3, #1
+ 80008fe:	b29a      	uxth	r2, r3
+ 8000900:	4b05      	ldr	r3, [pc, #20]	; (8000918 <HAL_ADC_ConvCpltCallback+0x68>)
+ 8000902:	801a      	strh	r2, [r3, #0]
 	else{
 		HAL_GPIO_TogglePin(GPIOD, GPIO_PIN_12);
 	}
 
 
 }
- 8000902:	e004      	b.n	800090e <HAL_ADC_ConvCpltCallback+0x5e>
+ 8000904:	e004      	b.n	8000910 <HAL_ADC_ConvCpltCallback+0x60>
 		HAL_GPIO_TogglePin(GPIOD, GPIO_PIN_12);
- 8000904:	f44f 5180 	mov.w	r1, #4096	; 0x1000
- 8000908:	4806      	ldr	r0, [pc, #24]	; (8000924 <HAL_ADC_ConvCpltCallback+0x74>)
- 800090a:	f001 fc00 	bl	800210e <HAL_GPIO_TogglePin>
+ 8000906:	f44f 5180 	mov.w	r1, #4096	; 0x1000
+ 800090a:	4806      	ldr	r0, [pc, #24]	; (8000924 <HAL_ADC_ConvCpltCallback+0x74>)
+ 800090c:	f001 fbff 	bl	800210e <HAL_GPIO_TogglePin>
 }
- 800090e:	bf00      	nop
- 8000910:	3710      	adds	r7, #16
- 8000912:	46bd      	mov	sp, r7
- 8000914:	bd80      	pop	{r7, pc}
- 8000916:	bf00      	nop
+ 8000910:	bf00      	nop
+ 8000912:	3710      	adds	r7, #16
+ 8000914:	46bd      	mov	sp, r7
+ 8000916:	bd80      	pop	{r7, pc}
  8000918:	20000028 	.word	0x20000028
  800091c:	2000002c 	.word	0x2000002c
  8000920:	2000013c 	.word	0x2000013c
@@ -1671,7 +1670,7 @@ LoopFillZerobss:
   ldr  r2, =_sbss
  8000ba0:	2000000c 	.word	0x2000000c
   ldr  r3, = _ebss
- 8000ba4:	20000208 	.word	0x20000208
+ 8000ba4:	20000940 	.word	0x20000940
 
 08000ba8 <ADC_IRQHandler>:
  * @retval None       
@@ -1834,7 +1833,7 @@ __weak void HAL_IncTick(void)
  8000c6c:	4770      	bx	lr
  8000c6e:	bf00      	nop
  8000c70:	20000008 	.word	0x20000008
- 8000c74:	20000204 	.word	0x20000204
+ 8000c74:	2000093c 	.word	0x2000093c
 
 08000c78 <HAL_GetTick>:
   * @note This function is declared as __weak to be overwritten in case of other 
@@ -1854,7 +1853,7 @@ __weak uint32_t HAL_GetTick(void)
  8000c84:	f85d 7b04 	ldr.w	r7, [sp], #4
  8000c88:	4770      	bx	lr
  8000c8a:	bf00      	nop
- 8000c8c:	20000204 	.word	0x20000204
+ 8000c8c:	2000093c 	.word	0x2000093c
 
 08000c90 <HAL_ADC_Init>:
   * @param  hadc pointer to a ADC_HandleTypeDef structure that contains

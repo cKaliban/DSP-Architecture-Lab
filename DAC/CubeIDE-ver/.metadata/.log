@@ -321,3 +321,6 @@ java.io.FileNotFoundException: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Si
 	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1021)
 	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1224)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-12-05 22:22:47.840
+!MESSAGE Indexed 'DDS-generator' (23 sources, 100 headers) in 2.98 sec: 8,648 declarations; 41,501 references; 6 unresolved inclusions; 321 syntax errors; 1,326 unresolved names (2.6%)

@@ -33,6 +33,7 @@
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
 #define DAC_BUFF_LEN	1024
+#define DDS_TABLE_LEN	4
 #define  DMA_BUFF_LEN	16
 /* USER CODE END PD */
 
@@ -177,6 +178,16 @@ uint16_t dac_data[DAC_BUFF_LEN] = {2000,2011,2021,2032,2043,2054,2064,2075,
 		1743,1754,1764,1775,1786,1796,1807,1818,
 		1828,1839,1850,1861,1871,1882,1893,1903,
 		1914,1925,1936,1946,1957,1968,1979,1989};
+uint16_t dds_amp_coeff = 1;
+uint16_t dds_ampc_table[DDS_TABLE_LEN] = {1,2,3,4};
+uint32_t dds_step = 0;
+uint16_t dds_phase_acc = 0;
+const uint16_t dds_f_table[DDS_TABLE_LEN] = {1000, 1370, 10000, 30000};
+uint8_t dds_amp_index = 0;
+uint16_t dds_table_index = 0;
+uint16_t dds_frequency = 1e3;
+const uint32_t dds_sampling_frequency=1e5;
+
 //uint16_t adc_data_counter = 0;
 /* USER CODE END PV */
 
@@ -187,7 +198,7 @@ static void MX_DAC_Init(void);
 static void MX_DMA_Init(void);
 static void MX_TIM2_Init(void);
 /* USER CODE BEGIN PFP */
-
+static void dds_param_increment();
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
@@ -232,7 +243,7 @@ int main(void)
 //  HAL_TIM_Base_Start(&htim3);
 //  HAL_DAC_Start(&hdac, DAC1_CHANNEL_2)
   HAL_DAC_Start_DMA(&hdac, DAC_CHANNEL_2, (uint32_t*)dac_data, DAC_BUFF_LEN, DAC_ALIGN_12B_R);
-  HAL_TIM_Base_Start(&htim2);
+  HAL_TIM_Base_Start_IT(&htim2);
 
   /* USER CODE END 2 */
 
@@ -410,7 +421,7 @@ static void MX_GPIO_Init(void)
 
   /*Configure GPIO pin : B1_Pin */
   GPIO_InitStruct.Pin = B1_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_EVT_RISING;
+  GPIO_InitStruct.Mode = GPIO_MODE_IT_FALLING;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   HAL_GPIO_Init(B1_GPIO_Port, &GPIO_InitStruct);
 
@@ -427,6 +438,9 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(LD4_GPIO_Port, &GPIO_InitStruct);
 
+  /* EXTI interrupt init*/
+  HAL_NVIC_SetPriority(EXTI0_IRQn, 0, 0);
+  HAL_NVIC_EnableIRQ(EXTI0_IRQn);
 }
 
 /* USER CODE BEGIN 4 */
@@ -444,6 +458,43 @@ static void MX_GPIO_Init(void)
 //		HAL_GPIO_TogglePin(GPIOD, GPIO_PIN_12);
 //	}
 //}
+void dds_param_increment(){
+	if(dds_table_index < DDS_TABLE_LEN){
+		dds_frequency = dds_f_table[dds_table_index];
+		dds_table_index++;
+	}
+	else{
+		dds_table_index = 0;
+		dds_frequency = dds_f_table[dds_table_index];
+		dds_table_index++;
+		if(dds_amp_index < DDS_TABLE_LEN){
+			dds_amp_coeff = dds_ampc_table[dds_amp_index];
+			dds_amp_index++;
+		}
+		else{
+			dds_amp_index = 0;
+			dds_amp_coeff = dds_ampc_table[dds_amp_index];
+			dds_amp_index++;
+		}
+	}
+}
+
+void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef * htim){
+	if(htim == &htim2){
+		dds_step = dds_frequency * DAC_BUFF_LEN / dds_sampling_frequency;
+		dds_phase_acc += dds_step;
+		if(dds_phase_acc >= DAC_BUFF_LEN){
+			dds_phase_acc -= DAC_BUFF_LEN;
+		}
+		HAL_DAC_SetValue(&hdac, DAC_CHANNEL_2, DAC_ALIGN_12B_R, (uint32_t)(dac_data[dds_phase_acc] / dds_amp_coeff));
+	}
+}
+
+void HAL_GPIO_EXTI_Callback(uint16_t GPIO_pin){
+	if(GPIO_pin == 1){
+		dds_param_increment();
+	}
+}
 /* USER CODE END 4 */
 
 /**

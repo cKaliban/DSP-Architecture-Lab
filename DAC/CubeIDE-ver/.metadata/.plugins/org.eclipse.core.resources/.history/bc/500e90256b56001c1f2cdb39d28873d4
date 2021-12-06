@@ -1,0 +1,523 @@
+/* USER CODE BEGIN Header */
+/**
+  ******************************************************************************
+  * @file           : main.c
+  * @brief          : Main program body
+  ******************************************************************************
+  * @attention
+  *
+  * <h2><center>&copy; Copyright (c) 2021 STMicroelectronics.
+  * All rights reserved.</center></h2>
+  *
+  * This software component is licensed by ST under Ultimate Liberty license
+  * SLA0044, the "License"; You may not use this file except in compliance with
+  * the License. You may obtain a copy of the License at:
+  *                             www.st.com/SLA0044
+  *
+  ******************************************************************************
+  */
+/* USER CODE END Header */
+/* Includes ------------------------------------------------------------------*/
+#include "main.h"
+
+/* Private includes ----------------------------------------------------------*/
+/* USER CODE BEGIN Includes */
+
+/* USER CODE END Includes */
+
+/* Private typedef -----------------------------------------------------------*/
+/* USER CODE BEGIN PTD */
+
+/* USER CODE END PTD */
+
+/* Private define ------------------------------------------------------------*/
+/* USER CODE BEGIN PD */
+#define DAC_BUFF_LEN	1024
+#define DDS_TABLE_LEN	4
+#define  DMA_BUFF_LEN	16
+/* USER CODE END PD */
+
+/* Private macro -------------------------------------------------------------*/
+/* USER CODE BEGIN PM */
+
+/* USER CODE END PM */
+
+/* Private variables ---------------------------------------------------------*/
+DAC_HandleTypeDef hdac;
+DMA_HandleTypeDef hdma_dac2;
+
+TIM_HandleTypeDef htim2;
+
+/* USER CODE BEGIN PV */
+uint16_t dma_buff[DMA_BUFF_LEN];
+uint16_t dac_data[DAC_BUFF_LEN] = {2000,2011,2021,2032,2043,2054,2064,2075,
+		2086,2097,2107,2118,2129,2139,2150,2161,
+		2172,2182,2193,2204,2214,2225,2236,2246,
+		2257,2267,2278,2289,2299,2310,2320,2331,
+		2341,2352,2362,2373,2383,2394,2404,2415,
+		2425,2436,2446,2456,2467,2477,2487,2498,
+		2508,2518,2529,2539,2549,2559,2569,2579,
+		2590,2600,2610,2620,2630,2640,2650,2660,
+		2670,2680,2689,2699,2709,2719,2729,2739,
+		2748,2758,2768,2777,2787,2796,2806,2815,
+		2825,2834,2844,2853,2863,2872,2881,2890,
+		2900,2909,2918,2927,2936,2945,2954,2963,
+		2972,2981,2990,2999,3008,3016,3025,3034,
+		3042,3051,3060,3068,3077,3085,3094,3102,
+		3110,3118,3127,3135,3143,3151,3159,3167,
+		3175,3183,3191,3199,3207,3214,3222,3230,
+		3237,3245,3253,3260,3267,3275,3282,3289,
+		3297,3304,3311,3318,3325,3332,3339,3346,
+		3353,3360,3366,3373,3380,3386,3393,3399,
+		3406,3412,3418,3425,3431,3437,3443,3449,
+		3455,3461,3467,3473,3478,3484,3490,3495,
+		3501,3507,3512,3517,3523,3528,3533,3538,
+		3543,3548,3553,3558,3563,3568,3573,3577,
+		3582,3587,3591,3595,3600,3604,3608,3613,
+		3617,3621,3625,3629,3633,3637,3640,3644,
+		3648,3651,3655,3658,3662,3665,3668,3671,
+		3675,3678,3681,3684,3687,3689,3692,3695,
+		3698,3700,3703,3705,3707,3710,3712,3714,
+		3716,3718,3720,3722,3724,3726,3728,3729,
+		3731,3733,3734,3735,3737,3738,3739,3740,
+		3742,3743,3744,3744,3745,3746,3747,3747,
+		3748,3748,3749,3749,3749,3750,3750,3750,
+		3750,3750,3750,3750,3749,3749,3749,3748,
+		3748,3747,3747,3746,3745,3744,3744,3743,
+		3742,3740,3739,3738,3737,3735,3734,3733,
+		3731,3729,3728,3726,3724,3722,3720,3718,
+		3716,3714,3712,3710,3707,3705,3703,3700,
+		3698,3695,3692,3689,3687,3684,3681,3678,
+		3675,3671,3668,3665,3662,3658,3655,3651,
+		3648,3644,3640,3637,3633,3629,3625,3621,
+		3617,3613,3608,3604,3600,3595,3591,3587,
+		3582,3577,3573,3568,3563,3558,3553,3548,
+		3543,3538,3533,3528,3523,3517,3512,3507,
+		3501,3495,3490,3484,3478,3473,3467,3461,
+		3455,3449,3443,3437,3431,3425,3418,3412,
+		3406,3399,3393,3386,3380,3373,3366,3360,
+		3353,3346,3339,3332,3325,3318,3311,3304,
+		3297,3289,3282,3275,3267,3260,3253,3245,
+		3237,3230,3222,3214,3207,3199,3191,3183,
+		3175,3167,3159,3151,3143,3135,3127,3118,
+		3110,3102,3094,3085,3077,3068,3060,3051,
+		3042,3034,3025,3016,3008,2999,2990,2981,
+		2972,2963,2954,2945,2936,2927,2918,2909,
+		2900,2890,2881,2872,2863,2853,2844,2834,
+		2825,2815,2806,2796,2787,2777,2768,2758,
+		2748,2739,2729,2719,2709,2699,2689,2680,
+		2670,2660,2650,2640,2630,2620,2610,2600,
+		2590,2579,2569,2559,2549,2539,2529,2518,
+		2508,2498,2487,2477,2467,2456,2446,2436,
+		2425,2415,2404,2394,2383,2373,2362,2352,
+		2341,2331,2320,2310,2299,2289,2278,2267,
+		2257,2246,2236,2225,2214,2204,2193,2182,
+		2172,2161,2150,2139,2129,2118,2107,2097,
+		2086,2075,2064,2054,2043,2032,2021,2011,
+		2000,1989,1979,1968,1957,1946,1936,1925,
+		1914,1903,1893,1882,1871,1861,1850,1839,
+		1828,1818,1807,1796,1786,1775,1764,1754,
+		1743,1733,1722,1711,1701,1690,1680,1669,
+		1659,1648,1638,1627,1617,1606,1596,1585,
+		1575,1564,1554,1544,1533,1523,1513,1502,
+		1492,1482,1471,1461,1451,1441,1431,1421,
+		1410,1400,1390,1380,1370,1360,1350,1340,
+		1330,1320,1311,1301,1291,1281,1271,1261,
+		1252,1242,1232,1223,1213,1204,1194,1185,
+		1175,1166,1156,1147,1137,1128,1119,1110,
+		1100,1091,1082,1073,1064,1055,1046,1037,
+		1028,1019,1010,1001,992,984,975,966,
+		958,949,940,932,923,915,906,898,
+		890,882,873,865,857,849,841,833,
+		825,817,809,801,793,786,778,770,
+		763,755,747,740,733,725,718,711,
+		703,696,689,682,675,668,661,654,
+		647,640,634,627,620,614,607,601,
+		594,588,582,575,569,563,557,551,
+		545,539,533,527,522,516,510,505,
+		499,493,488,483,477,472,467,462,
+		457,452,447,442,437,432,427,423,
+		418,413,409,405,400,396,392,387,
+		383,379,375,371,367,363,360,356,
+		352,349,345,342,338,335,332,329,
+		325,322,319,316,313,311,308,305,
+		302,300,297,295,293,290,288,286,
+		284,282,280,278,276,274,272,271,
+		269,267,266,265,263,262,261,260,
+		258,257,256,256,255,254,253,253,
+		252,252,251,251,251,250,250,250,
+		250,250,250,250,251,251,251,252,
+		252,253,253,254,255,256,256,257,
+		258,260,261,262,263,265,266,267,
+		269,271,272,274,276,278,280,282,
+		284,286,288,290,293,295,297,300,
+		302,305,308,311,313,316,319,322,
+		325,329,332,335,338,342,345,349,
+		352,356,360,363,367,371,375,379,
+		383,387,392,396,400,405,409,413,
+		418,423,427,432,437,442,447,452,
+		457,462,467,472,477,483,488,493,
+		499,505,510,516,522,527,533,539,
+		545,551,557,563,569,575,582,588,
+		594,601,607,614,620,627,634,640,
+		647,654,661,668,675,682,689,696,
+		703,711,718,725,733,740,747,755,
+		763,770,778,786,793,801,809,817,
+		825,833,841,849,857,865,873,882,
+		890,898,906,915,923,932,940,949,
+		958,966,975,984,992,1001,1010,1019,
+		1028,1037,1046,1055,1064,1073,1082,1091,
+		1100,1110,1119,1128,1137,1147,1156,1166,
+		1175,1185,1194,1204,1213,1223,1232,1242,
+		1252,1261,1271,1281,1291,1301,1311,1320,
+		1330,1340,1350,1360,1370,1380,1390,1400,
+		1410,1421,1431,1441,1451,1461,1471,1482,
+		1492,1502,1513,1523,1533,1544,1554,1564,
+		1575,1585,1596,1606,1617,1627,1638,1648,
+		1659,1669,1680,1690,1701,1711,1722,1733,
+		1743,1754,1764,1775,1786,1796,1807,1818,
+		1828,1839,1850,1861,1871,1882,1893,1903,
+		1914,1925,1936,1946,1957,1968,1979,1989};
+uint16_t dds_amp_coeff = 1;
+//uint16_t dds_ampc_table[DDS_TABLE_LEN-1] = {1,2,4};
+uint16_t dds_step = 0;
+uint16_t dds_phase_acc = 0;
+const uint16_t dds_f_table[DDS_TABLE_LEN] = {1000, 1370, 10000, 30000};
+//uint8_t dds_index;
+uint16_t dds_table_index = 0;
+uint16_t dds_frequency = 1e3;
+const uint32_t dds_sampling_frequency=1e5;
+
+//uint16_t adc_data_counter = 0;
+/* USER CODE END PV */
+
+/* Private function prototypes -----------------------------------------------*/
+void SystemClock_Config(void);
+static void MX_GPIO_Init(void);
+static void MX_DAC_Init(void);
+static void MX_DMA_Init(void);
+static void MX_TIM2_Init(void);
+/* USER CODE BEGIN PFP */
+static void dds_freq_increment();
+/* USER CODE END PFP */
+
+/* Private user code ---------------------------------------------------------*/
+/* USER CODE BEGIN 0 */
+
+/* USER CODE END 0 */
+
+/**
+  * @brief  The application entry point.
+  * @retval int
+  */
+int main(void)
+{
+  /* USER CODE BEGIN 1 */
+
+  /* USER CODE END 1 */
+
+  /* MCU Configuration--------------------------------------------------------*/
+
+  /* Reset of all peripherals, Initializes the Flash interface and the Systick. */
+  HAL_Init();
+
+  /* USER CODE BEGIN Init */
+
+  /* USER CODE END Init */
+
+  /* Configure the system clock */
+  SystemClock_Config();
+
+  /* USER CODE BEGIN SysInit */
+
+  /* USER CODE END SysInit */
+
+  /* Initialize all configured peripherals */
+  MX_GPIO_Init();
+  MX_DAC_Init();
+  MX_DMA_Init();
+  MX_TIM2_Init();
+  /* USER CODE BEGIN 2 */
+
+//  HAL_ADC_Start_DMA(&hadc1, &dma_buff, 16);
+//  HAL_TIM_Base_Start(&htim3);
+//  HAL_DAC_Start(&hdac, DAC1_CHANNEL_2)
+  HAL_DAC_Start_DMA(&hdac, DAC_CHANNEL_2, (uint32_t*)dac_data, DAC_BUFF_LEN, DAC_ALIGN_12B_R);
+  HAL_TIM_Base_Start_IT(&htim2);
+
+  /* USER CODE END 2 */
+
+  /* Infinite loop */
+  /* USER CODE BEGIN WHILE */
+  while (1)
+  {
+    /* USER CODE END WHILE */
+
+    /* USER CODE BEGIN 3 */
+  }
+  /* USER CODE END 3 */
+}
+
+/**
+  * @brief System Clock Configuration
+  * @retval None
+  */
+void SystemClock_Config(void)
+{
+  RCC_OscInitTypeDef RCC_OscInitStruct = {0};
+  RCC_ClkInitTypeDef RCC_ClkInitStruct = {0};
+
+  /** Configure the main internal regulator output voltage
+  */
+  __HAL_RCC_PWR_CLK_ENABLE();
+  __HAL_PWR_VOLTAGESCALING_CONFIG(PWR_REGULATOR_VOLTAGE_SCALE1);
+  /** Initializes the RCC Oscillators according to the specified parameters
+  * in the RCC_OscInitTypeDef structure.
+  */
+  RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSE;
+  RCC_OscInitStruct.HSEState = RCC_HSE_ON;
+  RCC_OscInitStruct.PLL.PLLState = RCC_PLL_ON;
+  RCC_OscInitStruct.PLL.PLLSource = RCC_PLLSOURCE_HSE;
+  RCC_OscInitStruct.PLL.PLLM = 8;
+  RCC_OscInitStruct.PLL.PLLN = 336;
+  RCC_OscInitStruct.PLL.PLLP = RCC_PLLP_DIV2;
+  RCC_OscInitStruct.PLL.PLLQ = 7;
+  if (HAL_RCC_OscConfig(&RCC_OscInitStruct) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /** Initializes the CPU, AHB and APB buses clocks
+  */
+  RCC_ClkInitStruct.ClockType = RCC_CLOCKTYPE_HCLK|RCC_CLOCKTYPE_SYSCLK
+                              |RCC_CLOCKTYPE_PCLK1|RCC_CLOCKTYPE_PCLK2;
+  RCC_ClkInitStruct.SYSCLKSource = RCC_SYSCLKSOURCE_PLLCLK;
+  RCC_ClkInitStruct.AHBCLKDivider = RCC_SYSCLK_DIV1;
+  RCC_ClkInitStruct.APB1CLKDivider = RCC_HCLK_DIV4;
+  RCC_ClkInitStruct.APB2CLKDivider = RCC_HCLK_DIV2;
+
+  if (HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_5) != HAL_OK)
+  {
+    Error_Handler();
+  }
+}
+
+/**
+  * @brief DAC Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_DAC_Init(void)
+{
+
+  /* USER CODE BEGIN DAC_Init 0 */
+
+  /* USER CODE END DAC_Init 0 */
+
+  DAC_ChannelConfTypeDef sConfig = {0};
+
+  /* USER CODE BEGIN DAC_Init 1 */
+
+  /* USER CODE END DAC_Init 1 */
+  /** DAC Initialization
+  */
+  hdac.Instance = DAC;
+  if (HAL_DAC_Init(&hdac) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /** DAC channel OUT2 config
+  */
+  sConfig.DAC_Trigger = DAC_TRIGGER_T2_TRGO;
+  sConfig.DAC_OutputBuffer = DAC_OUTPUTBUFFER_ENABLE;
+  if (HAL_DAC_ConfigChannel(&hdac, &sConfig, DAC_CHANNEL_2) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN DAC_Init 2 */
+
+  /* USER CODE END DAC_Init 2 */
+
+}
+
+/**
+  * @brief TIM2 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_TIM2_Init(void)
+{
+
+  /* USER CODE BEGIN TIM2_Init 0 */
+
+  /* USER CODE END TIM2_Init 0 */
+
+  TIM_ClockConfigTypeDef sClockSourceConfig = {0};
+  TIM_MasterConfigTypeDef sMasterConfig = {0};
+
+  /* USER CODE BEGIN TIM2_Init 1 */
+
+  /* USER CODE END TIM2_Init 1 */
+  htim2.Instance = TIM2;
+  htim2.Init.Prescaler = 83;
+  htim2.Init.CounterMode = TIM_COUNTERMODE_UP;
+  htim2.Init.Period = 9;
+  htim2.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
+  htim2.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;
+  if (HAL_TIM_Base_Init(&htim2) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  sClockSourceConfig.ClockSource = TIM_CLOCKSOURCE_INTERNAL;
+  if (HAL_TIM_ConfigClockSource(&htim2, &sClockSourceConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  sMasterConfig.MasterOutputTrigger = TIM_TRGO_UPDATE;
+  sMasterConfig.MasterSlaveMode = TIM_MASTERSLAVEMODE_DISABLE;
+  if (HAL_TIMEx_MasterConfigSynchronization(&htim2, &sMasterConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN TIM2_Init 2 */
+
+  /* USER CODE END TIM2_Init 2 */
+
+}
+
+/**
+  * Enable DMA controller clock
+  */
+static void MX_DMA_Init(void)
+{
+
+  /* DMA controller clock enable */
+  __HAL_RCC_DMA1_CLK_ENABLE();
+
+  /* DMA interrupt init */
+  /* DMA1_Stream6_IRQn interrupt configuration */
+  HAL_NVIC_SetPriority(DMA1_Stream6_IRQn, 0, 0);
+  HAL_NVIC_EnableIRQ(DMA1_Stream6_IRQn);
+
+}
+
+/**
+  * @brief GPIO Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_GPIO_Init(void)
+{
+  GPIO_InitTypeDef GPIO_InitStruct = {0};
+
+  /* GPIO Ports Clock Enable */
+  __HAL_RCC_GPIOC_CLK_ENABLE();
+  __HAL_RCC_GPIOH_CLK_ENABLE();
+  __HAL_RCC_GPIOA_CLK_ENABLE();
+  __HAL_RCC_GPIOB_CLK_ENABLE();
+  __HAL_RCC_GPIOD_CLK_ENABLE();
+
+  /*Configure GPIO pin Output Level */
+  HAL_GPIO_WritePin(LD4_GPIO_Port, LD4_Pin, GPIO_PIN_RESET);
+
+  /*Configure GPIO pin : B1_Pin */
+  GPIO_InitStruct.Pin = B1_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_IT_FALLING;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  HAL_GPIO_Init(B1_GPIO_Port, &GPIO_InitStruct);
+
+  /*Configure GPIO pin : BOOT1_Pin */
+  GPIO_InitStruct.Pin = BOOT1_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  HAL_GPIO_Init(BOOT1_GPIO_Port, &GPIO_InitStruct);
+
+  /*Configure GPIO pin : LD4_Pin */
+  GPIO_InitStruct.Pin = LD4_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+  HAL_GPIO_Init(LD4_GPIO_Port, &GPIO_InitStruct);
+
+  /* EXTI interrupt init*/
+  HAL_NVIC_SetPriority(EXTI0_IRQn, 0, 0);
+  HAL_NVIC_EnableIRQ(EXTI0_IRQn);
+}
+
+/* USER CODE BEGIN 4 */
+//void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef *hadc){
+//	if(adc_data_counter < ADC_BUFF_LEN){
+//	uint16_t ovs = 0;
+//	for(uint8_t i = 0; i < DMA_BUFF_LEN; i++){
+//		ovs += dma_buff[i];
+//	}
+//	adc_data[adc_data_counter] = (ovs >> 2); // 12-bit measurements -> 14-bit result
+//	adc_data_counter++;
+//	HAL_DAC_SetValue(&hdac, DAC1_CHANNEL_2, DAC_ALIGN_12B_L, ovs);
+//	}
+//	else{
+//		HAL_GPIO_TogglePin(GPIOD, GPIO_PIN_12);
+//	}
+//}
+void dds_freq_increment(){
+	if(dds_table_index < DDS_TABLE_LEN){
+		dds_frequency = dds_f_table[dds_table_index];
+		dds_table_index++;
+	}
+	else{
+		dds_table_index = 0;
+		dds_frequency = dds_f_table[dds_table_index];
+		dds_table_index++;
+	}
+}
+
+void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef * htim){
+	if(htim == &htim2){
+		dds_step = dds_sampling_frequency * DAC_BUFF_LEN / dds_frequency;
+		dds_phase_acc += dds_step;
+		if(dds_phase_acc > DAC_BUFF_LEN){
+			dds_phase_acc -= DAC_BUFF_LEN;
+		}
+		HAL_DAC_SetValue(&hdac, DAC_CHANNEL_2, DAC_ALIGN_12B_R, (uint32_t)(dac_data[dds_phase_acc]/dds_amp_coeff));
+	}
+}
+
+void HAL_GPIO_EXTI_Callback(uint16_t GPIO_pin){
+	if(GPIO_pin == 0){
+		dds_freq_increment();
+	}
+}
+/* USER CODE END 4 */
+
+/**
+  * @brief  This function is executed in case of error occurrence.
+  * @retval None
+  */
+void Error_Handler(void)
+{
+  /* USER CODE BEGIN Error_Handler_Debug */
+  /* User can add his own implementation to report the HAL error return state */
+  __disable_irq();
+  while (1)
+  {
+  }
+  /* USER CODE END Error_Handler_Debug */
+}
+
+#ifdef  USE_FULL_ASSERT
+/**
+  * @brief  Reports the name of the source file and the source line number
+  *         where the assert_param error has occurred.
+  * @param  file: pointer to the source file name
+  * @param  line: assert_param error line source number
+  * @retval None
+  */
+void assert_failed(uint8_t *file, uint32_t line)
+{
+  /* USER CODE BEGIN 6 */
+  /* User can add his own implementation to report the file name and line number,
+     ex: printf("Wrong parameters value: file %s on line %d\r\n", file, line) */
+  /* USER CODE END 6 */
+}
+#endif /* USE_FULL_ASSERT */
+
+/************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/

@@ -808,3 +808,1610 @@
 2021-12-05 18:03:01,186 [INFO] ApiDb:280 - User favorites MCUs=[]
 2021-12-05 18:03:01,188 [INFO] ApiDb:276 - Save user favorites file C:\Users\ckali/.stm32cubeide/favorites.boards.txt: 1 item(s)
 2021-12-05 18:03:01,188 [INFO] ApiDb:280 - User favorites Boards=[STM32F407G-DISC1]
+2021-12-05 18:04:18,509 [WARN] BspModel:440 - BSP dependency skipped because of component: name='IOExpander', api='Unknown'
+2021-12-05 18:04:18,589 [WARN] IP:2125 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2021-12-05 18:04:18,589 [WARN] IP:2125 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2021-12-05 18:04:18,590 [WARN] IP:2125 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2021-12-05 18:04:18,590 [WARN] IP:2125 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2021-12-05 18:04:18,632 [WARN] IP:2125 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2021-12-05 18:04:18,632 [WARN] IP:2125 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2021-12-05 18:04:18,673 [WARN] IP:2125 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2021-12-05 18:04:18,673 [WARN] IP:2125 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2021-12-05 18:04:22,954 [WARN] BspModel:440 - BSP dependency skipped because of component: name='IOExpander', api='Unknown'
+2021-12-05 18:04:23,039 [WARN] IP:2125 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2021-12-05 18:04:23,039 [WARN] IP:2125 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2021-12-05 18:04:23,040 [WARN] IP:2125 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2021-12-05 18:04:23,040 [WARN] IP:2125 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2021-12-05 18:04:23,085 [WARN] IP:2125 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2021-12-05 18:04:23,086 [WARN] IP:2125 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2021-12-05 18:04:23,129 [WARN] IP:2125 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2021-12-05 18:04:23,130 [WARN] IP:2125 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2021-12-05 18:04:24,666 [WARN] BspModel:440 - BSP dependency skipped because of component: name='IOExpander', api='Unknown'
+2021-12-05 18:04:27,171 [WARN] BspModel:440 - BSP dependency skipped because of component: name='IOExpander', api='Unknown'
+2021-12-05 18:04:28,574 [WARN] BspModel:440 - BSP dependency skipped because of component: name='IOExpander', api='Unknown'
+2021-12-05 18:04:31,141 [WARN] BspModel:440 - BSP dependency skipped because of component: name='IOExpander', api='Unknown'
+2021-12-05 18:04:32,564 [WARN] BspModel:440 - BSP dependency skipped because of component: name='IOExpander', api='Unknown'
+2021-12-05 18:04:34,021 [WARN] BspModel:440 - BSP dependency skipped because of component: name='IOExpander', api='Unknown'
+2021-12-05 18:04:35,573 [WARN] BspModel:440 - BSP dependency skipped because of component: name='IOExpander', api='Unknown'
+2021-12-05 18:53:59,154 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,450x190,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021-12-05 20:28:22,632 [INFO] ParamManager:825 - [Generic UI] PropertyChangeEvent: TAB_STATUS_CHANGED , "dont care", "never mind"
+2021-12-05 20:28:22,816 [INFO] ParamManager:825 - [Generic UI] PropertyChangeEvent: TAB_STATUS_CHANGED , "dont care", "never mind"
+2021-12-05 20:28:25,198 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:28:48,726 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:28:48,733 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:28:48,733 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:28:48,734 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:28:48,734 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:28:48,734 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:28:48,734 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:28:48,734 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:28:48,735 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:28:48,735 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:28:48,735 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:28:48,735 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:28:48,735 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:28:48,735 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:28:48,783 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:29:58,802 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:29:58,803 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:29:58,803 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:29:58,804 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:29:58,804 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:29:58,804 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:29:58,804 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:29:58,804 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:29:58,804 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:29:58,805 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:29:58,805 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:29:58,805 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:29:58,805 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:29:58,805 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:29:58,843 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:30:00,371 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:30:00,372 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:30:00,373 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:30:00,373 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:30:00,373 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:30:00,373 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:30:00,373 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:30:00,373 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:30:00,373 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:30:00,374 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:30:00,374 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:30:00,374 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:30:00,374 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:30:00,374 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:30:00,414 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:30:27,273 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:30:27,274 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:30:27,274 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:30:27,275 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:30:27,275 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:30:27,275 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:30:27,275 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:30:27,275 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:30:27,275 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:30:27,275 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:30:27,275 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:30:27,276 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:30:27,276 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:30:27,276 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:30:27,313 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:30:39,328 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,450x190,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021-12-05 20:30:43,566 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:30:43,568 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:30:43,568 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:30:43,568 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:30:43,568 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:30:43,568 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:30:43,569 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:30:43,569 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:30:43,569 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:30:43,569 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:30:43,569 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:30:43,569 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:30:43,570 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:30:43,570 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:30:43,606 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:30:45,327 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 790319264 Bytes (923795456)
+2021-12-05 20:30:46,652 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 499663584 Bytes (923795456)
+2021-12-05 20:30:49,251 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 727134176 Bytes (923795456)
+2021-12-05 20:30:49,710 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8
+2021-12-05 20:30:49,710 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8
+2021-12-05 20:30:49,710 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2021-12-05 20:30:49,710 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: ADC
+2021-12-05 20:30:49,710 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2021-12-05 20:30:49,711 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2021-12-05 20:30:49,711 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: DMA
+2021-12-05 20:30:49,711 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: DAC
+2021-12-05 20:30:49,711 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2021-12-05 20:30:49,712 [INFO] CodeGenerator:663 - code generatio: config db path: C:\ST\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\
+2021-12-05 20:30:50,216 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DAC-configuration\MXTmpFiles\license.tmp_save
+2021-12-05 20:30:50,280 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DAC-configuration\MXTmpFiles\license.tmp
+2021-12-05 20:30:50,303 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DAC-configuration\MXTmpFiles\gpio.tmp_save
+2021-12-05 20:30:50,370 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DAC-configuration\MXTmpFiles\gpio.tmp
+2021-12-05 20:30:50,650 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DAC-configuration\MXTmpFiles\dma.tmp_save
+2021-12-05 20:30:50,735 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DAC-configuration\MXTmpFiles\dma.tmp
+2021-12-05 20:30:50,737 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DAC-configuration\MXTmpFiles\dma_GV.tmp_save
+2021-12-05 20:30:50,788 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DAC-configuration\MXTmpFiles\dma_GV.tmp
+2021-12-05 20:30:50,810 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DAC-configuration\Core\Src\stm32f4xx_it.c_save
+2021-12-05 20:30:50,969 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DAC-configuration\Core\Src\stm32f4xx_it.c
+2021-12-05 20:30:50,974 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DAC-configuration\Core\Inc\stm32f4xx_it.h_save
+2021-12-05 20:30:51,047 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DAC-configuration\Core\Inc\stm32f4xx_it.h
+2021-12-05 20:30:51,064 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DAC-configuration\Core\Src\stm32f4xx_hal_msp.c_save
+2021-12-05 20:30:51,192 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DAC-configuration\Core\Src\stm32f4xx_hal_msp.c
+2021-12-05 20:30:51,195 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DAC-configuration\MXTmpFiles\system.tmp_save
+2021-12-05 20:30:51,252 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DAC-configuration\MXTmpFiles\system.tmp
+2021-12-05 20:30:51,267 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DAC-configuration\Core\Inc\stm32f4xx_hal_conf.h_save
+2021-12-05 20:30:51,349 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DAC-configuration\Core\Inc\stm32f4xx_hal_conf.h
+2021-12-05 20:30:51,391 [WARN] IPConfigManager:3148 - IP not found : TIM
+2021-12-05 20:30:51,392 [WARN] CodeGenerator:3268 - IP not found : null
+2021-12-05 20:30:51,405 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DAC-configuration\Core\Inc\main.h_save
+2021-12-05 20:30:51,479 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DAC-configuration\Core\Inc\main.h
+2021-12-05 20:30:51,490 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DAC-configuration\Core\Src\main.c_save
+2021-12-05 20:30:51,671 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DAC-configuration\Core\Src\main.c
+2021-12-05 20:30:52,699 [INFO] ProjectBuilder:2578 - Time for Copy HAL[1] : 223mS.
+2021-12-05 20:30:52,703 [INFO] ProjectBuilder:3622 - Project Generator version: 3.14.1
+2021-12-05 20:30:53,238 [INFO] ConfigFileManager:1271 - The Die is : DIE413
+2021-12-05 20:30:55,542 [INFO] ProjectBuilder:3789 - Time for Generating toolchain IDE Files: 2839mS.
+2021-12-05 20:30:55,543 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
+2021-12-05 20:30:55,546 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
+2021-12-05 20:30:55,547 [INFO] ProjectBuilder:2804 - Suppression de : usb_host.c
+2021-12-05 20:30:55,548 [INFO] ProjectBuilder:2804 - Suppression de : usbh_conf.c
+2021-12-05 20:30:55,548 [INFO] ProjectBuilder:2804 - Suppression de : usbh_platform.c
+2021-12-05 20:49:50,263 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:49:50,269 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:49:50,269 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:49:50,269 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:49:50,270 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:49:50,270 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:49:50,271 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:49:50,271 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:49:50,271 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:49:50,271 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:49:50,271 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:49:50,272 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:49:50,272 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:49:50,272 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:49:50,314 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-05 20:49:53,088 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 753496984 Bytes (1019215872)
+2021-12-05 20:49:54,394 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 633419288 Bytes (1019215872)
+2021-12-05 20:49:56,469 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 692139544 Bytes (1019215872)
+2021-12-05 20:49:56,852 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8
+2021-12-05 20:49:56,852 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8
+2021-12-05 20:49:56,852 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2021-12-05 20:49:56,852 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: ADC
+2021-12-05 20:49:56,852 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2021-12-05 20:49:56,852 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2021-12-05 20:49:56,853 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: DMA
+2021-12-05 20:49:56,853 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: DAC
+2021-12-05 20:49:56,853 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2021-12-05 20:49:56,853 [INFO] CodeGenerator:663 - code generatio: config db path: C:\ST\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\
+2021-12-05 20:49:56,899 [INFO] Argument:294 - Argument : hdmavalue: null
+2021-12-05 20:49:56,899 [INFO] Argument:296 - 	 sub Args: 
+2021-12-05 20:49:56,899 [INFO] Argument:294 - Argument : Instancevalue: DMA2_Stream0
+2021-12-05 20:49:56,899 [INFO] Argument:304 - Argument : Instancevalue: DMA2_Stream0
+2021-12-05 20:49:56,900 [INFO] Argument:294 - Argument : Initvalue: null
+2021-12-05 20:49:56,900 [INFO] Argument:296 - 	 sub Args: 
+2021-12-05 20:49:56,900 [INFO] Argument:294 - Argument : Channelvalue: DMA_CHANNEL_0
+2021-12-05 20:49:56,900 [INFO] Argument:304 - Argument : Channelvalue: DMA_CHANNEL_0
+2021-12-05 20:49:56,900 [INFO] Argument:294 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2021-12-05 20:49:56,900 [INFO] Argument:304 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2021-12-05 20:49:56,901 [INFO] Argument:294 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2021-12-05 20:49:56,901 [INFO] Argument:304 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2021-12-05 20:49:56,901 [INFO] Argument:294 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2021-12-05 20:49:56,901 [INFO] Argument:304 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2021-12-05 20:49:56,901 [INFO] Argument:294 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2021-12-05 20:49:56,901 [INFO] Argument:304 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2021-12-05 20:49:56,901 [INFO] Argument:294 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2021-12-05 20:49:56,901 [INFO] Argument:304 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2021-12-05 20:49:56,901 [INFO] Argument:294 - Argument : Modevalue: DMA_CIRCULAR
+2021-12-05 20:49:56,901 [INFO] Argument:304 - Argument : Modevalue: DMA_CIRCULAR
+2021-12-05 20:49:56,901 [INFO] Argument:294 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2021-12-05 20:49:56,901 [INFO] Argument:304 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2021-12-05 20:49:56,902 [INFO] Argument:294 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2021-12-05 20:49:56,902 [INFO] Argument:304 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2021-12-05 20:49:56,902 [INFO] Argument:294 - Argument : FIFOThresholdvalue: null
+2021-12-05 20:49:56,902 [INFO] Argument:304 - Argument : FIFOThresholdvalue: null
+2021-12-05 20:49:56,902 [INFO] Argument:294 - Argument : MemBurstvalue: null
+2021-12-05 20:49:56,902 [INFO] Argument:304 - Argument : MemBurstvalue: null
+2021-12-05 20:49:56,902 [INFO] Argument:294 - Argument : PeriphBurstvalue: null
+2021-12-05 20:49:56,902 [INFO] Argument:304 - Argument : PeriphBurstvalue: null
+2021-12-05 20:49:56,902 [INFO] Argument:294 - Argument : Lockvalue: null
+2021-12-05 20:49:56,902 [INFO] Argument:304 - Argument : Lockvalue: null
+2021-12-05 20:49:56,902 [INFO] Argument:294 - Argument : Statevalue: null
+2021-12-05 20:49:56,902 [INFO] Argument:304 - Argument : Statevalue: null
+2021-12-05 20:49:56,903 [INFO] Argument:294 - Argument : Parentvalue: null
+2021-12-05 20:49:56,903 [INFO] Argument:304 - Argument : Parentvalue: null
+2021-12-05 20:49:56,903 [INFO] Argument:294 - Argument : XferCpltCallbackvalue: null
+2021-12-05 20:49:56,903 [INFO] Argument:304 - Argument : XferCpltCallbackvalue: null
+2021-12-05 20:49:56,903 [INFO] Argument:294 - Argument : XferHalfCpltCallbackvalue: null
+2021-12-05 20:49:56,903 [INFO] Argument:304 - Argument : XferHalfCpltCallbackvalue: null
+2021-12-05 20:49:56,903 [INFO] Argument:294 - Argument : XferM1CpltCallbackvalue: null
+2021-12-05 20:49:56,903 [INFO] Argument:304 - Argument : XferM1CpltCallbackvalue: null
+2021-12-05 20:49:56,903 [INFO] Argument:294 - Argument : XferErrorCallbackvalue: null
+2021-12-05 20:49:56,903 [INFO] Argument:304 - Argument : XferErrorCallbackvalue: null
+2021-12-05 20:49:56,903 [INFO] Argument:294 - Argument : ErrorCodevalue: null
+2021-12-05 20:49:56,903 [INFO] Argument:304 - Argument : ErrorCodevalue: null
+2021-12-05 20:49:57,431 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DAC-configuration\MXTmpFiles\license.tmp_save
+2021-12-05 20:49:57,484 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DAC-configuration\MXTmpFiles\license.tmp
+2021-12-05 20:49:57,511 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DAC-configuration\MXTmpFiles\gpio.tmp_save
+2021-12-05 20:49:57,570 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DAC-configuration\MXTmpFiles\gpio.tmp
+2021-12-05 20:49:57,874 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DAC-configuration\MXTmpFiles\dma.tmp_save
+2021-12-05 20:49:57,938 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DAC-configuration\MXTmpFiles\dma.tmp
+2021-12-05 20:49:57,941 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DAC-configuration\MXTmpFiles\dma_GV.tmp_save
+2021-12-05 20:49:57,987 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DAC-configuration\MXTmpFiles\dma_GV.tmp
+2021-12-05 20:49:58,007 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DAC-configuration\Core\Src\stm32f4xx_it.c_save
+2021-12-05 20:49:58,091 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DAC-configuration\Core\Src\stm32f4xx_it.c
+2021-12-05 20:49:58,095 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DAC-configuration\Core\Inc\stm32f4xx_it.h_save
+2021-12-05 20:49:58,160 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DAC-configuration\Core\Inc\stm32f4xx_it.h
+2021-12-05 20:49:58,176 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DAC-configuration\Core\Src\stm32f4xx_hal_msp.c_save
+2021-12-05 20:49:58,278 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DAC-configuration\Core\Src\stm32f4xx_hal_msp.c
+2021-12-05 20:49:58,281 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DAC-configuration\MXTmpFiles\system.tmp_save
+2021-12-05 20:49:58,326 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DAC-configuration\MXTmpFiles\system.tmp
+2021-12-05 20:49:58,341 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DAC-configuration\Core\Inc\stm32f4xx_hal_conf.h_save
+2021-12-05 20:49:58,422 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DAC-configuration\Core\Inc\stm32f4xx_hal_conf.h
+2021-12-05 20:49:58,464 [WARN] IPConfigManager:3148 - IP not found : TIM
+2021-12-05 20:49:58,465 [WARN] CodeGenerator:3268 - IP not found : null
+2021-12-05 20:49:58,478 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DAC-configuration\Core\Inc\main.h_save
+2021-12-05 20:49:58,590 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DAC-configuration\Core\Inc\main.h
+2021-12-05 20:49:58,600 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DAC-configuration\Core\Src\main.c_save
+2021-12-05 20:49:58,752 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DAC-configuration\Core\Src\main.c
+2021-12-05 20:49:59,743 [INFO] ProjectBuilder:2578 - Time for Copy HAL[1] : 238mS.
+2021-12-05 20:49:59,747 [INFO] ProjectBuilder:3622 - Project Generator version: 3.14.1
+2021-12-05 20:50:00,241 [INFO] ConfigFileManager:1271 - The Die is : DIE413
+2021-12-05 20:50:02,221 [INFO] ProjectBuilder:3789 - Time for Generating toolchain IDE Files: 2474mS.
+2021-12-05 20:50:02,222 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 1mS.
+2021-12-05 20:50:02,224 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
+2021-12-05 21:07:07,483 [INFO] MainUpdater:2671 - connection check result : 10
+2021-12-05 21:07:07,484 [INFO] MainUpdater:2671 - connection check result : 10
+2021-12-05 21:07:07,573 [INFO] MicroXplorer:448 - Change Database Path : 
+2021-12-05 21:07:07,573 [INFO] MicroXplorer:478 - Change Database Version : DB.6.0.30
+2021-12-05 21:07:07,573 [WARN] ThirdParty:813 - waiting for thirdparty lock release [close project]
+2021-12-05 21:07:07,574 [INFO] ThirdParty:815 - entering critical section [close project]
+2021-12-05 21:07:07,574 [INFO] ThirdParty:825 - exiting critical section [close project]
+2021-12-05 21:07:07,575 [INFO] PinOutPanel:1463 - setPackage(No Configuration,No Configuration)
+2021-12-05 21:07:07,592 [WARN] IpParametersView:144 - Warning: This peripheral hasn't parameters
+2021-12-05 21:07:07,600 [WARN] MainPanel:246 - <html><b><center>Warning: This peripheral has no parameters to be configured<br></b></html>
+2021-12-05 21:07:07,628 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 730814792 Bytes (1072693248)
+2021-12-05 21:07:07,628 [INFO] MicroXplorer:448 - Change Database Path : 
+2021-12-05 21:07:07,628 [INFO] MicroXplorer:478 - Change Database Version : DB.6.0.30
+2021-12-05 21:07:07,629 [INFO] OpenFileManager:313 - Change cursor
+2021-12-05 21:07:07,681 [INFO] RulesReader:57 - Compatibility file has been processed (242 Rules)
+2021-12-05 21:07:09,794 [INFO] Context:592 - Trying to add GPIOservice into a context  which must be forbidden
+2021-12-05 21:07:10,259 [INFO] RtosManager:484 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS
+2021-12-05 21:07:10,259 [INFO] RtosManager:484 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS
+2021-12-05 21:07:10,260 [INFO] RtosManager:484 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS
+2021-12-05 21:07:10,260 [INFO] RtosManager:484 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS
+2021-12-05 21:07:10,260 [WARN] ModelIntegratedComponent:181 - Missing modes for component STMicroelectronics:FreeRTOS:0.0.1:STMicroelectronics:RTOS:FreeRTOS:Core:::10.2.0:
+2021-12-05 21:07:10,261 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-05 21:07:10,261 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-05 21:07:10,261 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-05 21:07:10,261 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-05 21:07:10,261 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-05 21:07:10,262 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-05 21:07:10,262 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-05 21:07:10,262 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-05 21:07:10,262 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-05 21:07:10,262 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-05 21:07:10,262 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-05 21:07:10,262 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-05 21:07:10,262 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-05 21:07:10,262 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-05 21:07:10,262 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-05 21:07:10,263 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-05 21:07:10,263 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-05 21:07:10,263 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-05 21:07:10,263 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-05 21:07:10,263 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-05 21:07:10,263 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-05 21:07:10,263 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-05 21:07:10,263 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-05 21:07:10,263 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-05 21:07:10,263 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-05 21:07:10,264 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-05 21:07:10,264 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-05 21:07:10,264 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-05 21:07:10,264 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-05 21:07:10,264 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-05 21:07:10,264 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-05 21:07:10,266 [WARN] ApiManager:304 - Cannot register API 'Wireless:BlueNRG-MS' from pack STMicroelectronics.X-CUBE-BLE1.6.2.2: no header file found
+2021-12-05 21:07:10,460 [WARN] ApiManager:304 - Cannot register API 'Board Extension:IKS01A3' from pack STMicroelectronics.X-CUBE-MEMS1.9.1.0: no header file found
+2021-12-05 21:07:10,460 [WARN] ApiManager:304 - Cannot register API 'Board Extension:IKS01A2' from pack STMicroelectronics.X-CUBE-MEMS1.9.1.0: no header file found
+2021-12-05 21:07:10,460 [WARN] ApiManager:304 - Cannot register API 'Board Extension:IKS02A1' from pack STMicroelectronics.X-CUBE-MEMS1.9.1.0: no header file found
+2021-12-05 21:07:10,823 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Instance) has Id (ADC1) currently not set
+2021-12-05 21:07:10,823 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Channel) has Id (ADC1) currently not set
+2021-12-05 21:07:10,823 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Direction) has Id (ADC1) currently not set
+2021-12-05 21:07:10,823 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) IP (DMA) : Parameter (PeriphInc) has Id (ADC1) currently not set
+2021-12-05 21:07:10,823 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) IP (DMA) : Parameter (MemInc) has Id (ADC1) currently not set
+2021-12-05 21:07:10,824 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) IP (DMA) : Parameter (PeriphDataAlignment) has Id (ADC1) currently not set
+2021-12-05 21:07:10,824 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) IP (DMA) : Parameter (MemDataAlignment) has Id (ADC1) currently not set
+2021-12-05 21:07:10,824 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Mode) has Id (ADC1) currently not set
+2021-12-05 21:07:10,824 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Priority) has Id (ADC1) currently not set
+2021-12-05 21:07:10,824 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) IP (DMA) : Parameter (FIFOMode) has Id (ADC1) currently not set
+2021-12-05 21:07:10,826 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) IP (RCC) : Parameter (RTCHSEDivFreq_Value) has invalid value (4000000)
+2021-12-05 21:07:11,186 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 721197384 Bytes (1072693248)
+2021-12-05 21:07:11,187 [WARN] ThirdParty:779 - waiting for thirdparty lock release [change project]
+2021-12-05 21:07:11,187 [INFO] ThirdParty:781 - entering critical section [change project]
+2021-12-05 21:07:11,187 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2021-12-05 21:07:11,187 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G4 1.0.0
+2021-12-05 21:07:11,187 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L5 1.0.0
+2021-12-05 21:07:11,188 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2021-12-05 21:07:11,188 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2021-12-05 21:07:11,188 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2021-12-05 21:07:11,188 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics HAL Drivers 0.0.0
+2021-12-05 21:07:11,188 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2021-12-05 21:07:11,188 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics ThreadX 0.0.2
+2021-12-05 21:07:11,188 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2021-12-05 21:07:11,188 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2021-12-05 21:07:11,188 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2021-12-05 21:07:11,188 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.2.2
+2021-12-05 21:07:11,188 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F7 1.0.0
+2021-12-05 21:07:11,188 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 2.0.0
+2021-12-05 21:07:11,188 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2021-12-05 21:07:11,189 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.1.0
+2021-12-05 21:07:11,189 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2021-12-05 21:07:11,189 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2021-12-05 21:07:11,189 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2021-12-05 21:07:11,189 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2021-12-05 21:07:11,189 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.18.0
+2021-12-05 21:07:11,189 [INFO] ThirdParty:787 - exiting critical section [change project]
+2021-12-05 21:07:11,554 [INFO] PinOutPanel:1463 - setPackage(No Configuration,No Configuration)
+2021-12-05 21:07:11,555 [INFO] PinOutPanel:1463 - setPackage(STM32F407VGTx,LQFP100)
+2021-12-05 21:07:12,056 [INFO] UtilMem:74 - Before build in PCC Used Memory: 761025320 Bytes (1072693248)
+2021-12-05 21:07:12,360 [INFO] UtilMem:74 - After build in PCC Used Memory: 834431808 Bytes (1072693248)
+2021-12-05 21:07:12,392 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 21:07:12,392 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 21:07:12,392 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 21:07:12,392 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 21:07:12,392 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 21:07:12,392 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 21:07:12,393 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 21:07:12,393 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 21:07:12,393 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 21:07:12,393 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 21:07:12,393 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 21:07:12,393 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 21:07:12,394 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 21:07:12,394 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 21:07:12,394 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 21:07:12,394 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 21:07:12,394 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 21:07:12,394 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 21:07:12,395 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 21:07:12,395 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 21:07:12,396 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 21:07:12,396 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 21:07:12,396 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 21:07:12,397 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 21:07:12,397 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 21:07:12,397 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 21:07:12,398 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 21:07:12,398 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 21:07:12,398 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 21:07:12,399 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 21:07:12,399 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 21:07:12,400 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 21:07:12,400 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 21:07:12,401 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 21:07:12,401 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 21:07:12,402 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 21:07:12,402 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 21:07:12,403 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 21:07:12,403 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 21:07:12,403 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 21:07:12,404 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 21:07:12,404 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 21:07:12,405 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 21:07:12,405 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 21:07:12,406 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 21:07:12,406 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 21:07:12,407 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 21:07:12,407 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 21:07:12,408 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 21:07:12,408 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 21:07:12,409 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 21:07:12,410 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 21:07:12,411 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 21:07:12,412 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 21:07:12,413 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 21:07:12,414 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 21:07:12,415 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 21:07:12,415 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 21:07:12,418 [INFO] ApiDbMcu:468 - Load IP Config File for PDM2PCM
+2021-12-05 21:07:12,435 [INFO] OpenFileManager:333 - Restore cursor
+2021-12-05 21:19:36,040 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 642438328 Bytes (1072693248)
+2021-12-05 21:19:38,081 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 674944184 Bytes (1072693248)
+2021-12-05 21:19:41,883 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 720555192 Bytes (1072693248)
+2021-12-05 21:19:42,256 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8
+2021-12-05 21:19:42,257 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2021-12-05 21:19:42,257 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2021-12-05 21:19:42,257 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2021-12-05 21:19:42,257 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: DAC
+2021-12-05 21:19:42,257 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2021-12-05 21:19:42,258 [INFO] CodeGenerator:663 - code generatio: config db path: C:\ST\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\
+2021-12-05 21:19:42,730 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\MXTmpFiles\license.tmp_save
+2021-12-05 21:19:42,861 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\MXTmpFiles\license.tmp
+2021-12-05 21:19:42,922 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\MXTmpFiles\gpio.tmp_save
+2021-12-05 21:19:42,995 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\MXTmpFiles\gpio.tmp
+2021-12-05 21:19:43,282 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Src\stm32f4xx_it.c_save
+2021-12-05 21:19:43,387 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Src\stm32f4xx_it.c
+2021-12-05 21:19:43,397 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Inc\stm32f4xx_it.h_save
+2021-12-05 21:19:43,477 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Inc\stm32f4xx_it.h
+2021-12-05 21:19:43,505 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Src\stm32f4xx_hal_msp.c_save
+2021-12-05 21:19:43,627 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Src\stm32f4xx_hal_msp.c
+2021-12-05 21:19:43,637 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\MXTmpFiles\system.tmp_save
+2021-12-05 21:19:43,688 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\MXTmpFiles\system.tmp
+2021-12-05 21:19:43,709 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Inc\stm32f4xx_hal_conf.h_save
+2021-12-05 21:19:43,795 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Inc\stm32f4xx_hal_conf.h
+2021-12-05 21:19:43,837 [WARN] IPConfigManager:3148 - IP not found : TIM
+2021-12-05 21:19:43,838 [WARN] CodeGenerator:3268 - IP not found : null
+2021-12-05 21:19:43,856 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Inc\main.h_save
+2021-12-05 21:19:43,945 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Inc\main.h
+2021-12-05 21:19:43,960 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Src\main.c_save
+2021-12-05 21:19:44,086 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Src\main.c
+2021-12-05 21:19:45,119 [INFO] ProjectBuilder:2578 - Time for Copy HAL[1] : 218mS.
+2021-12-05 21:19:45,122 [INFO] ProjectBuilder:3622 - Project Generator version: 3.14.1
+2021-12-05 21:19:45,632 [INFO] ConfigFileManager:1271 - The Die is : DIE413
+2021-12-05 21:19:45,650 [INFO] ApiDbMcu:468 - Load IP Config File for FATFS
+2021-12-05 21:19:45,690 [INFO] ApiDbMcu:468 - Load IP Config File for FREERTOS
+2021-12-05 21:19:45,703 [INFO] ApiDbMcu:468 - Load IP Config File for LIBJPEG
+2021-12-05 21:19:45,783 [INFO] ApiDbMcu:468 - Load IP Config File for LWIP
+2021-12-05 21:19:45,864 [INFO] ApiDbMcu:468 - Load IP Config File for MBEDTLS
+2021-12-05 21:19:45,910 [INFO] ApiDbMcu:468 - Load IP Config File for USB_DEVICE
+2021-12-05 21:19:45,927 [INFO] ApiDbMcu:468 - Load IP Config File for USB_HOST
+2021-12-05 21:19:48,097 [INFO] ProjectBuilder:3789 - Time for Generating toolchain IDE Files: 2975mS.
+2021-12-05 21:19:48,098 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 1mS.
+2021-12-05 21:19:48,101 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
+2021-12-05 21:20:03,932 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,450x151,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021-12-05 21:20:11,862 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,450x151,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021-12-05 21:22:36,181 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,461x159,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021-12-05 21:22:41,155 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 694884744 Bytes (1073741824)
+2021-12-05 21:22:42,527 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 737876360 Bytes (1073741824)
+2021-12-05 21:22:44,992 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 843782536 Bytes (1073741824)
+2021-12-05 21:22:45,403 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8
+2021-12-05 21:22:45,403 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2021-12-05 21:22:45,403 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2021-12-05 21:22:45,403 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2021-12-05 21:22:45,403 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: DMA
+2021-12-05 21:22:45,404 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: DAC
+2021-12-05 21:22:45,404 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2021-12-05 21:22:45,404 [INFO] CodeGenerator:663 - code generatio: config db path: C:\ST\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\
+2021-12-05 21:22:45,897 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\MXTmpFiles\license.tmp_save
+2021-12-05 21:22:45,950 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\MXTmpFiles\license.tmp
+2021-12-05 21:22:45,971 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\MXTmpFiles\gpio.tmp_save
+2021-12-05 21:22:46,059 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\MXTmpFiles\gpio.tmp
+2021-12-05 21:22:46,223 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\MXTmpFiles\dma.tmp_save
+2021-12-05 21:22:46,283 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\MXTmpFiles\dma.tmp
+2021-12-05 21:22:46,298 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\MXTmpFiles\dma_GV.tmp_save
+2021-12-05 21:22:46,342 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\MXTmpFiles\dma_GV.tmp
+2021-12-05 21:22:46,362 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Src\stm32f4xx_it.c_save
+2021-12-05 21:22:46,478 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Src\stm32f4xx_it.c
+2021-12-05 21:22:46,483 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Inc\stm32f4xx_it.h_save
+2021-12-05 21:22:46,554 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Inc\stm32f4xx_it.h
+2021-12-05 21:22:46,570 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Src\stm32f4xx_hal_msp.c_save
+2021-12-05 21:22:46,675 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Src\stm32f4xx_hal_msp.c
+2021-12-05 21:22:46,678 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\MXTmpFiles\system.tmp_save
+2021-12-05 21:22:46,723 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\MXTmpFiles\system.tmp
+2021-12-05 21:22:46,738 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Inc\stm32f4xx_hal_conf.h_save
+2021-12-05 21:22:46,819 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Inc\stm32f4xx_hal_conf.h
+2021-12-05 21:22:46,858 [WARN] IPConfigManager:3148 - IP not found : TIM
+2021-12-05 21:22:46,859 [WARN] CodeGenerator:3268 - IP not found : null
+2021-12-05 21:22:46,871 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Inc\main.h_save
+2021-12-05 21:22:46,934 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Inc\main.h
+2021-12-05 21:22:46,944 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Src\main.c_save
+2021-12-05 21:22:47,091 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Src\main.c
+2021-12-05 21:22:48,020 [INFO] ProjectBuilder:2578 - Time for Copy HAL[1] : 199mS.
+2021-12-05 21:22:48,023 [INFO] ProjectBuilder:3622 - Project Generator version: 3.14.1
+2021-12-05 21:22:48,509 [INFO] ConfigFileManager:1271 - The Die is : DIE413
+2021-12-05 21:22:50,763 [INFO] ProjectBuilder:3789 - Time for Generating toolchain IDE Files: 2740mS.
+2021-12-05 21:22:50,764 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 1mS.
+2021-12-05 21:22:50,766 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
+2021-12-05 21:37:03,668 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 771332912 Bytes (1073741824)
+2021-12-05 21:37:04,898 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 804361008 Bytes (1073741824)
+2021-12-05 21:37:06,786 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 649329728 Bytes (1073741824)
+2021-12-05 21:37:07,169 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8
+2021-12-05 21:37:07,169 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2021-12-05 21:37:07,170 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2021-12-05 21:37:07,170 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2021-12-05 21:37:07,170 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: DMA
+2021-12-05 21:37:07,170 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: DAC
+2021-12-05 21:37:07,170 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2021-12-05 21:37:07,171 [INFO] CodeGenerator:663 - code generatio: config db path: C:\ST\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\
+2021-12-05 21:37:07,178 [INFO] Argument:294 - Argument : hdmavalue: null
+2021-12-05 21:37:07,178 [INFO] Argument:296 - 	 sub Args: 
+2021-12-05 21:37:07,178 [INFO] Argument:294 - Argument : Instancevalue: DMA1_Stream6
+2021-12-05 21:37:07,178 [INFO] Argument:304 - Argument : Instancevalue: DMA1_Stream6
+2021-12-05 21:37:07,178 [INFO] Argument:294 - Argument : Initvalue: null
+2021-12-05 21:37:07,178 [INFO] Argument:296 - 	 sub Args: 
+2021-12-05 21:37:07,178 [INFO] Argument:294 - Argument : Channelvalue: DMA_CHANNEL_7
+2021-12-05 21:37:07,178 [INFO] Argument:304 - Argument : Channelvalue: DMA_CHANNEL_7
+2021-12-05 21:37:07,178 [INFO] Argument:294 - Argument : Directionvalue: DMA_MEMORY_TO_PERIPH
+2021-12-05 21:37:07,179 [INFO] Argument:304 - Argument : Directionvalue: DMA_MEMORY_TO_PERIPH
+2021-12-05 21:37:07,179 [INFO] Argument:294 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2021-12-05 21:37:07,179 [INFO] Argument:304 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2021-12-05 21:37:07,179 [INFO] Argument:294 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2021-12-05 21:37:07,179 [INFO] Argument:304 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2021-12-05 21:37:07,179 [INFO] Argument:294 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2021-12-05 21:37:07,179 [INFO] Argument:304 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2021-12-05 21:37:07,179 [INFO] Argument:294 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2021-12-05 21:37:07,179 [INFO] Argument:304 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2021-12-05 21:37:07,179 [INFO] Argument:294 - Argument : Modevalue: DMA_NORMAL
+2021-12-05 21:37:07,179 [INFO] Argument:304 - Argument : Modevalue: DMA_NORMAL
+2021-12-05 21:37:07,179 [INFO] Argument:294 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2021-12-05 21:37:07,179 [INFO] Argument:304 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2021-12-05 21:37:07,180 [INFO] Argument:294 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2021-12-05 21:37:07,180 [INFO] Argument:304 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2021-12-05 21:37:07,180 [INFO] Argument:294 - Argument : FIFOThresholdvalue: null
+2021-12-05 21:37:07,180 [INFO] Argument:304 - Argument : FIFOThresholdvalue: null
+2021-12-05 21:37:07,180 [INFO] Argument:294 - Argument : MemBurstvalue: null
+2021-12-05 21:37:07,180 [INFO] Argument:304 - Argument : MemBurstvalue: null
+2021-12-05 21:37:07,180 [INFO] Argument:294 - Argument : PeriphBurstvalue: null
+2021-12-05 21:37:07,180 [INFO] Argument:304 - Argument : PeriphBurstvalue: null
+2021-12-05 21:37:07,180 [INFO] Argument:294 - Argument : Lockvalue: null
+2021-12-05 21:37:07,180 [INFO] Argument:304 - Argument : Lockvalue: null
+2021-12-05 21:37:07,180 [INFO] Argument:294 - Argument : Statevalue: null
+2021-12-05 21:37:07,180 [INFO] Argument:304 - Argument : Statevalue: null
+2021-12-05 21:37:07,180 [INFO] Argument:294 - Argument : Parentvalue: null
+2021-12-05 21:37:07,180 [INFO] Argument:304 - Argument : Parentvalue: null
+2021-12-05 21:37:07,181 [INFO] Argument:294 - Argument : XferCpltCallbackvalue: null
+2021-12-05 21:37:07,181 [INFO] Argument:304 - Argument : XferCpltCallbackvalue: null
+2021-12-05 21:37:07,181 [INFO] Argument:294 - Argument : XferHalfCpltCallbackvalue: null
+2021-12-05 21:37:07,181 [INFO] Argument:304 - Argument : XferHalfCpltCallbackvalue: null
+2021-12-05 21:37:07,181 [INFO] Argument:294 - Argument : XferM1CpltCallbackvalue: null
+2021-12-05 21:37:07,181 [INFO] Argument:304 - Argument : XferM1CpltCallbackvalue: null
+2021-12-05 21:37:07,181 [INFO] Argument:294 - Argument : XferErrorCallbackvalue: null
+2021-12-05 21:37:07,181 [INFO] Argument:304 - Argument : XferErrorCallbackvalue: null
+2021-12-05 21:37:07,181 [INFO] Argument:294 - Argument : ErrorCodevalue: null
+2021-12-05 21:37:07,181 [INFO] Argument:304 - Argument : ErrorCodevalue: null
+2021-12-05 21:37:07,682 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\MXTmpFiles\license.tmp_save
+2021-12-05 21:37:07,738 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\MXTmpFiles\license.tmp
+2021-12-05 21:37:07,759 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\MXTmpFiles\gpio.tmp_save
+2021-12-05 21:37:07,817 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\MXTmpFiles\gpio.tmp
+2021-12-05 21:37:07,981 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\MXTmpFiles\dma.tmp_save
+2021-12-05 21:37:08,038 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\MXTmpFiles\dma.tmp
+2021-12-05 21:37:08,041 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\MXTmpFiles\dma_GV.tmp_save
+2021-12-05 21:37:08,086 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\MXTmpFiles\dma_GV.tmp
+2021-12-05 21:37:08,138 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Src\stm32f4xx_it.c_save
+2021-12-05 21:37:08,221 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Src\stm32f4xx_it.c
+2021-12-05 21:37:08,227 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Inc\stm32f4xx_it.h_save
+2021-12-05 21:37:08,288 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Inc\stm32f4xx_it.h
+2021-12-05 21:37:08,304 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Src\stm32f4xx_hal_msp.c_save
+2021-12-05 21:37:08,466 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Src\stm32f4xx_hal_msp.c
+2021-12-05 21:37:08,469 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\MXTmpFiles\system.tmp_save
+2021-12-05 21:37:08,515 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\MXTmpFiles\system.tmp
+2021-12-05 21:37:08,531 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Inc\stm32f4xx_hal_conf.h_save
+2021-12-05 21:37:08,612 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Inc\stm32f4xx_hal_conf.h
+2021-12-05 21:37:08,654 [WARN] IPConfigManager:3148 - IP not found : TIM
+2021-12-05 21:37:08,655 [WARN] CodeGenerator:3268 - IP not found : null
+2021-12-05 21:37:08,668 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Inc\main.h_save
+2021-12-05 21:37:08,739 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Inc\main.h
+2021-12-05 21:37:08,750 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Src\main.c_save
+2021-12-05 21:37:08,891 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Src\main.c
+2021-12-05 21:37:09,839 [INFO] ProjectBuilder:2578 - Time for Copy HAL[1] : 174mS.
+2021-12-05 21:37:09,842 [INFO] ProjectBuilder:3622 - Project Generator version: 3.14.1
+2021-12-05 21:37:10,328 [INFO] ConfigFileManager:1271 - The Die is : DIE413
+2021-12-05 21:37:12,673 [INFO] ProjectBuilder:3789 - Time for Generating toolchain IDE Files: 2831mS.
+2021-12-05 21:37:12,674 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
+2021-12-05 21:37:12,676 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
+2021-12-05 21:40:00,666 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021-12-05 21:40:07,000 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,496x159,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021-12-05 21:44:35,208 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 784552200 Bytes (1073741824)
+2021-12-05 21:44:36,940 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 818632968 Bytes (1073741824)
+2021-12-05 21:44:39,344 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 670018328 Bytes (1073741824)
+2021-12-05 21:44:39,754 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8
+2021-12-05 21:44:39,754 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2021-12-05 21:44:39,754 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2021-12-05 21:44:39,754 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2021-12-05 21:44:39,754 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: DMA
+2021-12-05 21:44:39,754 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: DAC
+2021-12-05 21:44:39,755 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2021-12-05 21:44:39,755 [INFO] CodeGenerator:663 - code generatio: config db path: C:\ST\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\
+2021-12-05 21:44:39,760 [INFO] Argument:294 - Argument : hdmavalue: null
+2021-12-05 21:44:39,760 [INFO] Argument:296 - 	 sub Args: 
+2021-12-05 21:44:39,760 [INFO] Argument:294 - Argument : Instancevalue: DMA1_Stream6
+2021-12-05 21:44:39,760 [INFO] Argument:304 - Argument : Instancevalue: DMA1_Stream6
+2021-12-05 21:44:39,760 [INFO] Argument:294 - Argument : Initvalue: null
+2021-12-05 21:44:39,760 [INFO] Argument:296 - 	 sub Args: 
+2021-12-05 21:44:39,761 [INFO] Argument:294 - Argument : Channelvalue: DMA_CHANNEL_7
+2021-12-05 21:44:39,761 [INFO] Argument:304 - Argument : Channelvalue: DMA_CHANNEL_7
+2021-12-05 21:44:39,761 [INFO] Argument:294 - Argument : Directionvalue: DMA_MEMORY_TO_PERIPH
+2021-12-05 21:44:39,761 [INFO] Argument:304 - Argument : Directionvalue: DMA_MEMORY_TO_PERIPH
+2021-12-05 21:44:39,761 [INFO] Argument:294 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2021-12-05 21:44:39,761 [INFO] Argument:304 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2021-12-05 21:44:39,761 [INFO] Argument:294 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2021-12-05 21:44:39,761 [INFO] Argument:304 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2021-12-05 21:44:39,761 [INFO] Argument:294 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2021-12-05 21:44:39,761 [INFO] Argument:304 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2021-12-05 21:44:39,761 [INFO] Argument:294 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2021-12-05 21:44:39,761 [INFO] Argument:304 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2021-12-05 21:44:39,762 [INFO] Argument:294 - Argument : Modevalue: DMA_CIRCULAR
+2021-12-05 21:44:39,762 [INFO] Argument:304 - Argument : Modevalue: DMA_CIRCULAR
+2021-12-05 21:44:39,762 [INFO] Argument:294 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2021-12-05 21:44:39,762 [INFO] Argument:304 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2021-12-05 21:44:39,762 [INFO] Argument:294 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2021-12-05 21:44:39,762 [INFO] Argument:304 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2021-12-05 21:44:39,762 [INFO] Argument:294 - Argument : FIFOThresholdvalue: null
+2021-12-05 21:44:39,762 [INFO] Argument:304 - Argument : FIFOThresholdvalue: null
+2021-12-05 21:44:39,762 [INFO] Argument:294 - Argument : MemBurstvalue: null
+2021-12-05 21:44:39,762 [INFO] Argument:304 - Argument : MemBurstvalue: null
+2021-12-05 21:44:39,762 [INFO] Argument:294 - Argument : PeriphBurstvalue: null
+2021-12-05 21:44:39,762 [INFO] Argument:304 - Argument : PeriphBurstvalue: null
+2021-12-05 21:44:39,763 [INFO] Argument:294 - Argument : Lockvalue: null
+2021-12-05 21:44:39,763 [INFO] Argument:304 - Argument : Lockvalue: null
+2021-12-05 21:44:39,763 [INFO] Argument:294 - Argument : Statevalue: null
+2021-12-05 21:44:39,763 [INFO] Argument:304 - Argument : Statevalue: null
+2021-12-05 21:44:39,763 [INFO] Argument:294 - Argument : Parentvalue: null
+2021-12-05 21:44:39,763 [INFO] Argument:304 - Argument : Parentvalue: null
+2021-12-05 21:44:39,763 [INFO] Argument:294 - Argument : XferCpltCallbackvalue: null
+2021-12-05 21:44:39,763 [INFO] Argument:304 - Argument : XferCpltCallbackvalue: null
+2021-12-05 21:44:39,763 [INFO] Argument:294 - Argument : XferHalfCpltCallbackvalue: null
+2021-12-05 21:44:39,764 [INFO] Argument:304 - Argument : XferHalfCpltCallbackvalue: null
+2021-12-05 21:44:39,764 [INFO] Argument:294 - Argument : XferM1CpltCallbackvalue: null
+2021-12-05 21:44:39,764 [INFO] Argument:304 - Argument : XferM1CpltCallbackvalue: null
+2021-12-05 21:44:39,764 [INFO] Argument:294 - Argument : XferErrorCallbackvalue: null
+2021-12-05 21:44:39,765 [INFO] Argument:304 - Argument : XferErrorCallbackvalue: null
+2021-12-05 21:44:39,766 [INFO] Argument:294 - Argument : ErrorCodevalue: null
+2021-12-05 21:44:39,767 [INFO] Argument:304 - Argument : ErrorCodevalue: null
+2021-12-05 21:44:40,203 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\MXTmpFiles\license.tmp_save
+2021-12-05 21:44:40,256 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\MXTmpFiles\license.tmp
+2021-12-05 21:44:40,276 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\MXTmpFiles\gpio.tmp_save
+2021-12-05 21:44:40,360 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\MXTmpFiles\gpio.tmp
+2021-12-05 21:44:40,570 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\MXTmpFiles\dma.tmp_save
+2021-12-05 21:44:40,625 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\MXTmpFiles\dma.tmp
+2021-12-05 21:44:40,628 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\MXTmpFiles\dma_GV.tmp_save
+2021-12-05 21:44:40,674 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\MXTmpFiles\dma_GV.tmp
+2021-12-05 21:44:40,693 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Src\stm32f4xx_it.c_save
+2021-12-05 21:44:40,769 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Src\stm32f4xx_it.c
+2021-12-05 21:44:40,774 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Inc\stm32f4xx_it.h_save
+2021-12-05 21:44:40,830 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Inc\stm32f4xx_it.h
+2021-12-05 21:44:40,845 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Src\stm32f4xx_hal_msp.c_save
+2021-12-05 21:44:40,936 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Src\stm32f4xx_hal_msp.c
+2021-12-05 21:44:40,939 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\MXTmpFiles\system.tmp_save
+2021-12-05 21:44:40,985 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\MXTmpFiles\system.tmp
+2021-12-05 21:44:41,000 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Inc\stm32f4xx_hal_conf.h_save
+2021-12-05 21:44:41,082 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Inc\stm32f4xx_hal_conf.h
+2021-12-05 21:44:41,122 [WARN] IPConfigManager:3148 - IP not found : TIM
+2021-12-05 21:44:41,122 [WARN] CodeGenerator:3268 - IP not found : null
+2021-12-05 21:44:41,135 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Inc\main.h_save
+2021-12-05 21:44:41,235 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Inc\main.h
+2021-12-05 21:44:41,245 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Src\main.c_save
+2021-12-05 21:44:41,421 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Src\main.c
+2021-12-05 21:44:42,341 [INFO] ProjectBuilder:2578 - Time for Copy HAL[1] : 202mS.
+2021-12-05 21:44:42,344 [INFO] ProjectBuilder:3622 - Project Generator version: 3.14.1
+2021-12-05 21:44:42,837 [INFO] ConfigFileManager:1271 - The Die is : DIE413
+2021-12-05 21:44:45,046 [INFO] ProjectBuilder:3789 - Time for Generating toolchain IDE Files: 2702mS.
+2021-12-05 21:44:45,047 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
+2021-12-05 21:44:45,050 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
+2021-12-05 21:46:00,224 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,496x159,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021-12-05 21:46:07,853 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021-12-05 21:46:56,535 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,496x159,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021-12-05 21:47:11,563 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 858502824 Bytes (1073741824)
+2021-12-05 21:47:12,921 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 644253248 Bytes (1073741824)
+2021-12-05 21:47:14,675 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 653787720 Bytes (1073741824)
+2021-12-05 21:47:15,074 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8
+2021-12-05 21:47:15,074 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2021-12-05 21:47:15,074 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2021-12-05 21:47:15,074 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2021-12-05 21:47:15,074 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: DMA
+2021-12-05 21:47:15,074 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: DAC
+2021-12-05 21:47:15,074 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2021-12-05 21:47:15,075 [INFO] CodeGenerator:663 - code generatio: config db path: C:\ST\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\
+2021-12-05 21:47:15,079 [INFO] Argument:294 - Argument : hdmavalue: null
+2021-12-05 21:47:15,080 [INFO] Argument:296 - 	 sub Args: 
+2021-12-05 21:47:15,080 [INFO] Argument:294 - Argument : Instancevalue: DMA1_Stream6
+2021-12-05 21:47:15,080 [INFO] Argument:304 - Argument : Instancevalue: DMA1_Stream6
+2021-12-05 21:47:15,080 [INFO] Argument:294 - Argument : Initvalue: null
+2021-12-05 21:47:15,080 [INFO] Argument:296 - 	 sub Args: 
+2021-12-05 21:47:15,080 [INFO] Argument:294 - Argument : Channelvalue: DMA_CHANNEL_7
+2021-12-05 21:47:15,080 [INFO] Argument:304 - Argument : Channelvalue: DMA_CHANNEL_7
+2021-12-05 21:47:15,080 [INFO] Argument:294 - Argument : Directionvalue: DMA_MEMORY_TO_PERIPH
+2021-12-05 21:47:15,080 [INFO] Argument:304 - Argument : Directionvalue: DMA_MEMORY_TO_PERIPH
+2021-12-05 21:47:15,080 [INFO] Argument:294 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2021-12-05 21:47:15,080 [INFO] Argument:304 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2021-12-05 21:47:15,080 [INFO] Argument:294 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2021-12-05 21:47:15,081 [INFO] Argument:304 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2021-12-05 21:47:15,081 [INFO] Argument:294 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2021-12-05 21:47:15,081 [INFO] Argument:304 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2021-12-05 21:47:15,081 [INFO] Argument:294 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2021-12-05 21:47:15,081 [INFO] Argument:304 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2021-12-05 21:47:15,081 [INFO] Argument:294 - Argument : Modevalue: DMA_CIRCULAR
+2021-12-05 21:47:15,081 [INFO] Argument:304 - Argument : Modevalue: DMA_CIRCULAR
+2021-12-05 21:47:15,081 [INFO] Argument:294 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2021-12-05 21:47:15,081 [INFO] Argument:304 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2021-12-05 21:47:15,081 [INFO] Argument:294 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2021-12-05 21:47:15,081 [INFO] Argument:304 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2021-12-05 21:47:15,081 [INFO] Argument:294 - Argument : FIFOThresholdvalue: null
+2021-12-05 21:47:15,081 [INFO] Argument:304 - Argument : FIFOThresholdvalue: null
+2021-12-05 21:47:15,082 [INFO] Argument:294 - Argument : MemBurstvalue: null
+2021-12-05 21:47:15,082 [INFO] Argument:304 - Argument : MemBurstvalue: null
+2021-12-05 21:47:15,082 [INFO] Argument:294 - Argument : PeriphBurstvalue: null
+2021-12-05 21:47:15,082 [INFO] Argument:304 - Argument : PeriphBurstvalue: null
+2021-12-05 21:47:15,082 [INFO] Argument:294 - Argument : Lockvalue: null
+2021-12-05 21:47:15,082 [INFO] Argument:304 - Argument : Lockvalue: null
+2021-12-05 21:47:15,082 [INFO] Argument:294 - Argument : Statevalue: null
+2021-12-05 21:47:15,082 [INFO] Argument:304 - Argument : Statevalue: null
+2021-12-05 21:47:15,082 [INFO] Argument:294 - Argument : Parentvalue: null
+2021-12-05 21:47:15,082 [INFO] Argument:304 - Argument : Parentvalue: null
+2021-12-05 21:47:15,082 [INFO] Argument:294 - Argument : XferCpltCallbackvalue: null
+2021-12-05 21:47:15,082 [INFO] Argument:304 - Argument : XferCpltCallbackvalue: null
+2021-12-05 21:47:15,082 [INFO] Argument:294 - Argument : XferHalfCpltCallbackvalue: null
+2021-12-05 21:47:15,082 [INFO] Argument:304 - Argument : XferHalfCpltCallbackvalue: null
+2021-12-05 21:47:15,083 [INFO] Argument:294 - Argument : XferM1CpltCallbackvalue: null
+2021-12-05 21:47:15,083 [INFO] Argument:304 - Argument : XferM1CpltCallbackvalue: null
+2021-12-05 21:47:15,083 [INFO] Argument:294 - Argument : XferErrorCallbackvalue: null
+2021-12-05 21:47:15,083 [INFO] Argument:304 - Argument : XferErrorCallbackvalue: null
+2021-12-05 21:47:15,083 [INFO] Argument:294 - Argument : ErrorCodevalue: null
+2021-12-05 21:47:15,083 [INFO] Argument:304 - Argument : ErrorCodevalue: null
+2021-12-05 21:47:15,516 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\MXTmpFiles\license.tmp_save
+2021-12-05 21:47:15,568 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\MXTmpFiles\license.tmp
+2021-12-05 21:47:15,588 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\MXTmpFiles\gpio.tmp_save
+2021-12-05 21:47:15,677 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\MXTmpFiles\gpio.tmp
+2021-12-05 21:47:15,830 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\MXTmpFiles\dma.tmp_save
+2021-12-05 21:47:15,885 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\MXTmpFiles\dma.tmp
+2021-12-05 21:47:15,888 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\MXTmpFiles\dma_GV.tmp_save
+2021-12-05 21:47:15,934 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\MXTmpFiles\dma_GV.tmp
+2021-12-05 21:47:15,953 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Src\stm32f4xx_it.c_save
+2021-12-05 21:47:16,042 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Src\stm32f4xx_it.c
+2021-12-05 21:47:16,048 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Inc\stm32f4xx_it.h_save
+2021-12-05 21:47:16,118 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Inc\stm32f4xx_it.h
+2021-12-05 21:47:16,133 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Src\stm32f4xx_hal_msp.c_save
+2021-12-05 21:47:16,288 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Src\stm32f4xx_hal_msp.c
+2021-12-05 21:47:16,291 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\MXTmpFiles\system.tmp_save
+2021-12-05 21:47:16,336 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\MXTmpFiles\system.tmp
+2021-12-05 21:47:16,350 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Inc\stm32f4xx_hal_conf.h_save
+2021-12-05 21:47:16,463 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Inc\stm32f4xx_hal_conf.h
+2021-12-05 21:47:16,503 [WARN] IPConfigManager:3148 - IP not found : TIM
+2021-12-05 21:47:16,504 [WARN] CodeGenerator:3268 - IP not found : null
+2021-12-05 21:47:16,516 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Inc\main.h_save
+2021-12-05 21:47:16,584 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Inc\main.h
+2021-12-05 21:47:16,594 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Src\main.c_save
+2021-12-05 21:47:16,728 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Src\main.c
+2021-12-05 21:47:17,574 [INFO] ProjectBuilder:2578 - Time for Copy HAL[1] : 200mS.
+2021-12-05 21:47:17,578 [INFO] ProjectBuilder:3622 - Project Generator version: 3.14.1
+2021-12-05 21:47:18,105 [INFO] ConfigFileManager:1271 - The Die is : DIE413
+2021-12-05 21:47:20,338 [INFO] ProjectBuilder:3789 - Time for Generating toolchain IDE Files: 2760mS.
+2021-12-05 21:47:20,339 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
+2021-12-05 21:47:20,342 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 1mS.
+2021-12-05 21:50:57,136 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,496x159,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021-12-05 21:57:33,713 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 685738448 Bytes (1073741824)
+2021-12-05 21:57:35,586 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 720863696 Bytes (1073741824)
+2021-12-05 21:57:37,739 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 786923984 Bytes (1073741824)
+2021-12-05 21:57:38,175 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8
+2021-12-05 21:57:38,176 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2021-12-05 21:57:38,176 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2021-12-05 21:57:38,176 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2021-12-05 21:57:38,176 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: DMA
+2021-12-05 21:57:38,176 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: DAC
+2021-12-05 21:57:38,176 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2021-12-05 21:57:38,177 [INFO] CodeGenerator:663 - code generatio: config db path: C:\ST\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\
+2021-12-05 21:57:38,183 [INFO] Argument:294 - Argument : hdmavalue: null
+2021-12-05 21:57:38,184 [INFO] Argument:296 - 	 sub Args: 
+2021-12-05 21:57:38,184 [INFO] Argument:294 - Argument : Instancevalue: DMA1_Stream6
+2021-12-05 21:57:38,184 [INFO] Argument:304 - Argument : Instancevalue: DMA1_Stream6
+2021-12-05 21:57:38,184 [INFO] Argument:294 - Argument : Initvalue: null
+2021-12-05 21:57:38,184 [INFO] Argument:296 - 	 sub Args: 
+2021-12-05 21:57:38,184 [INFO] Argument:294 - Argument : Channelvalue: DMA_CHANNEL_7
+2021-12-05 21:57:38,184 [INFO] Argument:304 - Argument : Channelvalue: DMA_CHANNEL_7
+2021-12-05 21:57:38,184 [INFO] Argument:294 - Argument : Directionvalue: DMA_MEMORY_TO_PERIPH
+2021-12-05 21:57:38,184 [INFO] Argument:304 - Argument : Directionvalue: DMA_MEMORY_TO_PERIPH
+2021-12-05 21:57:38,184 [INFO] Argument:294 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2021-12-05 21:57:38,184 [INFO] Argument:304 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2021-12-05 21:57:38,185 [INFO] Argument:294 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2021-12-05 21:57:38,185 [INFO] Argument:304 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2021-12-05 21:57:38,185 [INFO] Argument:294 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2021-12-05 21:57:38,185 [INFO] Argument:304 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2021-12-05 21:57:38,185 [INFO] Argument:294 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2021-12-05 21:57:38,185 [INFO] Argument:304 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2021-12-05 21:57:38,185 [INFO] Argument:294 - Argument : Modevalue: DMA_CIRCULAR
+2021-12-05 21:57:38,185 [INFO] Argument:304 - Argument : Modevalue: DMA_CIRCULAR
+2021-12-05 21:57:38,185 [INFO] Argument:294 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2021-12-05 21:57:38,185 [INFO] Argument:304 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2021-12-05 21:57:38,185 [INFO] Argument:294 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2021-12-05 21:57:38,185 [INFO] Argument:304 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2021-12-05 21:57:38,185 [INFO] Argument:294 - Argument : FIFOThresholdvalue: null
+2021-12-05 21:57:38,186 [INFO] Argument:304 - Argument : FIFOThresholdvalue: null
+2021-12-05 21:57:38,186 [INFO] Argument:294 - Argument : MemBurstvalue: null
+2021-12-05 21:57:38,186 [INFO] Argument:304 - Argument : MemBurstvalue: null
+2021-12-05 21:57:38,186 [INFO] Argument:294 - Argument : PeriphBurstvalue: null
+2021-12-05 21:57:38,186 [INFO] Argument:304 - Argument : PeriphBurstvalue: null
+2021-12-05 21:57:38,186 [INFO] Argument:294 - Argument : Lockvalue: null
+2021-12-05 21:57:38,186 [INFO] Argument:304 - Argument : Lockvalue: null
+2021-12-05 21:57:38,186 [INFO] Argument:294 - Argument : Statevalue: null
+2021-12-05 21:57:38,186 [INFO] Argument:304 - Argument : Statevalue: null
+2021-12-05 21:57:38,186 [INFO] Argument:294 - Argument : Parentvalue: null
+2021-12-05 21:57:38,186 [INFO] Argument:304 - Argument : Parentvalue: null
+2021-12-05 21:57:38,187 [INFO] Argument:294 - Argument : XferCpltCallbackvalue: null
+2021-12-05 21:57:38,187 [INFO] Argument:304 - Argument : XferCpltCallbackvalue: null
+2021-12-05 21:57:38,187 [INFO] Argument:294 - Argument : XferHalfCpltCallbackvalue: null
+2021-12-05 21:57:38,187 [INFO] Argument:304 - Argument : XferHalfCpltCallbackvalue: null
+2021-12-05 21:57:38,187 [INFO] Argument:294 - Argument : XferM1CpltCallbackvalue: null
+2021-12-05 21:57:38,187 [INFO] Argument:304 - Argument : XferM1CpltCallbackvalue: null
+2021-12-05 21:57:38,187 [INFO] Argument:294 - Argument : XferErrorCallbackvalue: null
+2021-12-05 21:57:38,187 [INFO] Argument:304 - Argument : XferErrorCallbackvalue: null
+2021-12-05 21:57:38,187 [INFO] Argument:294 - Argument : ErrorCodevalue: null
+2021-12-05 21:57:38,187 [INFO] Argument:304 - Argument : ErrorCodevalue: null
+2021-12-05 21:57:38,607 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\MXTmpFiles\license.tmp_save
+2021-12-05 21:57:38,660 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\MXTmpFiles\license.tmp
+2021-12-05 21:57:38,680 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\MXTmpFiles\gpio.tmp_save
+2021-12-05 21:57:38,739 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\MXTmpFiles\gpio.tmp
+2021-12-05 21:57:38,967 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\MXTmpFiles\dma.tmp_save
+2021-12-05 21:57:39,024 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\MXTmpFiles\dma.tmp
+2021-12-05 21:57:39,027 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\MXTmpFiles\dma_GV.tmp_save
+2021-12-05 21:57:39,071 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\MXTmpFiles\dma_GV.tmp
+2021-12-05 21:57:39,089 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Src\stm32f4xx_it.c_save
+2021-12-05 21:57:39,169 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Src\stm32f4xx_it.c
+2021-12-05 21:57:39,178 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Inc\stm32f4xx_it.h_save
+2021-12-05 21:57:39,235 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Inc\stm32f4xx_it.h
+2021-12-05 21:57:39,250 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Src\stm32f4xx_hal_msp.c_save
+2021-12-05 21:57:39,393 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Src\stm32f4xx_hal_msp.c
+2021-12-05 21:57:39,396 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\MXTmpFiles\system.tmp_save
+2021-12-05 21:57:39,444 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\MXTmpFiles\system.tmp
+2021-12-05 21:57:39,458 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Inc\stm32f4xx_hal_conf.h_save
+2021-12-05 21:57:39,538 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Inc\stm32f4xx_hal_conf.h
+2021-12-05 21:57:39,579 [WARN] IPConfigManager:3148 - IP not found : TIM
+2021-12-05 21:57:39,580 [WARN] CodeGenerator:3268 - IP not found : null
+2021-12-05 21:57:39,592 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Inc\main.h_save
+2021-12-05 21:57:39,701 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Inc\main.h
+2021-12-05 21:57:39,711 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Src\main.c_save
+2021-12-05 21:57:39,836 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Src\main.c
+2021-12-05 21:57:40,747 [INFO] ProjectBuilder:2578 - Time for Copy HAL[1] : 200mS.
+2021-12-05 21:57:40,750 [INFO] ProjectBuilder:3622 - Project Generator version: 3.14.1
+2021-12-05 21:57:41,244 [INFO] ConfigFileManager:1271 - The Die is : DIE413
+2021-12-05 21:57:43,493 [INFO] ProjectBuilder:3789 - Time for Generating toolchain IDE Files: 2743mS.
+2021-12-05 21:57:43,493 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
+2021-12-05 21:57:43,496 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
+2021-12-05 21:59:35,553 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 668471848 Bytes (1073741824)
+2021-12-05 21:59:36,841 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 703599120 Bytes (1073741824)
+2021-12-05 21:59:38,793 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 815689752 Bytes (1073741824)
+2021-12-05 21:59:39,181 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8
+2021-12-05 21:59:39,181 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2021-12-05 21:59:39,181 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2021-12-05 21:59:39,181 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2021-12-05 21:59:39,181 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: DMA
+2021-12-05 21:59:39,181 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: DAC
+2021-12-05 21:59:39,182 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2021-12-05 21:59:39,183 [INFO] CodeGenerator:663 - code generatio: config db path: C:\ST\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\
+2021-12-05 21:59:39,190 [INFO] Argument:294 - Argument : hdmavalue: null
+2021-12-05 21:59:39,190 [INFO] Argument:296 - 	 sub Args: 
+2021-12-05 21:59:39,190 [INFO] Argument:294 - Argument : Instancevalue: DMA1_Stream6
+2021-12-05 21:59:39,190 [INFO] Argument:304 - Argument : Instancevalue: DMA1_Stream6
+2021-12-05 21:59:39,190 [INFO] Argument:294 - Argument : Initvalue: null
+2021-12-05 21:59:39,190 [INFO] Argument:296 - 	 sub Args: 
+2021-12-05 21:59:39,190 [INFO] Argument:294 - Argument : Channelvalue: DMA_CHANNEL_7
+2021-12-05 21:59:39,190 [INFO] Argument:304 - Argument : Channelvalue: DMA_CHANNEL_7
+2021-12-05 21:59:39,190 [INFO] Argument:294 - Argument : Directionvalue: DMA_MEMORY_TO_PERIPH
+2021-12-05 21:59:39,190 [INFO] Argument:304 - Argument : Directionvalue: DMA_MEMORY_TO_PERIPH
+2021-12-05 21:59:39,191 [INFO] Argument:294 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2021-12-05 21:59:39,191 [INFO] Argument:304 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2021-12-05 21:59:39,191 [INFO] Argument:294 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2021-12-05 21:59:39,191 [INFO] Argument:304 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2021-12-05 21:59:39,191 [INFO] Argument:294 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_WORD
+2021-12-05 21:59:39,191 [INFO] Argument:304 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_WORD
+2021-12-05 21:59:39,191 [INFO] Argument:294 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_WORD
+2021-12-05 21:59:39,191 [INFO] Argument:304 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_WORD
+2021-12-05 21:59:39,191 [INFO] Argument:294 - Argument : Modevalue: DMA_CIRCULAR
+2021-12-05 21:59:39,191 [INFO] Argument:304 - Argument : Modevalue: DMA_CIRCULAR
+2021-12-05 21:59:39,191 [INFO] Argument:294 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2021-12-05 21:59:39,191 [INFO] Argument:304 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2021-12-05 21:59:39,191 [INFO] Argument:294 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2021-12-05 21:59:39,192 [INFO] Argument:304 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2021-12-05 21:59:39,192 [INFO] Argument:294 - Argument : FIFOThresholdvalue: null
+2021-12-05 21:59:39,192 [INFO] Argument:304 - Argument : FIFOThresholdvalue: null
+2021-12-05 21:59:39,192 [INFO] Argument:294 - Argument : MemBurstvalue: null
+2021-12-05 21:59:39,192 [INFO] Argument:304 - Argument : MemBurstvalue: null
+2021-12-05 21:59:39,192 [INFO] Argument:294 - Argument : PeriphBurstvalue: null
+2021-12-05 21:59:39,192 [INFO] Argument:304 - Argument : PeriphBurstvalue: null
+2021-12-05 21:59:39,192 [INFO] Argument:294 - Argument : Lockvalue: null
+2021-12-05 21:59:39,192 [INFO] Argument:304 - Argument : Lockvalue: null
+2021-12-05 21:59:39,192 [INFO] Argument:294 - Argument : Statevalue: null
+2021-12-05 21:59:39,192 [INFO] Argument:304 - Argument : Statevalue: null
+2021-12-05 21:59:39,192 [INFO] Argument:294 - Argument : Parentvalue: null
+2021-12-05 21:59:39,192 [INFO] Argument:304 - Argument : Parentvalue: null
+2021-12-05 21:59:39,192 [INFO] Argument:294 - Argument : XferCpltCallbackvalue: null
+2021-12-05 21:59:39,193 [INFO] Argument:304 - Argument : XferCpltCallbackvalue: null
+2021-12-05 21:59:39,193 [INFO] Argument:294 - Argument : XferHalfCpltCallbackvalue: null
+2021-12-05 21:59:39,193 [INFO] Argument:304 - Argument : XferHalfCpltCallbackvalue: null
+2021-12-05 21:59:39,193 [INFO] Argument:294 - Argument : XferM1CpltCallbackvalue: null
+2021-12-05 21:59:39,193 [INFO] Argument:304 - Argument : XferM1CpltCallbackvalue: null
+2021-12-05 21:59:39,193 [INFO] Argument:294 - Argument : XferErrorCallbackvalue: null
+2021-12-05 21:59:39,193 [INFO] Argument:304 - Argument : XferErrorCallbackvalue: null
+2021-12-05 21:59:39,193 [INFO] Argument:294 - Argument : ErrorCodevalue: null
+2021-12-05 21:59:39,193 [INFO] Argument:304 - Argument : ErrorCodevalue: null
+2021-12-05 21:59:39,618 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\MXTmpFiles\license.tmp_save
+2021-12-05 21:59:39,671 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\MXTmpFiles\license.tmp
+2021-12-05 21:59:39,693 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\MXTmpFiles\gpio.tmp_save
+2021-12-05 21:59:39,775 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\MXTmpFiles\gpio.tmp
+2021-12-05 21:59:40,022 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\MXTmpFiles\dma.tmp_save
+2021-12-05 21:59:40,078 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\MXTmpFiles\dma.tmp
+2021-12-05 21:59:40,081 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\MXTmpFiles\dma_GV.tmp_save
+2021-12-05 21:59:40,129 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\MXTmpFiles\dma_GV.tmp
+2021-12-05 21:59:40,148 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Src\stm32f4xx_it.c_save
+2021-12-05 21:59:40,227 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Src\stm32f4xx_it.c
+2021-12-05 21:59:40,231 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Inc\stm32f4xx_it.h_save
+2021-12-05 21:59:40,288 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Inc\stm32f4xx_it.h
+2021-12-05 21:59:40,303 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Src\stm32f4xx_hal_msp.c_save
+2021-12-05 21:59:40,394 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Src\stm32f4xx_hal_msp.c
+2021-12-05 21:59:40,397 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\MXTmpFiles\system.tmp_save
+2021-12-05 21:59:40,443 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\MXTmpFiles\system.tmp
+2021-12-05 21:59:40,459 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Inc\stm32f4xx_hal_conf.h_save
+2021-12-05 21:59:40,539 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Inc\stm32f4xx_hal_conf.h
+2021-12-05 21:59:40,605 [WARN] IPConfigManager:3148 - IP not found : TIM
+2021-12-05 21:59:40,605 [WARN] CodeGenerator:3268 - IP not found : null
+2021-12-05 21:59:40,617 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Inc\main.h_save
+2021-12-05 21:59:40,683 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Inc\main.h
+2021-12-05 21:59:40,694 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Src\main.c_save
+2021-12-05 21:59:40,825 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\Core\Src\main.c
+2021-12-05 21:59:41,751 [INFO] ProjectBuilder:2578 - Time for Copy HAL[1] : 195mS.
+2021-12-05 21:59:41,754 [INFO] ProjectBuilder:3622 - Project Generator version: 3.14.1
+2021-12-05 21:59:42,232 [INFO] ConfigFileManager:1271 - The Die is : DIE413
+2021-12-05 21:59:44,507 [INFO] ProjectBuilder:3789 - Time for Generating toolchain IDE Files: 2753mS.
+2021-12-05 21:59:44,508 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
+2021-12-05 21:59:44,511 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 1mS.
+2021-12-05 22:02:00,185 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,496x159,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021-12-05 22:23:28,273 [INFO] MainUpdater:2671 - connection check result : 10
+2021-12-05 22:23:28,274 [INFO] MainUpdater:2671 - connection check result : 10
+2021-12-05 22:23:28,365 [INFO] MicroXplorer:448 - Change Database Path : 
+2021-12-05 22:23:28,366 [INFO] MicroXplorer:478 - Change Database Version : DB.6.0.30
+2021-12-05 22:23:28,366 [WARN] ThirdParty:813 - waiting for thirdparty lock release [close project]
+2021-12-05 22:23:28,366 [INFO] ThirdParty:815 - entering critical section [close project]
+2021-12-05 22:23:28,366 [INFO] ThirdParty:825 - exiting critical section [close project]
+2021-12-05 22:23:28,367 [INFO] PinOutPanel:1463 - setPackage(No Configuration,No Configuration)
+2021-12-05 22:23:28,379 [WARN] IpParametersView:144 - Warning: This peripheral hasn't parameters
+2021-12-05 22:23:28,385 [WARN] MainPanel:246 - <html><b><center>Warning: This peripheral has no parameters to be configured<br></b></html>
+2021-12-05 22:23:28,387 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 751269088 Bytes (1073741824)
+2021-12-05 22:23:28,387 [INFO] MicroXplorer:448 - Change Database Path : 
+2021-12-05 22:23:28,388 [INFO] MicroXplorer:478 - Change Database Version : DB.6.0.30
+2021-12-05 22:23:28,388 [INFO] OpenFileManager:313 - Change cursor
+2021-12-05 22:23:28,427 [INFO] RulesReader:57 - Compatibility file has been processed (242 Rules)
+2021-12-05 22:23:30,759 [INFO] Context:592 - Trying to add GPIOservice into a context  which must be forbidden
+2021-12-05 22:23:31,210 [INFO] RtosManager:484 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS
+2021-12-05 22:23:31,210 [INFO] RtosManager:484 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS
+2021-12-05 22:23:31,210 [INFO] RtosManager:484 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS
+2021-12-05 22:23:31,210 [INFO] RtosManager:484 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS
+2021-12-05 22:23:31,210 [WARN] ModelIntegratedComponent:181 - Missing modes for component STMicroelectronics:FreeRTOS:0.0.1:STMicroelectronics:RTOS:FreeRTOS:Core:::10.2.0:
+2021-12-05 22:23:31,211 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-05 22:23:31,211 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-05 22:23:31,211 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-05 22:23:31,211 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-05 22:23:31,212 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-05 22:23:31,212 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-05 22:23:31,212 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-05 22:23:31,212 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-05 22:23:31,212 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-05 22:23:31,212 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-05 22:23:31,212 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-05 22:23:31,212 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-05 22:23:31,212 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-05 22:23:31,212 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-05 22:23:31,213 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-05 22:23:31,213 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-05 22:23:31,213 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-05 22:23:31,213 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-05 22:23:31,213 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-05 22:23:31,213 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-05 22:23:31,213 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-05 22:23:31,213 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-05 22:23:31,213 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-05 22:23:31,213 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-05 22:23:31,214 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-05 22:23:31,214 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-05 22:23:31,214 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-05 22:23:31,214 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-05 22:23:31,214 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-05 22:23:31,214 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-05 22:23:31,214 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-05 22:23:31,215 [WARN] ApiManager:304 - Cannot register API 'Wireless:BlueNRG-MS' from pack STMicroelectronics.X-CUBE-BLE1.6.2.2: no header file found
+2021-12-05 22:23:31,397 [WARN] ApiManager:304 - Cannot register API 'Board Extension:IKS01A3' from pack STMicroelectronics.X-CUBE-MEMS1.9.1.0: no header file found
+2021-12-05 22:23:31,397 [WARN] ApiManager:304 - Cannot register API 'Board Extension:IKS01A2' from pack STMicroelectronics.X-CUBE-MEMS1.9.1.0: no header file found
+2021-12-05 22:23:31,397 [WARN] ApiManager:304 - Cannot register API 'Board Extension:IKS02A1' from pack STMicroelectronics.X-CUBE-MEMS1.9.1.0: no header file found
+2021-12-05 22:23:31,731 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Instance) has Id (DAC2) currently not set
+2021-12-05 22:23:31,731 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Channel) has Id (DAC2) currently not set
+2021-12-05 22:23:31,732 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Direction) has Id (DAC2) currently not set
+2021-12-05 22:23:31,732 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) IP (DMA) : Parameter (PeriphInc) has Id (DAC2) currently not set
+2021-12-05 22:23:31,732 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) IP (DMA) : Parameter (MemInc) has Id (DAC2) currently not set
+2021-12-05 22:23:31,732 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) IP (DMA) : Parameter (PeriphDataAlignment) has Id (DAC2) currently not set
+2021-12-05 22:23:31,733 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) IP (DMA) : Parameter (MemDataAlignment) has Id (DAC2) currently not set
+2021-12-05 22:23:31,733 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Mode) has Id (DAC2) currently not set
+2021-12-05 22:23:31,733 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Priority) has Id (DAC2) currently not set
+2021-12-05 22:23:31,733 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) IP (DMA) : Parameter (FIFOMode) has Id (DAC2) currently not set
+2021-12-05 22:23:31,734 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) IP (RCC) : Parameter (RTCHSEDivFreq_Value) has invalid value (4000000)
+2021-12-05 22:23:32,046 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 800240248 Bytes (1073741824)
+2021-12-05 22:23:32,047 [WARN] ThirdParty:779 - waiting for thirdparty lock release [change project]
+2021-12-05 22:23:32,047 [INFO] ThirdParty:781 - entering critical section [change project]
+2021-12-05 22:23:32,047 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2021-12-05 22:23:32,047 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G4 1.0.0
+2021-12-05 22:23:32,047 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L5 1.0.0
+2021-12-05 22:23:32,047 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2021-12-05 22:23:32,047 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2021-12-05 22:23:32,047 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2021-12-05 22:23:32,048 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics HAL Drivers 0.0.0
+2021-12-05 22:23:32,048 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2021-12-05 22:23:32,048 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics ThreadX 0.0.2
+2021-12-05 22:23:32,048 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2021-12-05 22:23:32,048 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2021-12-05 22:23:32,048 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2021-12-05 22:23:32,048 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.2.2
+2021-12-05 22:23:32,048 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F7 1.0.0
+2021-12-05 22:23:32,048 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 2.0.0
+2021-12-05 22:23:32,048 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2021-12-05 22:23:32,048 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.1.0
+2021-12-05 22:23:32,048 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2021-12-05 22:23:32,048 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2021-12-05 22:23:32,048 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2021-12-05 22:23:32,049 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2021-12-05 22:23:32,049 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.18.0
+2021-12-05 22:23:32,049 [INFO] ThirdParty:787 - exiting critical section [change project]
+2021-12-05 22:23:32,272 [INFO] PinOutPanel:1463 - setPackage(No Configuration,No Configuration)
+2021-12-05 22:23:32,273 [INFO] PinOutPanel:1463 - setPackage(STM32F407VGTx,LQFP100)
+2021-12-05 22:23:32,752 [INFO] UtilMem:74 - Before build in PCC Used Memory: 831149968 Bytes (1073741824)
+2021-12-05 22:23:33,073 [INFO] UtilMem:74 - After build in PCC Used Memory: 905076624 Bytes (1073741824)
+2021-12-05 22:23:33,117 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 22:23:33,117 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 22:23:33,117 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 22:23:33,118 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 22:23:33,118 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 22:23:33,118 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 22:23:33,118 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 22:23:33,118 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 22:23:33,119 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 22:23:33,119 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 22:23:33,119 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 22:23:33,119 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 22:23:33,119 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 22:23:33,120 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 22:23:33,120 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 22:23:33,120 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 22:23:33,120 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 22:23:33,120 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 22:23:33,121 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 22:23:33,121 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 22:23:33,121 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 22:23:33,122 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 22:23:33,122 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 22:23:33,122 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 22:23:33,123 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 22:23:33,123 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 22:23:33,124 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 22:23:33,125 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 22:23:33,125 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 22:23:33,126 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 22:23:33,126 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 22:23:33,127 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 22:23:33,127 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 22:23:33,128 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 22:23:33,128 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 22:23:33,129 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 22:23:33,129 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 22:23:33,130 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 22:23:33,130 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 22:23:33,131 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 22:23:33,131 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 22:23:33,132 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 22:23:33,132 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 22:23:33,133 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 22:23:33,133 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 22:23:33,134 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 22:23:33,134 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 22:23:33,135 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 22:23:33,136 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 22:23:33,137 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 22:23:33,137 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 22:23:33,138 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 22:23:33,139 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 22:23:33,140 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 22:23:33,141 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 22:23:33,142 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 22:23:33,143 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 22:23:33,143 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-05 22:23:33,162 [INFO] ApiDbMcu:468 - Load IP Config File for PDM2PCM
+2021-12-05 22:23:33,203 [INFO] OpenFileManager:333 - Restore cursor
+2021-12-05 22:23:46,752 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,450x151,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021-12-05 22:23:53,428 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 841276816 Bytes (1073741824)
+2021-12-05 22:23:56,611 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 876707704 Bytes (1073741824)
+2021-12-05 22:23:58,737 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 697916816 Bytes (1073741824)
+2021-12-05 22:23:59,163 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8
+2021-12-05 22:23:59,163 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2021-12-05 22:23:59,163 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2021-12-05 22:23:59,163 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2021-12-05 22:23:59,163 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: DMA
+2021-12-05 22:23:59,163 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: DAC
+2021-12-05 22:23:59,164 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2021-12-05 22:23:59,164 [INFO] CodeGenerator:663 - code generatio: config db path: C:\ST\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\
+2021-12-05 22:23:59,168 [INFO] Argument:294 - Argument : hdmavalue: null
+2021-12-05 22:23:59,169 [INFO] Argument:296 - 	 sub Args: 
+2021-12-05 22:23:59,169 [INFO] Argument:294 - Argument : Instancevalue: DMA1_Stream6
+2021-12-05 22:23:59,169 [INFO] Argument:304 - Argument : Instancevalue: DMA1_Stream6
+2021-12-05 22:23:59,169 [INFO] Argument:294 - Argument : Initvalue: null
+2021-12-05 22:23:59,169 [INFO] Argument:296 - 	 sub Args: 
+2021-12-05 22:23:59,169 [INFO] Argument:294 - Argument : Channelvalue: DMA_CHANNEL_7
+2021-12-05 22:23:59,169 [INFO] Argument:304 - Argument : Channelvalue: DMA_CHANNEL_7
+2021-12-05 22:23:59,169 [INFO] Argument:294 - Argument : Directionvalue: DMA_MEMORY_TO_PERIPH
+2021-12-05 22:23:59,169 [INFO] Argument:304 - Argument : Directionvalue: DMA_MEMORY_TO_PERIPH
+2021-12-05 22:23:59,169 [INFO] Argument:294 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2021-12-05 22:23:59,169 [INFO] Argument:304 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2021-12-05 22:23:59,170 [INFO] Argument:294 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2021-12-05 22:23:59,170 [INFO] Argument:304 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2021-12-05 22:23:59,170 [INFO] Argument:294 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2021-12-05 22:23:59,170 [INFO] Argument:304 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2021-12-05 22:23:59,170 [INFO] Argument:294 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2021-12-05 22:23:59,170 [INFO] Argument:304 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2021-12-05 22:23:59,170 [INFO] Argument:294 - Argument : Modevalue: DMA_CIRCULAR
+2021-12-05 22:23:59,170 [INFO] Argument:304 - Argument : Modevalue: DMA_CIRCULAR
+2021-12-05 22:23:59,170 [INFO] Argument:294 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2021-12-05 22:23:59,170 [INFO] Argument:304 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2021-12-05 22:23:59,170 [INFO] Argument:294 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2021-12-05 22:23:59,170 [INFO] Argument:304 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2021-12-05 22:23:59,170 [INFO] Argument:294 - Argument : FIFOThresholdvalue: null
+2021-12-05 22:23:59,171 [INFO] Argument:304 - Argument : FIFOThresholdvalue: null
+2021-12-05 22:23:59,171 [INFO] Argument:294 - Argument : MemBurstvalue: null
+2021-12-05 22:23:59,171 [INFO] Argument:304 - Argument : MemBurstvalue: null
+2021-12-05 22:23:59,171 [INFO] Argument:294 - Argument : PeriphBurstvalue: null
+2021-12-05 22:23:59,171 [INFO] Argument:304 - Argument : PeriphBurstvalue: null
+2021-12-05 22:23:59,171 [INFO] Argument:294 - Argument : Lockvalue: null
+2021-12-05 22:23:59,171 [INFO] Argument:304 - Argument : Lockvalue: null
+2021-12-05 22:23:59,171 [INFO] Argument:294 - Argument : Statevalue: null
+2021-12-05 22:23:59,171 [INFO] Argument:304 - Argument : Statevalue: null
+2021-12-05 22:23:59,171 [INFO] Argument:294 - Argument : Parentvalue: null
+2021-12-05 22:23:59,171 [INFO] Argument:304 - Argument : Parentvalue: null
+2021-12-05 22:23:59,171 [INFO] Argument:294 - Argument : XferCpltCallbackvalue: null
+2021-12-05 22:23:59,171 [INFO] Argument:304 - Argument : XferCpltCallbackvalue: null
+2021-12-05 22:23:59,172 [INFO] Argument:294 - Argument : XferHalfCpltCallbackvalue: null
+2021-12-05 22:23:59,172 [INFO] Argument:304 - Argument : XferHalfCpltCallbackvalue: null
+2021-12-05 22:23:59,172 [INFO] Argument:294 - Argument : XferM1CpltCallbackvalue: null
+2021-12-05 22:23:59,172 [INFO] Argument:304 - Argument : XferM1CpltCallbackvalue: null
+2021-12-05 22:23:59,172 [INFO] Argument:294 - Argument : XferErrorCallbackvalue: null
+2021-12-05 22:23:59,172 [INFO] Argument:304 - Argument : XferErrorCallbackvalue: null
+2021-12-05 22:23:59,172 [INFO] Argument:294 - Argument : ErrorCodevalue: null
+2021-12-05 22:23:59,172 [INFO] Argument:304 - Argument : ErrorCodevalue: null
+2021-12-05 22:23:59,622 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DDS-generator\MXTmpFiles\license.tmp_save
+2021-12-05 22:23:59,698 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DDS-generator\MXTmpFiles\license.tmp
+2021-12-05 22:23:59,733 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DDS-generator\MXTmpFiles\gpio.tmp_save
+2021-12-05 22:23:59,816 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DDS-generator\MXTmpFiles\gpio.tmp
+2021-12-05 22:23:59,973 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DDS-generator\MXTmpFiles\dma.tmp_save
+2021-12-05 22:24:00,032 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DDS-generator\MXTmpFiles\dma.tmp
+2021-12-05 22:24:00,034 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DDS-generator\MXTmpFiles\dma_GV.tmp_save
+2021-12-05 22:24:00,096 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DDS-generator\MXTmpFiles\dma_GV.tmp
+2021-12-05 22:24:00,115 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DDS-generator\Core\Src\stm32f4xx_it.c_save
+2021-12-05 22:24:00,320 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DDS-generator\Core\Src\stm32f4xx_it.c
+2021-12-05 22:24:00,325 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DDS-generator\Core\Inc\stm32f4xx_it.h_save
+2021-12-05 22:24:00,386 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DDS-generator\Core\Inc\stm32f4xx_it.h
+2021-12-05 22:24:00,400 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DDS-generator\Core\Src\stm32f4xx_hal_msp.c_save
+2021-12-05 22:24:00,503 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DDS-generator\Core\Src\stm32f4xx_hal_msp.c
+2021-12-05 22:24:00,506 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DDS-generator\MXTmpFiles\system.tmp_save
+2021-12-05 22:24:00,557 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DDS-generator\MXTmpFiles\system.tmp
+2021-12-05 22:24:00,571 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DDS-generator\Core\Inc\stm32f4xx_hal_conf.h_save
+2021-12-05 22:24:00,651 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DDS-generator\Core\Inc\stm32f4xx_hal_conf.h
+2021-12-05 22:24:00,692 [WARN] IPConfigManager:3148 - IP not found : TIM
+2021-12-05 22:24:00,693 [WARN] CodeGenerator:3268 - IP not found : null
+2021-12-05 22:24:00,705 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DDS-generator\Core\Inc\main.h_save
+2021-12-05 22:24:00,769 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DDS-generator\Core\Inc\main.h
+2021-12-05 22:24:00,779 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DDS-generator\Core\Src\main.c_save
+2021-12-05 22:24:00,931 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DDS-generator\Core\Src\main.c
+2021-12-05 22:24:01,923 [INFO] ProjectBuilder:2578 - Time for Copy HAL[1] : 199mS.
+2021-12-05 22:24:01,926 [INFO] ProjectBuilder:3622 - Project Generator version: 3.14.1
+2021-12-05 22:24:02,394 [INFO] ConfigFileManager:1271 - The Die is : DIE413
+2021-12-05 22:24:02,403 [INFO] ApiDbMcu:468 - Load IP Config File for FATFS
+2021-12-05 22:24:02,430 [INFO] ApiDbMcu:468 - Load IP Config File for FREERTOS
+2021-12-05 22:24:02,436 [INFO] ApiDbMcu:468 - Load IP Config File for LIBJPEG
+2021-12-05 22:24:02,506 [INFO] ApiDbMcu:468 - Load IP Config File for LWIP
+2021-12-05 22:24:02,595 [INFO] ApiDbMcu:468 - Load IP Config File for MBEDTLS
+2021-12-05 22:24:02,632 [INFO] ApiDbMcu:468 - Load IP Config File for USB_DEVICE
+2021-12-05 22:24:02,642 [INFO] ApiDbMcu:468 - Load IP Config File for USB_HOST
+2021-12-05 22:24:04,933 [INFO] ProjectBuilder:3789 - Time for Generating toolchain IDE Files: 3007mS.
+2021-12-05 22:24:04,934 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
+2021-12-05 22:24:04,936 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
+2021-12-06 08:35:30,305 [INFO] MainUpdater:2671 - connection check result : 10
+2021-12-06 08:35:30,307 [INFO] MainUpdater:2671 - connection check result : 10
+2021-12-06 08:35:30,442 [INFO] MicroXplorer:448 - Change Database Path : 
+2021-12-06 08:35:30,443 [INFO] MicroXplorer:478 - Change Database Version : DB.6.0.30
+2021-12-06 08:35:30,444 [WARN] ThirdParty:813 - waiting for thirdparty lock release [close project]
+2021-12-06 08:35:30,444 [INFO] ThirdParty:815 - entering critical section [close project]
+2021-12-06 08:35:30,444 [INFO] ThirdParty:825 - exiting critical section [close project]
+2021-12-06 08:35:30,447 [INFO] PinOutPanel:1463 - setPackage(No Configuration,No Configuration)
+2021-12-06 08:35:30,462 [WARN] IpParametersView:144 - Warning: This peripheral hasn't parameters
+2021-12-06 08:35:30,466 [WARN] MainPanel:246 - <html><b><center>Warning: This peripheral has no parameters to be configured<br></b></html>
+2021-12-06 08:35:30,468 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 706213224 Bytes (1073741824)
+2021-12-06 08:35:30,469 [INFO] MicroXplorer:448 - Change Database Path : 
+2021-12-06 08:35:30,469 [INFO] MicroXplorer:478 - Change Database Version : DB.6.0.30
+2021-12-06 08:35:30,469 [INFO] OpenFileManager:313 - Change cursor
+2021-12-06 08:35:30,501 [INFO] RulesReader:57 - Compatibility file has been processed (242 Rules)
+2021-12-06 08:35:32,866 [INFO] Context:592 - Trying to add GPIOservice into a context  which must be forbidden
+2021-12-06 08:35:33,289 [INFO] RtosManager:484 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS
+2021-12-06 08:35:33,289 [INFO] RtosManager:484 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS
+2021-12-06 08:35:33,289 [INFO] RtosManager:484 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS
+2021-12-06 08:35:33,289 [INFO] RtosManager:484 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS
+2021-12-06 08:35:33,289 [WARN] ModelIntegratedComponent:181 - Missing modes for component STMicroelectronics:FreeRTOS:0.0.1:STMicroelectronics:RTOS:FreeRTOS:Core:::10.2.0:
+2021-12-06 08:35:33,290 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-06 08:35:33,290 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-06 08:35:33,290 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-06 08:35:33,290 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-06 08:35:33,290 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-06 08:35:33,290 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-06 08:35:33,290 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-06 08:35:33,290 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-06 08:35:33,290 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-06 08:35:33,290 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-06 08:35:33,290 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-06 08:35:33,291 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-06 08:35:33,291 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-06 08:35:33,291 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-06 08:35:33,291 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-06 08:35:33,291 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-06 08:35:33,291 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-06 08:35:33,291 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-06 08:35:33,291 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-06 08:35:33,291 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-06 08:35:33,291 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-06 08:35:33,291 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-06 08:35:33,291 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-06 08:35:33,292 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-06 08:35:33,292 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-06 08:35:33,292 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-06 08:35:33,292 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-06 08:35:33,292 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-06 08:35:33,292 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-06 08:35:33,292 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-06 08:35:33,292 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-06 08:35:33,293 [WARN] ApiManager:304 - Cannot register API 'Wireless:BlueNRG-MS' from pack STMicroelectronics.X-CUBE-BLE1.6.2.2: no header file found
+2021-12-06 08:35:33,503 [WARN] ApiManager:304 - Cannot register API 'Board Extension:IKS01A3' from pack STMicroelectronics.X-CUBE-MEMS1.9.1.0: no header file found
+2021-12-06 08:35:33,503 [WARN] ApiManager:304 - Cannot register API 'Board Extension:IKS01A2' from pack STMicroelectronics.X-CUBE-MEMS1.9.1.0: no header file found
+2021-12-06 08:35:33,504 [WARN] ApiManager:304 - Cannot register API 'Board Extension:IKS02A1' from pack STMicroelectronics.X-CUBE-MEMS1.9.1.0: no header file found
+2021-12-06 08:35:33,898 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Instance) has Id (ADC1) currently not set
+2021-12-06 08:35:33,898 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Channel) has Id (ADC1) currently not set
+2021-12-06 08:35:33,898 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Direction) has Id (ADC1) currently not set
+2021-12-06 08:35:33,898 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) IP (DMA) : Parameter (PeriphInc) has Id (ADC1) currently not set
+2021-12-06 08:35:33,898 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) IP (DMA) : Parameter (MemInc) has Id (ADC1) currently not set
+2021-12-06 08:35:33,899 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) IP (DMA) : Parameter (PeriphDataAlignment) has Id (ADC1) currently not set
+2021-12-06 08:35:33,899 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) IP (DMA) : Parameter (MemDataAlignment) has Id (ADC1) currently not set
+2021-12-06 08:35:33,899 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Mode) has Id (ADC1) currently not set
+2021-12-06 08:35:33,899 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Priority) has Id (ADC1) currently not set
+2021-12-06 08:35:33,899 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) IP (DMA) : Parameter (FIFOMode) has Id (ADC1) currently not set
+2021-12-06 08:35:33,900 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) IP (RCC) : Parameter (RTCHSEDivFreq_Value) has invalid value (4000000)
+2021-12-06 08:35:34,231 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 799837976 Bytes (1073741824)
+2021-12-06 08:35:34,232 [WARN] ThirdParty:779 - waiting for thirdparty lock release [change project]
+2021-12-06 08:35:34,232 [INFO] ThirdParty:781 - entering critical section [change project]
+2021-12-06 08:35:34,232 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2021-12-06 08:35:34,232 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G4 1.0.0
+2021-12-06 08:35:34,232 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L5 1.0.0
+2021-12-06 08:35:34,233 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2021-12-06 08:35:34,233 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2021-12-06 08:35:34,233 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2021-12-06 08:35:34,233 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics HAL Drivers 0.0.0
+2021-12-06 08:35:34,233 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2021-12-06 08:35:34,233 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics ThreadX 0.0.2
+2021-12-06 08:35:34,233 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2021-12-06 08:35:34,233 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2021-12-06 08:35:34,233 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2021-12-06 08:35:34,233 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.2.2
+2021-12-06 08:35:34,233 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F7 1.0.0
+2021-12-06 08:35:34,233 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 2.0.0
+2021-12-06 08:35:34,233 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2021-12-06 08:35:34,233 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.1.0
+2021-12-06 08:35:34,234 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2021-12-06 08:35:34,234 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2021-12-06 08:35:34,234 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2021-12-06 08:35:34,234 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2021-12-06 08:35:34,234 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.18.0
+2021-12-06 08:35:34,234 [INFO] ThirdParty:787 - exiting critical section [change project]
+2021-12-06 08:35:34,493 [INFO] PinOutPanel:1463 - setPackage(No Configuration,No Configuration)
+2021-12-06 08:35:34,494 [INFO] PinOutPanel:1463 - setPackage(STM32F407VGTx,LQFP100)
+2021-12-06 08:35:34,942 [INFO] UtilMem:74 - Before build in PCC Used Memory: 886370376 Bytes (1073741824)
+2021-12-06 08:35:35,214 [INFO] UtilMem:74 - After build in PCC Used Memory: 698383240 Bytes (1073741824)
+2021-12-06 08:35:35,259 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:35:35,259 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:35:35,259 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:35:35,259 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:35:35,259 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:35:35,260 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:35:35,260 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:35:35,260 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:35:35,260 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:35:35,260 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:35:35,260 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:35:35,261 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:35:35,261 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:35:35,261 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:35:35,261 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:35:35,261 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:35:35,261 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:35:35,262 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:35:35,262 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:35:35,262 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:35:35,262 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:35:35,263 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:35:35,263 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:35:35,263 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:35:35,264 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:35:35,264 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:35:35,264 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:35:35,265 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:35:35,265 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:35:35,265 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:35:35,266 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:35:35,266 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:35:35,266 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:35:35,267 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:35:35,267 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:35:35,268 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:35:35,268 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:35:35,268 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:35:35,269 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:35:35,269 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:35:35,270 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:35:35,270 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:35:35,270 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:35:35,270 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:35:35,270 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:35:35,272 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:35:35,272 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:35:35,273 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:35:35,273 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:35:35,274 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:35:35,274 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:35:35,275 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:35:35,276 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:35:35,276 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:35:35,277 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:35:35,278 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:35:35,279 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:35:35,279 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:35:35,289 [INFO] ApiDbMcu:468 - Load IP Config File for PDM2PCM
+2021-12-06 08:35:35,309 [INFO] OpenFileManager:333 - Restore cursor
+2021-12-06 08:35:41,639 [INFO] ADCParametersView:103 -                Rank 1 : false
+2021-12-06 08:35:43,524 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,450x151,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021-12-06 08:42:10,287 [INFO] MainUpdater:2671 - connection check result : 10
+2021-12-06 08:42:10,287 [INFO] MainUpdater:2671 - connection check result : 10
+2021-12-06 08:42:10,356 [INFO] MicroXplorer:448 - Change Database Path : 
+2021-12-06 08:42:10,356 [INFO] MicroXplorer:478 - Change Database Version : DB.6.0.30
+2021-12-06 08:42:10,357 [WARN] ThirdParty:813 - waiting for thirdparty lock release [close project]
+2021-12-06 08:42:10,357 [INFO] ThirdParty:815 - entering critical section [close project]
+2021-12-06 08:42:10,357 [INFO] ThirdParty:825 - exiting critical section [close project]
+2021-12-06 08:42:10,358 [INFO] PinOutPanel:1463 - setPackage(No Configuration,No Configuration)
+2021-12-06 08:42:10,368 [WARN] IpParametersView:144 - Warning: This peripheral hasn't parameters
+2021-12-06 08:42:10,372 [WARN] MainPanel:246 - <html><b><center>Warning: This peripheral has no parameters to be configured<br></b></html>
+2021-12-06 08:42:10,375 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 813096728 Bytes (1073741824)
+2021-12-06 08:42:10,375 [INFO] MicroXplorer:448 - Change Database Path : 
+2021-12-06 08:42:10,376 [INFO] MicroXplorer:478 - Change Database Version : DB.6.0.30
+2021-12-06 08:42:10,377 [INFO] OpenFileManager:313 - Change cursor
+2021-12-06 08:42:12,812 [INFO] Context:592 - Trying to add GPIOservice into a context  which must be forbidden
+2021-12-06 08:42:13,219 [INFO] RtosManager:484 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS
+2021-12-06 08:42:13,219 [INFO] RtosManager:484 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS
+2021-12-06 08:42:13,220 [INFO] RtosManager:484 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS
+2021-12-06 08:42:13,220 [INFO] RtosManager:484 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS
+2021-12-06 08:42:13,220 [WARN] ModelIntegratedComponent:181 - Missing modes for component STMicroelectronics:FreeRTOS:0.0.1:STMicroelectronics:RTOS:FreeRTOS:Core:::10.2.0:
+2021-12-06 08:42:13,220 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-06 08:42:13,220 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-06 08:42:13,221 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-06 08:42:13,221 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-06 08:42:13,221 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-06 08:42:13,221 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-06 08:42:13,221 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-06 08:42:13,221 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-06 08:42:13,221 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-06 08:42:13,221 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-06 08:42:13,221 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-06 08:42:13,221 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-06 08:42:13,221 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-06 08:42:13,222 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-06 08:42:13,222 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-06 08:42:13,222 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-06 08:42:13,222 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-06 08:42:13,222 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-06 08:42:13,222 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-06 08:42:13,222 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-06 08:42:13,222 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-06 08:42:13,222 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-06 08:42:13,222 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-06 08:42:13,222 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-06 08:42:13,223 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-06 08:42:13,223 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-06 08:42:13,223 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-06 08:42:13,223 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-06 08:42:13,223 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-06 08:42:13,223 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-06 08:42:13,223 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-06 08:42:13,224 [WARN] ApiManager:304 - Cannot register API 'Wireless:BlueNRG-MS' from pack STMicroelectronics.X-CUBE-BLE1.6.2.2: no header file found
+2021-12-06 08:42:13,412 [WARN] ApiManager:304 - Cannot register API 'Board Extension:IKS01A3' from pack STMicroelectronics.X-CUBE-MEMS1.9.1.0: no header file found
+2021-12-06 08:42:13,412 [WARN] ApiManager:304 - Cannot register API 'Board Extension:IKS01A2' from pack STMicroelectronics.X-CUBE-MEMS1.9.1.0: no header file found
+2021-12-06 08:42:13,412 [WARN] ApiManager:304 - Cannot register API 'Board Extension:IKS02A1' from pack STMicroelectronics.X-CUBE-MEMS1.9.1.0: no header file found
+2021-12-06 08:42:13,760 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Instance) has Id (DAC2) currently not set
+2021-12-06 08:42:13,760 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Channel) has Id (DAC2) currently not set
+2021-12-06 08:42:13,760 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Direction) has Id (DAC2) currently not set
+2021-12-06 08:42:13,760 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) IP (DMA) : Parameter (PeriphInc) has Id (DAC2) currently not set
+2021-12-06 08:42:13,760 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) IP (DMA) : Parameter (MemInc) has Id (DAC2) currently not set
+2021-12-06 08:42:13,761 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) IP (DMA) : Parameter (PeriphDataAlignment) has Id (DAC2) currently not set
+2021-12-06 08:42:13,761 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) IP (DMA) : Parameter (MemDataAlignment) has Id (DAC2) currently not set
+2021-12-06 08:42:13,761 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Mode) has Id (DAC2) currently not set
+2021-12-06 08:42:13,761 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Priority) has Id (DAC2) currently not set
+2021-12-06 08:42:13,761 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) IP (DMA) : Parameter (FIFOMode) has Id (DAC2) currently not set
+2021-12-06 08:42:13,762 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) IP (RCC) : Parameter (RTCHSEDivFreq_Value) has invalid value (4000000)
+2021-12-06 08:42:14,091 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 734533528 Bytes (1073741824)
+2021-12-06 08:42:14,092 [WARN] ThirdParty:779 - waiting for thirdparty lock release [change project]
+2021-12-06 08:42:14,092 [INFO] ThirdParty:781 - entering critical section [change project]
+2021-12-06 08:42:14,092 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2021-12-06 08:42:14,092 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G4 1.0.0
+2021-12-06 08:42:14,092 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L5 1.0.0
+2021-12-06 08:42:14,092 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2021-12-06 08:42:14,092 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2021-12-06 08:42:14,092 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2021-12-06 08:42:14,092 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics HAL Drivers 0.0.0
+2021-12-06 08:42:14,092 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2021-12-06 08:42:14,092 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics ThreadX 0.0.2
+2021-12-06 08:42:14,093 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2021-12-06 08:42:14,093 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2021-12-06 08:42:14,093 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2021-12-06 08:42:14,093 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.2.2
+2021-12-06 08:42:14,093 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F7 1.0.0
+2021-12-06 08:42:14,093 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 2.0.0
+2021-12-06 08:42:14,093 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2021-12-06 08:42:14,093 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.1.0
+2021-12-06 08:42:14,093 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2021-12-06 08:42:14,093 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2021-12-06 08:42:14,093 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2021-12-06 08:42:14,093 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2021-12-06 08:42:14,093 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.18.0
+2021-12-06 08:42:14,093 [INFO] ThirdParty:787 - exiting critical section [change project]
+2021-12-06 08:42:14,314 [INFO] PinOutPanel:1463 - setPackage(No Configuration,No Configuration)
+2021-12-06 08:42:14,314 [INFO] PinOutPanel:1463 - setPackage(STM32F407VGTx,LQFP100)
+2021-12-06 08:42:14,852 [INFO] UtilMem:74 - Before build in PCC Used Memory: 796862360 Bytes (1073741824)
+2021-12-06 08:42:15,259 [INFO] UtilMem:74 - After build in PCC Used Memory: 871311256 Bytes (1073741824)
+2021-12-06 08:42:15,292 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:42:15,292 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:42:15,292 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:42:15,293 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:42:15,293 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:42:15,293 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:42:15,293 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:42:15,293 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:42:15,294 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:42:15,294 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:42:15,294 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:42:15,294 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:42:15,294 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:42:15,295 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:42:15,295 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:42:15,295 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:42:15,296 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:42:15,296 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:42:15,296 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:42:15,296 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:42:15,297 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:42:15,297 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:42:15,298 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:42:15,298 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:42:15,299 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:42:15,299 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:42:15,299 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:42:15,300 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:42:15,300 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:42:15,301 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:42:15,301 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:42:15,302 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:42:15,303 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:42:15,304 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:42:15,304 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:42:15,304 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:42:15,304 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:42:15,305 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:42:15,305 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:42:15,306 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:42:15,307 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:42:15,307 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:42:15,308 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:42:15,308 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:42:15,309 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:42:15,309 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:42:15,310 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:42:15,311 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:42:15,312 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:42:15,312 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:42:15,313 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:42:15,314 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:42:15,315 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:42:15,316 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:42:15,317 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:42:15,318 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:42:15,320 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:42:15,320 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-06 08:42:15,325 [INFO] ApiDbMcu:468 - Load IP Config File for PDM2PCM
+2021-12-06 08:42:15,345 [INFO] OpenFileManager:333 - Restore cursor
+2021-12-06 08:42:24,069 [INFO] Gpio:254 - dependency for GPIO [DAC, RCC, SYS]
+2021-12-06 08:42:37,564 [INFO] Gpio:254 - dependency for GPIO [DAC, RCC, SYS]
+2021-12-06 08:43:30,368 [INFO] Gpio:254 - dependency for GPIO [DAC, RCC, SYS]
+2021-12-06 08:43:49,185 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021-12-06 08:43:53,855 [INFO] Gpio:254 - dependency for GPIO [DAC, RCC, SYS]
+2021-12-06 08:43:56,601 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 755317128 Bytes (1073741824)
+2021-12-06 08:43:57,812 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 790446472 Bytes (1073741824)
+2021-12-06 08:43:59,700 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 904214920 Bytes (1073741824)
+2021-12-06 08:44:00,130 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8
+2021-12-06 08:44:00,131 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2021-12-06 08:44:00,131 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2021-12-06 08:44:00,131 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2021-12-06 08:44:00,131 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: DMA
+2021-12-06 08:44:00,131 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: DAC
+2021-12-06 08:44:00,131 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2021-12-06 08:44:00,132 [INFO] CodeGenerator:663 - code generatio: config db path: C:\ST\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\
+2021-12-06 08:44:00,138 [INFO] Argument:294 - Argument : hdmavalue: null
+2021-12-06 08:44:00,138 [INFO] Argument:296 - 	 sub Args: 
+2021-12-06 08:44:00,138 [INFO] Argument:294 - Argument : Instancevalue: DMA1_Stream6
+2021-12-06 08:44:00,138 [INFO] Argument:304 - Argument : Instancevalue: DMA1_Stream6
+2021-12-06 08:44:00,138 [INFO] Argument:294 - Argument : Initvalue: null
+2021-12-06 08:44:00,139 [INFO] Argument:296 - 	 sub Args: 
+2021-12-06 08:44:00,139 [INFO] Argument:294 - Argument : Channelvalue: DMA_CHANNEL_7
+2021-12-06 08:44:00,139 [INFO] Argument:304 - Argument : Channelvalue: DMA_CHANNEL_7
+2021-12-06 08:44:00,139 [INFO] Argument:294 - Argument : Directionvalue: DMA_MEMORY_TO_PERIPH
+2021-12-06 08:44:00,139 [INFO] Argument:304 - Argument : Directionvalue: DMA_MEMORY_TO_PERIPH
+2021-12-06 08:44:00,139 [INFO] Argument:294 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2021-12-06 08:44:00,139 [INFO] Argument:304 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2021-12-06 08:44:00,139 [INFO] Argument:294 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2021-12-06 08:44:00,139 [INFO] Argument:304 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2021-12-06 08:44:00,139 [INFO] Argument:294 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2021-12-06 08:44:00,139 [INFO] Argument:304 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2021-12-06 08:44:00,139 [INFO] Argument:294 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2021-12-06 08:44:00,139 [INFO] Argument:304 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2021-12-06 08:44:00,139 [INFO] Argument:294 - Argument : Modevalue: DMA_CIRCULAR
+2021-12-06 08:44:00,140 [INFO] Argument:304 - Argument : Modevalue: DMA_CIRCULAR
+2021-12-06 08:44:00,140 [INFO] Argument:294 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2021-12-06 08:44:00,140 [INFO] Argument:304 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2021-12-06 08:44:00,140 [INFO] Argument:294 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2021-12-06 08:44:00,140 [INFO] Argument:304 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2021-12-06 08:44:00,140 [INFO] Argument:294 - Argument : FIFOThresholdvalue: null
+2021-12-06 08:44:00,140 [INFO] Argument:304 - Argument : FIFOThresholdvalue: null
+2021-12-06 08:44:00,140 [INFO] Argument:294 - Argument : MemBurstvalue: null
+2021-12-06 08:44:00,140 [INFO] Argument:304 - Argument : MemBurstvalue: null
+2021-12-06 08:44:00,140 [INFO] Argument:294 - Argument : PeriphBurstvalue: null
+2021-12-06 08:44:00,140 [INFO] Argument:304 - Argument : PeriphBurstvalue: null
+2021-12-06 08:44:00,140 [INFO] Argument:294 - Argument : Lockvalue: null
+2021-12-06 08:44:00,140 [INFO] Argument:304 - Argument : Lockvalue: null
+2021-12-06 08:44:00,140 [INFO] Argument:294 - Argument : Statevalue: null
+2021-12-06 08:44:00,141 [INFO] Argument:304 - Argument : Statevalue: null
+2021-12-06 08:44:00,141 [INFO] Argument:294 - Argument : Parentvalue: null
+2021-12-06 08:44:00,141 [INFO] Argument:304 - Argument : Parentvalue: null
+2021-12-06 08:44:00,141 [INFO] Argument:294 - Argument : XferCpltCallbackvalue: null
+2021-12-06 08:44:00,141 [INFO] Argument:304 - Argument : XferCpltCallbackvalue: null
+2021-12-06 08:44:00,141 [INFO] Argument:294 - Argument : XferHalfCpltCallbackvalue: null
+2021-12-06 08:44:00,141 [INFO] Argument:304 - Argument : XferHalfCpltCallbackvalue: null
+2021-12-06 08:44:00,141 [INFO] Argument:294 - Argument : XferM1CpltCallbackvalue: null
+2021-12-06 08:44:00,141 [INFO] Argument:304 - Argument : XferM1CpltCallbackvalue: null
+2021-12-06 08:44:00,141 [INFO] Argument:294 - Argument : XferErrorCallbackvalue: null
+2021-12-06 08:44:00,141 [INFO] Argument:304 - Argument : XferErrorCallbackvalue: null
+2021-12-06 08:44:00,141 [INFO] Argument:294 - Argument : ErrorCodevalue: null
+2021-12-06 08:44:00,141 [INFO] Argument:304 - Argument : ErrorCodevalue: null
+2021-12-06 08:44:00,625 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DDS-generator\MXTmpFiles\license.tmp_save
+2021-12-06 08:44:00,694 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DDS-generator\MXTmpFiles\license.tmp
+2021-12-06 08:44:00,766 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DDS-generator\MXTmpFiles\gpio.tmp_save
+2021-12-06 08:44:00,829 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DDS-generator\MXTmpFiles\gpio.tmp
+2021-12-06 08:44:01,067 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DDS-generator\MXTmpFiles\dma.tmp_save
+2021-12-06 08:44:01,130 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DDS-generator\MXTmpFiles\dma.tmp
+2021-12-06 08:44:01,132 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DDS-generator\MXTmpFiles\dma_GV.tmp_save
+2021-12-06 08:44:01,180 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DDS-generator\MXTmpFiles\dma_GV.tmp
+2021-12-06 08:44:01,206 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DDS-generator\Core\Src\stm32f4xx_it.c_save
+2021-12-06 08:44:01,302 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DDS-generator\Core\Src\stm32f4xx_it.c
+2021-12-06 08:44:01,313 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DDS-generator\Core\Inc\stm32f4xx_it.h_save
+2021-12-06 08:44:01,381 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DDS-generator\Core\Inc\stm32f4xx_it.h
+2021-12-06 08:44:01,404 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DDS-generator\Core\Src\stm32f4xx_hal_msp.c_save
+2021-12-06 08:44:01,495 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DDS-generator\Core\Src\stm32f4xx_hal_msp.c
+2021-12-06 08:44:01,504 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DDS-generator\MXTmpFiles\system.tmp_save
+2021-12-06 08:44:01,559 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DDS-generator\MXTmpFiles\system.tmp
+2021-12-06 08:44:01,580 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DDS-generator\Core\Inc\stm32f4xx_hal_conf.h_save
+2021-12-06 08:44:01,681 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DDS-generator\Core\Inc\stm32f4xx_hal_conf.h
+2021-12-06 08:44:01,725 [WARN] IPConfigManager:3148 - IP not found : TIM
+2021-12-06 08:44:01,726 [WARN] CodeGenerator:3268 - IP not found : null
+2021-12-06 08:44:01,744 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DDS-generator\Core\Inc\main.h_save
+2021-12-06 08:44:01,854 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DDS-generator\Core\Inc\main.h
+2021-12-06 08:44:01,872 [INFO] CodeEngine:239 - oldGeneratedFile, D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DDS-generator\Core\Src\main.c_save
+2021-12-06 08:44:02,066 [INFO] CodeEngine:257 - Generated code: D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DDS-generator\Core\Src\main.c
+2021-12-06 08:44:03,031 [INFO] ProjectBuilder:2578 - Time for Copy HAL[1] : 276mS.
+2021-12-06 08:44:03,035 [INFO] ProjectBuilder:3622 - Project Generator version: 3.14.1
+2021-12-06 08:44:03,564 [INFO] ConfigFileManager:1271 - The Die is : DIE413
+2021-12-06 08:44:03,579 [INFO] ApiDbMcu:468 - Load IP Config File for FATFS
+2021-12-06 08:44:03,608 [INFO] ApiDbMcu:468 - Load IP Config File for FREERTOS
+2021-12-06 08:44:03,615 [INFO] ApiDbMcu:468 - Load IP Config File for LIBJPEG
+2021-12-06 08:44:03,686 [INFO] ApiDbMcu:468 - Load IP Config File for LWIP
+2021-12-06 08:44:03,735 [INFO] ApiDbMcu:468 - Load IP Config File for MBEDTLS
+2021-12-06 08:44:03,784 [INFO] ApiDbMcu:468 - Load IP Config File for USB_DEVICE
+2021-12-06 08:44:03,804 [INFO] ApiDbMcu:468 - Load IP Config File for USB_HOST
+2021-12-06 08:44:06,225 [INFO] ProjectBuilder:3789 - Time for Generating toolchain IDE Files: 3190mS.
+2021-12-06 08:44:06,226 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
+2021-12-06 08:44:06,228 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.

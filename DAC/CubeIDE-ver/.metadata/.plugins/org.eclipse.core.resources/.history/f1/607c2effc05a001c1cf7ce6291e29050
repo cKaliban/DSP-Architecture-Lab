@@ -508,9 +508,9 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef * htim){
 			dds_phase_acc -= DAC_BUFF_LEN;
 		}
 
-		arm_fir_fast_q15(&S, &dac_data[dds_phase_acc], &dac_out_q15, BLOCK_SIZE);		// Pointer type should not matter
+		arm_fir_fast_q15(&S, &dac_data[dds_phase_acc], &dac_out_q15, BLOCK_SIZE);
 		dac_out = (uint16_t)dac_out_q15;
-		HAL_DAC_SetValue(&hdac, DAC_CHANNEL_2, DAC_ALIGN_12B_R, (uint32_t)(dac_out));	// Removed amplitude scaling for now
+		HAL_DAC_SetValue(&hdac, DAC_CHANNEL_2, DAC_ALIGN_12B_R, (uint32_t)(dac_out)); // Removed amplitude scalling for now
 	}
 }
 

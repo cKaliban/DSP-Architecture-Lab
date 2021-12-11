@@ -1108,7 +1108,7 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef * htim){
  800094a:	801a      	strh	r2, [r3, #0]
 		}
 
-		arm_fir_fast_q15(&S, &dac_data[dds_phase_acc], &dac_out_q15, BLOCK_SIZE);
+		arm_fir_fast_q15(&S, &dac_data[dds_phase_acc], &dac_out_q15, BLOCK_SIZE);		// Pointer type should not matter
  800094c:	4b0f      	ldr	r3, [pc, #60]	; (800098c <HAL_TIM_PeriodElapsedCallback+0x8c>)
  800094e:	881b      	ldrh	r3, [r3, #0]
  8000950:	005b      	lsls	r3, r3, #1
@@ -1121,7 +1121,7 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef * htim){
 		dac_out = (uint16_t)dac_out_q15;
  8000962:	f9b7 300c 	ldrsh.w	r3, [r7, #12]
  8000966:	81fb      	strh	r3, [r7, #14]
-		HAL_DAC_SetValue(&hdac, DAC_CHANNEL_2, DAC_ALIGN_12B_R, (uint32_t)(dac_out)); // Removed amplitude scalling for now
+		HAL_DAC_SetValue(&hdac, DAC_CHANNEL_2, DAC_ALIGN_12B_R, (uint32_t)(dac_out));	// Removed amplitude scaling for now
  8000968:	89fb      	ldrh	r3, [r7, #14]
  800096a:	2200      	movs	r2, #0
  800096c:	2110      	movs	r1, #16

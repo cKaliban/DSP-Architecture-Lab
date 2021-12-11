@@ -1,4 +1,4 @@
-21:26:04 **** Incremental Build of configuration Debug for project DDS-generator ****
+21:29:10 **** Incremental Build of configuration Debug for project DDS-generator ****
 make -j6 all 
 arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DARM_MATH_CM4 -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I"D:/GitHub/DSP-Architecture-Lab/DAC/CubeIDE-ver/DDS-generator/Drivers/CMSIS/DSP" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
 ../Core/Src/main.c: In function 'main':
@@ -11,7 +11,7 @@ D:/GitHub/DSP-Architecture-Lab/DAC/CubeIDE-ver/DDS-generator/Drivers/CMSIS/DSP/a
       |   ~~~~~~~~^~~~~~~
 ../Core/Src/main.c: In function 'HAL_TIM_PeriodElapsedCallback':
 ../Core/Src/main.c:511:24: warning: pointer targets in passing argument 2 of 'arm_fir_fast_q15' differ in signedness [-Wpointer-sign]
-  511 |   arm_fir_fast_q15(&S, &dac_data[dds_phase_acc], &dac_out_q15, BLOCK_SIZE);
+  511 |   arm_fir_fast_q15(&S, &dac_data[dds_phase_acc], &dac_out_q15, BLOCK_SIZE);  // Pointer type should not matter
       |                        ^~~~~~~~~~~~~~~~~~~~~~~~
       |                        |
       |                        uint16_t * {aka short unsigned int *}
@@ -34,5 +34,5 @@ Finished building: DDS-generator.bin
 Finished building: DDS-generator.list
  
 
-21:26:05 Build Finished. 0 errors, 2 warnings. (took 819ms)
+21:29:11 Build Finished. 0 errors, 2 warnings. (took 865ms)
 

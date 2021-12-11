@@ -368,3 +368,21 @@ org.eclipse.core.internal.resources.ResourceException: Marker id 89 not found.
 	at java.base/java.lang.Thread.run(Thread.java:834)
 !SUBENTRY 2 org.eclipse.core.resources 4 376 2021-12-06 09:46:27.479
 !MESSAGE Marker id 89 not found.
+!SESSION 2021-12-11 21:35:03.973 -----------------------------------------------
+eclipse.buildId=Version 1.7.0
+java.version=11.0.10
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pl_PL
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2021-12-11 21:35:24.050
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2021-12-11 21:35:24.165
+!MESSAGE Log4j initialized with config file D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2021-12-11 21:35:37.885
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-12-11 21:36:37.919
+!MESSAGE Indexed 'DDS-generator-noFIR' (23 sources, 101 headers) in 4,03 sec: 8 678 declarations; 43 094 references; 2 unresolved inclusions; 42 syntax errors; 147 unresolved names (0,28%)

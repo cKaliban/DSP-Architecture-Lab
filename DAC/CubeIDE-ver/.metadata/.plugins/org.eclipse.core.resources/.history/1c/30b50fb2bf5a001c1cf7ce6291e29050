@@ -65,8 +65,8 @@ const int16_t filter_taps[56] = {
       397,   -649
 };
 
-int16_t firStateQ15[BLOCK_SIZE + FT_NUM - 1];
-arm_fir_instance_q15 S;
+static int16_t firStateQ15[BLOCK_SIZE + FT_NUM - 1];
+
 //int16_t	dac_filtered[FT_NUM];
 uint16_t dma_buff[DMA_BUFF_LEN];
 uint16_t dac_data[DAC_BUFF_LEN] = {2000,2011,2021,2032,2043,2054,2064,2075,
@@ -241,7 +241,8 @@ int main(void)
   HAL_Init();
 
   /* USER CODE BEGIN Init */
-  arm_fir_init_q15(&S, FT_NUM, &filter_taps[0], &firStateQ15[0], BLOCK_SIZE);
+  arm_fir_instance_q15 S;
+  arm_fir_init_q15(S, FT_LEN, &filter_taps[0], &firStateQ15[0], BLOCK_SIZE);
   /* USER CODE END Init */
 
   /* Configure the system clock */
@@ -500,17 +501,14 @@ void dds_param_increment(){
 
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef * htim){
 	if(htim == &htim2){
-		int16_t dac_out_q15;
-		uint16_t dac_out;
 		dds_step = dds_frequency * DAC_BUFF_LEN / dds_sampling_frequency;
 		dds_phase_acc += dds_step;
 		if(dds_phase_acc >= DAC_BUFF_LEN){
 			dds_phase_acc -= DAC_BUFF_LEN;
 		}
 
-		arm_fir_fast_q15(&S, &dac_data[dds_phase_acc], &dac_out_q15, BLOCK_SIZE);
-		dac_out = (uint16_t)dac_out_q15;
-		HAL_DAC_SetValue(&hdac, DAC_CHANNEL_2, DAC_ALIGN_12B_R, (uint32_t)(dac_out)); // Removed amplitude scalling for now
+
+		HAL_DAC_SetValue(&hdac, DAC_CHANNEL_2, DAC_ALIGN_12B_R, (uint32_t)(dac_data[dds_phase_acc]));
 	}
 }
 

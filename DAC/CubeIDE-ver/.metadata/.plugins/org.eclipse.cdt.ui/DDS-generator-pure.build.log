@@ -1,19 +1,10 @@
-21:50:04 **** Incremental Build of configuration Debug for project DDS-generator-pure ****
-make -j6 all 
-arm-none-eabi-gcc -o "DDS-generator-pure.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DDS-generator-pure\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DDS-generator-pure.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: DDS-generator-pure.elf
- 
+00:11:31 **** Incremental Build of configuration Debug for project DDS-generator-pure ****
+make -j4 all 
 arm-none-eabi-size   DDS-generator-pure.elf 
-arm-none-eabi-objdump -h -S  DDS-generator-pure.elf  > "DDS-generator-pure.list"
-arm-none-eabi-objcopy  -O binary  DDS-generator-pure.elf  "DDS-generator-pure.bin"
    text	   data	    bss	    dec	    hex	filename
   12264	   2084	   1804	  16152	   3f18	DDS-generator-pure.elf
 Finished building: default.size.stdout
  
-Finished building: DDS-generator-pure.bin
-Finished building: DDS-generator-pure.list
- 
- 
 
-21:50:05 Build Finished. 0 errors, 0 warnings. (took 625ms)
+00:11:32 Build Finished. 0 errors, 0 warnings. (took 387ms)
 

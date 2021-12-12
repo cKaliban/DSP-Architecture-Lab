@@ -12,6 +12,7 @@ RM := rm -rf
 -include Drivers/STM32F4xx_HAL_Driver/Src/subdir.mk
 -include Core/Startup/subdir.mk
 -include Core/Src/subdir.mk
+-include subdir.mk
 -include objects.mk
 
 ifneq ($(MAKECMDGOALS),clean)
@@ -82,7 +83,7 @@ DDS-generator-pure.bin: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEP
 
 # Other Targets
 clean:
-	-$(RM) DDS-generator-pure.bin DDS-generator-pure.elf DDS-generator-pure.list default.size.stdout
+	-$(RM) $(SIZE_OUTPUT)$(OBJDUMP_LIST)$(EXECUTABLES)$(OBJS)$(S_DEPS)$(S_UPPER_DEPS)$(C_DEPS)$(OBJCOPY_BIN) DDS-generator-pure.elf
 	-@echo ' '
 
 secondary-outputs: $(SIZE_OUTPUT) $(OBJDUMP_LIST) $(OBJCOPY_BIN)
@@ -94,6 +95,6 @@ fail-specified-linker-script-missing:
 warn-no-linker-script-specified:
 	@echo 'Warning: No linker script specified. Check the linker settings in the build configuration.'
 
-.PHONY: all clean dependents main-build fail-specified-linker-script-missing warn-no-linker-script-specified
+.PHONY: all clean dependents fail-specified-linker-script-missing warn-no-linker-script-specified
 
 -include ../makefile.targets

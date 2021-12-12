@@ -1,0 +1,137 @@
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DARM_MATH_CM4 -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I"D:/GitHub/DSP-Architecture-Lab/DAC/CubeIDE-ver/DDS-generator-sinc-corrected/Drivers/CMSIS/DSP" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:341:32: warning: passing argument 3 of 'arm_fir_init_q15' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  341 |   arm_fir_init_q15(&S, FT_NUM, &filter_taps_2[0], &firStateQ15[0], BLOCK_SIZE);
+      |                                ^~~~~~~~~~~~~~~~~
+In file included from ../Core/Src/main.c:22:
+D:/GitHub/DSP-Architecture-Lab/DAC/CubeIDE-ver/DDS-generator-sinc-corrected/Drivers/CMSIS/DSP/arm_math.h:1119:11: note: expected 'q15_t *' {aka 'short int *'} but argument is of type 'const int16_t *' {aka 'const short int *'}
+ 1119 |   q15_t * pCoeffs,
+      |   ~~~~~~~~^~~~~~~
+../Core/Src/main.c: In function 'HAL_TIM_PeriodElapsedCallback':
+../Core/Src/main.c:610:16: warning: unsigned conversion from 'int' to 'uint8_t' {aka 'unsigned char'} changes value from '-2047' to '1' [-Woverflow]
+  610 |    uint8_t i = -2047;
+      |                ^
+../Core/Src/main.c:610:12: warning: unused variable 'i' [-Wunused-variable]
+  610 |    uint8_t i = -2047;
+      |            ^
+../Core/Src/main.c:613:16: warning: unsigned conversion from 'int' to 'uint8_t' {aka 'unsigned char'} changes value from '2047' to '255' [-Woverflow]
+  613 |    uint8_t i = 2047;
+      |                ^~~~
+../Core/Src/main.c:613:12: warning: unused variable 'i' [-Wunused-variable]
+  613 |    uint8_t i = 2047;
+      |            ^
+arm-none-eabi-gcc -o "DDS-generator-sinc-corrected.elf" @"objects.list"  -larm_cortexM4lf_math -mcpu=cortex-m4 -T"D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DDS-generator-sinc-corrected\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DDS-generator-sinc-corrected.map" -Wl,--gc-sections -static -L"D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DDS-generator-sinc-corrected\Drivers\CMSIS\Lib\GCC" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DDS-generator-sinc-corrected.elf
+ 
+arm-none-eabi-size   DDS-generator-sinc-corrected.elf 
+arm-none-eabi-objdump -h -S  DDS-generator-sinc-corrected.elf  > "DDS-generator-sinc-corrected.list"
+arm-none-eabi-objcopy  -O binary  DDS-generator-sinc-corrected.elf  "DDS-generator-sinc-corrected.bin"
+   text	   data	    bss	    dec	    hex	filename
+  13360	   4132	   1924	  19416	   4bd8	DDS-generator-sinc-corrected.elf
+Finished building: default.size.stdout
+ 
+Finished building: DDS-generator-sinc-corrected.bin
+ 
+Finished building: DDS-generator-sinc-corrected.list
+ 
+
+00:05:36 Build Finished. 0 errors, 5 warnings. (took 1s.304ms)
+
+00:05:36 **** Incremental Build of configuration Debug for project DDS-generator-sinc-corrected ****
+make -j4 all 
+arm-none-eabi-size   DDS-generator-sinc-corrected.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13360	   4132	   1924	  19416	   4bd8	DDS-generator-sinc-corrected.elf
+Finished building: default.size.stdout
+ 
+00:05:43 **** Incremental Build of configuration Debug for project DDS-generator-sinc-corrected ****
+make -j4 all 
+arm-none-eabi-size   DDS-generator-sinc-corrected.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13360	   4132	   1924	  19416	   4bd8	DDS-generator-sinc-corrected.elf
+Finished building: default.size.stdout
+ 
+00:06:58 **** Incremental Build of configuration Debug for project DDS-generator-sinc-corrected ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DARM_MATH_CM4 -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I"D:/GitHub/DSP-Architecture-Lab/DAC/CubeIDE-ver/DDS-generator-sinc-corrected/Drivers/CMSIS/DSP" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:341:32: warning: passing argument 3 of 'arm_fir_init_q15' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  341 |   arm_fir_init_q15(&S, FT_NUM, &filter_taps_2[0], &firStateQ15[0], BLOCK_SIZE);
+      |                                ^~~~~~~~~~~~~~~~~
+In file included from ../Core/Src/main.c:22:
+D:/GitHub/DSP-Architecture-Lab/DAC/CubeIDE-ver/DDS-generator-sinc-corrected/Drivers/CMSIS/DSP/arm_math.h:1119:11: note: expected 'q15_t *' {aka 'short int *'} but argument is of type 'const int16_t *' {aka 'const short int *'}
+ 1119 |   q15_t * pCoeffs,
+      |   ~~~~~~~~^~~~~~~
+../Core/Src/main.c: In function 'HAL_TIM_PeriodElapsedCallback':
+../Core/Src/main.c:610:26: warning: unsigned conversion from 'int' to 'uint8_t' {aka 'unsigned char'} changes value from '-2047' to '1' [-Woverflow]
+  610 |    uint8_t dac_out_q15 = -2047;
+      |                          ^
+../Core/Src/main.c:610:12: warning: unused variable 'dac_out_q15' [-Wunused-variable]
+  610 |    uint8_t dac_out_q15 = -2047;
+      |            ^~~~~~~~~~~
+../Core/Src/main.c:613:26: warning: unsigned conversion from 'int' to 'uint8_t' {aka 'unsigned char'} changes value from '2047' to '255' [-Woverflow]
+  613 |    uint8_t dac_out_q15 = 2047;
+      |                          ^~~~
+../Core/Src/main.c:613:12: warning: unused variable 'dac_out_q15' [-Wunused-variable]
+  613 |    uint8_t dac_out_q15 = 2047;
+      |            ^~~~~~~~~~~
+arm-none-eabi-gcc -o "DDS-generator-sinc-corrected.elf" @"objects.list"  -larm_cortexM4lf_math -mcpu=cortex-m4 -T"D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DDS-generator-sinc-corrected\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DDS-generator-sinc-corrected.map" -Wl,--gc-sections -static -L"D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DDS-generator-sinc-corrected\Drivers\CMSIS\Lib\GCC" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DDS-generator-sinc-corrected.elf
+ 
+arm-none-eabi-size   DDS-generator-sinc-corrected.elf 
+arm-none-eabi-objdump -h -S  DDS-generator-sinc-corrected.elf  > "DDS-generator-sinc-corrected.list"
+arm-none-eabi-objcopy  -O binary  DDS-generator-sinc-corrected.elf  "DDS-generator-sinc-corrected.bin"
+   text	   data	    bss	    dec	    hex	filename
+  13360	   4132	   1924	  19416	   4bd8	DDS-generator-sinc-corrected.elf
+Finished building: default.size.stdout
+ 
+Finished building: DDS-generator-sinc-corrected.bin
+ 
+Finished building: DDS-generator-sinc-corrected.list
+ 
+00:08:19 **** Incremental Build of configuration Debug for project DDS-generator-sinc-corrected ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DARM_MATH_CM4 -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I"D:/GitHub/DSP-Architecture-Lab/DAC/CubeIDE-ver/DDS-generator-sinc-corrected/Drivers/CMSIS/DSP" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:341:32: warning: passing argument 3 of 'arm_fir_init_q15' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  341 |   arm_fir_init_q15(&S, FT_NUM, &filter_taps_2[0], &firStateQ15[0], BLOCK_SIZE);
+      |                                ^~~~~~~~~~~~~~~~~
+In file included from ../Core/Src/main.c:22:
+D:/GitHub/DSP-Architecture-Lab/DAC/CubeIDE-ver/DDS-generator-sinc-corrected/Drivers/CMSIS/DSP/arm_math.h:1119:11: note: expected 'q15_t *' {aka 'short int *'} but argument is of type 'const int16_t *' {aka 'const short int *'}
+ 1119 |   q15_t * pCoeffs,
+      |   ~~~~~~~~^~~~~~~
+arm-none-eabi-gcc -o "DDS-generator-sinc-corrected.elf" @"objects.list"  -larm_cortexM4lf_math -mcpu=cortex-m4 -T"D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DDS-generator-sinc-corrected\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DDS-generator-sinc-corrected.map" -Wl,--gc-sections -static -L"D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DDS-generator-sinc-corrected\Drivers\CMSIS\Lib\GCC" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DDS-generator-sinc-corrected.elf
+ 
+arm-none-eabi-size   DDS-generator-sinc-corrected.elf 
+arm-none-eabi-objdump -h -S  DDS-generator-sinc-corrected.elf  > "DDS-generator-sinc-corrected.list"
+arm-none-eabi-objcopy  -O binary  DDS-generator-sinc-corrected.elf  "DDS-generator-sinc-corrected.bin"
+   text	   data	    bss	    dec	    hex	filename
+  13364	   4132	   1924	  19420	   4bdc	DDS-generator-sinc-corrected.elf
+Finished building: default.size.stdout
+ 
+Finished building: DDS-generator-sinc-corrected.bin
+ 
+Finished building: DDS-generator-sinc-corrected.list
+ 
+00:11:21 **** Incremental Build of configuration Debug for project DDS-generator-pure ****
+make -j4 all 
+arm-none-eabi-size   DDS-generator-pure.elf 
+   text	   data	    bss	    dec	    hex	filename
+  12264	   2084	   1804	  16152	   3f18	DDS-generator-pure.elf
+Finished building: default.size.stdout
+ 
+00:11:21 **** Incremental Build of configuration Debug for project DDS-generator-pure ****
+make -j4 all 
+arm-none-eabi-size   DDS-generator-pure.elf 
+   text	   data	    bss	    dec	    hex	filename
+  12264	   2084	   1804	  16152	   3f18	DDS-generator-pure.elf
+Finished building: default.size.stdout
+ 
+00:11:31 **** Incremental Build of configuration Debug for project DDS-generator-pure ****
+make -j4 all 
+arm-none-eabi-size   DDS-generator-pure.elf 
+   text	   data	    bss	    dec	    hex	filename
+  12264	   2084	   1804	  16152	   3f18	DDS-generator-pure.elf
+Finished building: default.size.stdout
+ 

@@ -1,0 +1,20 @@
+22:21:12 **** Incremental Build of configuration Debug for project Sine-generator ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Sine-generator.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\Sine-generator\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Sine-generator.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Sine-generator.elf
+ 
+arm-none-eabi-size   Sine-generator.elf 
+arm-none-eabi-objdump -h -S  Sine-generator.elf  > "Sine-generator.list"
+arm-none-eabi-objcopy  -O binary  Sine-generator.elf  "Sine-generator.bin"
+   text	   data	    bss	    dec	    hex	filename
+  11048	   2068	   1788	  14904	   3a38	Sine-generator.elf
+Finished building: default.size.stdout
+ 
+Finished building: Sine-generator.bin
+ 
+Finished building: Sine-generator.list
+ 
+
+22:21:13 Build Finished. 0 errors, 0 warnings. (took 1s.177ms)
+

@@ -1,0 +1,38 @@
+21:29:10 **** Incremental Build of configuration Debug for project DDS-generator ****
+make -j6 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DARM_MATH_CM4 -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I"D:/GitHub/DSP-Architecture-Lab/DAC/CubeIDE-ver/DDS-generator/Drivers/CMSIS/DSP" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:244:32: warning: passing argument 3 of 'arm_fir_init_q15' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  244 |   arm_fir_init_q15(&S, FT_NUM, &filter_taps[0], &firStateQ15[0], BLOCK_SIZE);
+      |                                ^~~~~~~~~~~~~~~
+In file included from ../Core/Src/main.c:22:
+D:/GitHub/DSP-Architecture-Lab/DAC/CubeIDE-ver/DDS-generator/Drivers/CMSIS/DSP/arm_math.h:1119:11: note: expected 'q15_t *' {aka 'short int *'} but argument is of type 'const int16_t *' {aka 'const short int *'}
+ 1119 |   q15_t * pCoeffs,
+      |   ~~~~~~~~^~~~~~~
+../Core/Src/main.c: In function 'HAL_TIM_PeriodElapsedCallback':
+../Core/Src/main.c:511:24: warning: pointer targets in passing argument 2 of 'arm_fir_fast_q15' differ in signedness [-Wpointer-sign]
+  511 |   arm_fir_fast_q15(&S, &dac_data[dds_phase_acc], &dac_out_q15, BLOCK_SIZE);  // Pointer type should not matter
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                        |
+      |                        uint16_t * {aka short unsigned int *}
+In file included from ../Core/Src/main.c:22:
+D:/GitHub/DSP-Architecture-Lab/DAC/CubeIDE-ver/DDS-generator/Drivers/CMSIS/DSP/arm_math.h:1101:11: note: expected 'q15_t *' {aka 'short int *'} but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+ 1101 |   q15_t * pSrc,
+      |   ~~~~~~~~^~~~
+arm-none-eabi-gcc -o "DDS-generator.elf" @"objects.list"  -larm_cortexM4lf_math -mcpu=cortex-m4 -T"D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DDS-generator\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DDS-generator.map" -Wl,--gc-sections -static -L"D:\GitHub\DSP-Architecture-Lab\DAC\CubeIDE-ver\DDS-generator\Drivers\CMSIS\Lib\GCC" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DDS-generator.elf
+ 
+arm-none-eabi-size   DDS-generator.elf 
+arm-none-eabi-objdump -h -S  DDS-generator.elf  > "DDS-generator.list"
+arm-none-eabi-objcopy  -O binary  DDS-generator.elf  "DDS-generator.bin"
+   text	   data	    bss	    dec	    hex	filename
+  13232	   2084	   1924	  17240	   4358	DDS-generator.elf
+Finished building: default.size.stdout
+ 
+Finished building: DDS-generator.bin
+ 
+Finished building: DDS-generator.list
+ 
+
+21:29:11 Build Finished. 0 errors, 2 warnings. (took 865ms)
+

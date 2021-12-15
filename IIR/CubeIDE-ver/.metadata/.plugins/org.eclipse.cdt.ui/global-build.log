@@ -1,42 +1,29 @@
-08:31:29 **** Incremental Build of configuration Debug for project IIR_example_1 ****
+09:15:23 **** Build of configuration Debug for project IIR_example_2 ****
 make -j4 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DARM_MATH_CM4 -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I"D:/GitHub/DSP-Architecture-Lab/IIR/CubeIDE-ver/IIR_example_1/Drivers/CMSIS/DSP" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-../Core/Src/main.c:65:1: error: unknown type name 'float32_t'
-   65 | float32_t xv[NZEROS+1];
-      | ^~~~~~~~~
-../Core/Src/main.c:66:1: error: unknown type name 'float32_t'
-   66 | float32_t yv[NPOLES+1];
-      | ^~~~~~~~~
-../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:122:29: warning: passing argument 2 of 'HAL_ADC_Start_DMA' from incompatible pointer type [-Wincompatible-pointer-types]
-  122 |   HAL_ADC_Start_DMA(&hadc1, &dma_buff, 16);
-      |                             ^~~~~~~~~
-      |                             |
-      |                             uint16_t (*)[16] {aka short unsigned int (*)[16]}
-In file included from ../Core/Inc/stm32f4xx_hal_conf.h:294,
-                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:30,
-                 from ../Core/Inc/main.h:31,
-                 from ../Core/Src/main.c:21:
-../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h:595:72: note: expected 'uint32_t *' {aka 'long unsigned int *'} but argument is of type 'uint16_t (*)[16]' {aka 'short unsigned int (*)[16]'}
-  595 | HAL_StatusTypeDef HAL_ADC_Start_DMA(ADC_HandleTypeDef* hadc, uint32_t* pData, uint32_t Length);
-      |                                                              ~~~~~~~~~~^~~~~
-../Core/Src/main.c: In function 'HAL_ADC_ConvCpltCallback':
-../Core/Src/main.c:447:2: error: unknown type name 'float32_t'
-  447 |  float32_t x_new = 0.0;
-      |  ^~~~~~~~~
-../Core/Src/main.c:452:40: error: 'float32_t' undeclared (first use in this function)
-  452 |  x_new = ((int16_t)ovs - DC_OFFSET) / (float32_t)DAC_RANGE;
-      |                                        ^~~~~~~~~
-../Core/Src/main.c:452:40: note: each undeclared identifier is reported only once for each function it appears in
-../Core/Src/main.c:452:50: error: expected ';' before numeric constant
-  452 |  x_new = ((int16_t)ovs - DC_OFFSET) / (float32_t)DAC_RANGE;
-      |                                                  ^
-      |                                                  ;
-make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
-"make -j4 all" terminated with exit code 2. Build might be incomplete.
-08:32:14 **** Incremental Build of configuration Debug for project IIR_example_1 ****
-make -j4 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DARM_MATH_CM4 -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I"D:/GitHub/DSP-Architecture-Lab/IIR/CubeIDE-ver/IIR_example_1/Drivers/CMSIS/DSP" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DARM_MATH_CM4 -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I"D:/GitHub/DSP-Architecture-Lab/IIR/CubeIDE-ver/IIR_example_2/Drivers/CMSIS/DSP" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DARM_MATH_CM4 -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I"D:/GitHub/DSP-Architecture-Lab/IIR/CubeIDE-ver/IIR_example_2/Drivers/CMSIS/DSP" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DARM_MATH_CM4 -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I"D:/GitHub/DSP-Architecture-Lab/IIR/CubeIDE-ver/IIR_example_2/Drivers/CMSIS/DSP" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DARM_MATH_CM4 -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I"D:/GitHub/DSP-Architecture-Lab/IIR/CubeIDE-ver/IIR_example_2/Drivers/CMSIS/DSP" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DARM_MATH_CM4 -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I"D:/GitHub/DSP-Architecture-Lab/IIR/CubeIDE-ver/IIR_example_2/Drivers/CMSIS/DSP" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DARM_MATH_CM4 -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I"D:/GitHub/DSP-Architecture-Lab/IIR/CubeIDE-ver/IIR_example_2/Drivers/CMSIS/DSP" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DARM_MATH_CM4 -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I"D:/GitHub/DSP-Architecture-Lab/IIR/CubeIDE-ver/IIR_example_2/Drivers/CMSIS/DSP" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DARM_MATH_CM4 -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I"D:/GitHub/DSP-Architecture-Lab/IIR/CubeIDE-ver/IIR_example_2/Drivers/CMSIS/DSP" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DARM_MATH_CM4 -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I"D:/GitHub/DSP-Architecture-Lab/IIR/CubeIDE-ver/IIR_example_2/Drivers/CMSIS/DSP" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DARM_MATH_CM4 -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I"D:/GitHub/DSP-Architecture-Lab/IIR/CubeIDE-ver/IIR_example_2/Drivers/CMSIS/DSP" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DARM_MATH_CM4 -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I"D:/GitHub/DSP-Architecture-Lab/IIR/CubeIDE-ver/IIR_example_2/Drivers/CMSIS/DSP" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DARM_MATH_CM4 -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I"D:/GitHub/DSP-Architecture-Lab/IIR/CubeIDE-ver/IIR_example_2/Drivers/CMSIS/DSP" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DARM_MATH_CM4 -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I"D:/GitHub/DSP-Architecture-Lab/IIR/CubeIDE-ver/IIR_example_2/Drivers/CMSIS/DSP" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DARM_MATH_CM4 -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I"D:/GitHub/DSP-Architecture-Lab/IIR/CubeIDE-ver/IIR_example_2/Drivers/CMSIS/DSP" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DARM_MATH_CM4 -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I"D:/GitHub/DSP-Architecture-Lab/IIR/CubeIDE-ver/IIR_example_2/Drivers/CMSIS/DSP" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DARM_MATH_CM4 -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I"D:/GitHub/DSP-Architecture-Lab/IIR/CubeIDE-ver/IIR_example_2/Drivers/CMSIS/DSP" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DARM_MATH_CM4 -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I"D:/GitHub/DSP-Architecture-Lab/IIR/CubeIDE-ver/IIR_example_2/Drivers/CMSIS/DSP" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DARM_MATH_CM4 -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I"D:/GitHub/DSP-Architecture-Lab/IIR/CubeIDE-ver/IIR_example_2/Drivers/CMSIS/DSP" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DARM_MATH_CM4 -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I"D:/GitHub/DSP-Architecture-Lab/IIR/CubeIDE-ver/IIR_example_2/Drivers/CMSIS/DSP" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DARM_MATH_CM4 -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I"D:/GitHub/DSP-Architecture-Lab/IIR/CubeIDE-ver/IIR_example_2/Drivers/CMSIS/DSP" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.o"
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Core/Startup/startup_stm32f407vgtx.d" -MT"Core/Startup/startup_stm32f407vgtx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Startup/startup_stm32f407vgtx.o" "../Core/Startup/startup_stm32f407vgtx.s"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DARM_MATH_CM4 -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I"D:/GitHub/DSP-Architecture-Lab/IIR/CubeIDE-ver/IIR_example_2/Drivers/CMSIS/DSP" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DARM_MATH_CM4 -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I"D:/GitHub/DSP-Architecture-Lab/IIR/CubeIDE-ver/IIR_example_2/Drivers/CMSIS/DSP" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f4xx_hal_msp.d" -MT"Core/Src/stm32f4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DARM_MATH_CM4 -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I"D:/GitHub/DSP-Architecture-Lab/IIR/CubeIDE-ver/IIR_example_2/Drivers/CMSIS/DSP" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f4xx_it.d" -MT"Core/Src/stm32f4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_it.o"
 ../Core/Src/main.c: In function 'main':
 ../Core/Src/main.c:121:29: warning: passing argument 2 of 'HAL_ADC_Start_DMA' from incompatible pointer type [-Wincompatible-pointer-types]
   121 |   HAL_ADC_Start_DMA(&hadc1, &dma_buff, 16);
@@ -50,144 +37,30 @@ In file included from ../Core/Inc/stm32f4xx_hal_conf.h:294,
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h:595:72: note: expected 'uint32_t *' {aka 'long unsigned int *'} but argument is of type 'uint16_t (*)[16]' {aka 'short unsigned int (*)[16]'}
   595 | HAL_StatusTypeDef HAL_ADC_Start_DMA(ADC_HandleTypeDef* hadc, uint32_t* pData, uint32_t Length);
       |                                                              ~~~~~~~~~~^~~~~
-arm-none-eabi-gcc -o "IIR_example_1.elf" @"objects.list"  -larm_cortexM4lf_math -mcpu=cortex-m4 -T"D:\GitHub\DSP-Architecture-Lab\IIR\CubeIDE-ver\IIR_example_1\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="IIR_example_1.map" -Wl,--gc-sections -static -L"D:\GitHub\DSP-Architecture-Lab\IIR\CubeIDE-ver\IIR_example_1\Drivers\CMSIS\Lib\GCC" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: IIR_example_1.elf
+arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DARM_MATH_CM4 -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I"D:/GitHub/DSP-Architecture-Lab/IIR/CubeIDE-ver/IIR_example_2/Drivers/CMSIS/DSP" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/syscalls.o"
+arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DARM_MATH_CM4 -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I"D:/GitHub/DSP-Architecture-Lab/IIR/CubeIDE-ver/IIR_example_2/Drivers/CMSIS/DSP" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/sysmem.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32f4xx.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DARM_MATH_CM4 -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I"D:/GitHub/DSP-Architecture-Lab/IIR/CubeIDE-ver/IIR_example_2/Drivers/CMSIS/DSP" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/system_stm32f4xx.d" -MT"Core/Src/system_stm32f4xx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/system_stm32f4xx.o"
+arm-none-eabi-gcc -o "IIR_example_2.elf" @"objects.list"  -larm_cortexM4lf_math -mcpu=cortex-m4 -T"D:\GitHub\DSP-Architecture-Lab\IIR\CubeIDE-ver\IIR_example_2\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="IIR_example_2.map" -Wl,--gc-sections -static -L"D:\GitHub\DSP-Architecture-Lab\IIR\CubeIDE-ver\IIR_example_2\Drivers\CMSIS\Lib\GCC" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: IIR_example_2.elf
  
-arm-none-eabi-size   IIR_example_1.elf 
-arm-none-eabi-objdump -h -S  IIR_example_1.elf  > "IIR_example_1.list"
-arm-none-eabi-objcopy  -O binary  IIR_example_1.elf  "IIR_example_1.bin"
+arm-none-eabi-size   IIR_example_2.elf 
+arm-none-eabi-objdump -h -S  IIR_example_2.elf  > "IIR_example_2.list"
+arm-none-eabi-objcopy  -O binary  IIR_example_2.elf  "IIR_example_2.bin"
    text	   data	    bss	    dec	    hex	filename
-  17188	     20	   4012	  21220	   52e4	IIR_example_1.elf
+  16764	     20	   4020	  20804	   5144	IIR_example_2.elf
 Finished building: default.size.stdout
  
-Finished building: IIR_example_1.bin
+Finished building: IIR_example_2.bin
  
-Finished building: IIR_example_1.list
+Finished building: IIR_example_2.list
  
-08:34:37 **** Incremental Build of configuration Debug for project IIR_example_1 ****
+
+09:15:28 Build Finished. 0 errors, 1 warnings. (took 4s.735ms)
+
+09:15:35 **** Incremental Build of configuration Debug for project IIR_example_2 ****
 make -j4 all 
-arm-none-eabi-size   IIR_example_1.elf 
+arm-none-eabi-size   IIR_example_2.elf 
    text	   data	    bss	    dec	    hex	filename
-  17188	     20	   4012	  21220	   52e4	IIR_example_1.elf
+  16764	     20	   4020	  20804	   5144	IIR_example_2.elf
 Finished building: default.size.stdout
- 
-08:54:15 **** Incremental Build of configuration Debug for project IIR_example_1 ****
-make -j4 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DARM_MATH_CM4 -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I"D:/GitHub/DSP-Architecture-Lab/IIR/CubeIDE-ver/IIR_example_1/Drivers/CMSIS/DSP" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:121:29: warning: passing argument 2 of 'HAL_ADC_Start_DMA' from incompatible pointer type [-Wincompatible-pointer-types]
-  121 |   HAL_ADC_Start_DMA(&hadc1, &dma_buff, 16);
-      |                             ^~~~~~~~~
-      |                             |
-      |                             uint16_t (*)[16] {aka short unsigned int (*)[16]}
-In file included from ../Core/Inc/stm32f4xx_hal_conf.h:294,
-                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:30,
-                 from ../Core/Inc/main.h:31,
-                 from ../Core/Src/main.c:21:
-../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h:595:72: note: expected 'uint32_t *' {aka 'long unsigned int *'} but argument is of type 'uint16_t (*)[16]' {aka 'short unsigned int (*)[16]'}
-  595 | HAL_StatusTypeDef HAL_ADC_Start_DMA(ADC_HandleTypeDef* hadc, uint32_t* pData, uint32_t Length);
-      |                                                              ~~~~~~~~~~^~~~~
-arm-none-eabi-gcc -o "IIR_example_1.elf" @"objects.list"  -larm_cortexM4lf_math -mcpu=cortex-m4 -T"D:\GitHub\DSP-Architecture-Lab\IIR\CubeIDE-ver\IIR_example_1\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="IIR_example_1.map" -Wl,--gc-sections -static -L"D:\GitHub\DSP-Architecture-Lab\IIR\CubeIDE-ver\IIR_example_1\Drivers\CMSIS\Lib\GCC" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: IIR_example_1.elf
- 
-arm-none-eabi-size   IIR_example_1.elf 
-arm-none-eabi-objdump -h -S  IIR_example_1.elf  > "IIR_example_1.list"
-arm-none-eabi-objcopy  -O binary  IIR_example_1.elf  "IIR_example_1.bin"
-   text	   data	    bss	    dec	    hex	filename
-  17096	     20	   4012	  21128	   5288	IIR_example_1.elf
-Finished building: default.size.stdout
- 
-Finished building: IIR_example_1.bin
- 
-Finished building: IIR_example_1.list
- 
-08:57:07 **** Incremental Build of configuration Debug for project IIR_example_1 ****
-make -j4 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DARM_MATH_CM4 -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I"D:/GitHub/DSP-Architecture-Lab/IIR/CubeIDE-ver/IIR_example_1/Drivers/CMSIS/DSP" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:121:29: warning: passing argument 2 of 'HAL_ADC_Start_DMA' from incompatible pointer type [-Wincompatible-pointer-types]
-  121 |   HAL_ADC_Start_DMA(&hadc1, &dma_buff, 16);
-      |                             ^~~~~~~~~
-      |                             |
-      |                             uint16_t (*)[16] {aka short unsigned int (*)[16]}
-In file included from ../Core/Inc/stm32f4xx_hal_conf.h:294,
-                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:30,
-                 from ../Core/Inc/main.h:31,
-                 from ../Core/Src/main.c:21:
-../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h:595:72: note: expected 'uint32_t *' {aka 'long unsigned int *'} but argument is of type 'uint16_t (*)[16]' {aka 'short unsigned int (*)[16]'}
-  595 | HAL_StatusTypeDef HAL_ADC_Start_DMA(ADC_HandleTypeDef* hadc, uint32_t* pData, uint32_t Length);
-      |                                                              ~~~~~~~~~~^~~~~
-arm-none-eabi-gcc -o "IIR_example_1.elf" @"objects.list"  -larm_cortexM4lf_math -mcpu=cortex-m4 -T"D:\GitHub\DSP-Architecture-Lab\IIR\CubeIDE-ver\IIR_example_1\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="IIR_example_1.map" -Wl,--gc-sections -static -L"D:\GitHub\DSP-Architecture-Lab\IIR\CubeIDE-ver\IIR_example_1\Drivers\CMSIS\Lib\GCC" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: IIR_example_1.elf
- 
-arm-none-eabi-size   IIR_example_1.elf 
-arm-none-eabi-objdump -h -S  IIR_example_1.elf  > "IIR_example_1.list"
-arm-none-eabi-objcopy  -O binary  IIR_example_1.elf  "IIR_example_1.bin"
-   text	   data	    bss	    dec	    hex	filename
-  17096	     20	   4012	  21128	   5288	IIR_example_1.elf
-Finished building: default.size.stdout
- 
-Finished building: IIR_example_1.bin
- 
-Finished building: IIR_example_1.list
- 
-08:58:54 **** Incremental Build of configuration Debug for project IIR_example_1 ****
-make -j4 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DARM_MATH_CM4 -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I"D:/GitHub/DSP-Architecture-Lab/IIR/CubeIDE-ver/IIR_example_1/Drivers/CMSIS/DSP" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:121:29: warning: passing argument 2 of 'HAL_ADC_Start_DMA' from incompatible pointer type [-Wincompatible-pointer-types]
-  121 |   HAL_ADC_Start_DMA(&hadc1, &dma_buff, 16);
-      |                             ^~~~~~~~~
-      |                             |
-      |                             uint16_t (*)[16] {aka short unsigned int (*)[16]}
-In file included from ../Core/Inc/stm32f4xx_hal_conf.h:294,
-                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:30,
-                 from ../Core/Inc/main.h:31,
-                 from ../Core/Src/main.c:21:
-../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h:595:72: note: expected 'uint32_t *' {aka 'long unsigned int *'} but argument is of type 'uint16_t (*)[16]' {aka 'short unsigned int (*)[16]'}
-  595 | HAL_StatusTypeDef HAL_ADC_Start_DMA(ADC_HandleTypeDef* hadc, uint32_t* pData, uint32_t Length);
-      |                                                              ~~~~~~~~~~^~~~~
-arm-none-eabi-gcc -o "IIR_example_1.elf" @"objects.list"  -larm_cortexM4lf_math -mcpu=cortex-m4 -T"D:\GitHub\DSP-Architecture-Lab\IIR\CubeIDE-ver\IIR_example_1\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="IIR_example_1.map" -Wl,--gc-sections -static -L"D:\GitHub\DSP-Architecture-Lab\IIR\CubeIDE-ver\IIR_example_1\Drivers\CMSIS\Lib\GCC" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: IIR_example_1.elf
- 
-arm-none-eabi-size   IIR_example_1.elf 
-arm-none-eabi-objdump -h -S  IIR_example_1.elf  > "IIR_example_1.list"
-arm-none-eabi-objcopy  -O binary  IIR_example_1.elf  "IIR_example_1.bin"
-   text	   data	    bss	    dec	    hex	filename
-  17096	     20	   4012	  21128	   5288	IIR_example_1.elf
-Finished building: default.size.stdout
- 
-Finished building: IIR_example_1.bin
- 
-Finished building: IIR_example_1.list
- 
-08:59:54 **** Incremental Build of configuration Debug for project IIR_example_1 ****
-make -j4 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DARM_MATH_CM4 -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I"D:/GitHub/DSP-Architecture-Lab/IIR/CubeIDE-ver/IIR_example_1/Drivers/CMSIS/DSP" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:121:29: warning: passing argument 2 of 'HAL_ADC_Start_DMA' from incompatible pointer type [-Wincompatible-pointer-types]
-  121 |   HAL_ADC_Start_DMA(&hadc1, &dma_buff, 16);
-      |                             ^~~~~~~~~
-      |                             |
-      |                             uint16_t (*)[16] {aka short unsigned int (*)[16]}
-In file included from ../Core/Inc/stm32f4xx_hal_conf.h:294,
-                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:30,
-                 from ../Core/Inc/main.h:31,
-                 from ../Core/Src/main.c:21:
-../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h:595:72: note: expected 'uint32_t *' {aka 'long unsigned int *'} but argument is of type 'uint16_t (*)[16]' {aka 'short unsigned int (*)[16]'}
-  595 | HAL_StatusTypeDef HAL_ADC_Start_DMA(ADC_HandleTypeDef* hadc, uint32_t* pData, uint32_t Length);
-      |                                                              ~~~~~~~~~~^~~~~
-arm-none-eabi-gcc -o "IIR_example_1.elf" @"objects.list"  -larm_cortexM4lf_math -mcpu=cortex-m4 -T"D:\GitHub\DSP-Architecture-Lab\IIR\CubeIDE-ver\IIR_example_1\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="IIR_example_1.map" -Wl,--gc-sections -static -L"D:\GitHub\DSP-Architecture-Lab\IIR\CubeIDE-ver\IIR_example_1\Drivers\CMSIS\Lib\GCC" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: IIR_example_1.elf
- 
-arm-none-eabi-size   IIR_example_1.elf 
-arm-none-eabi-objdump -h -S  IIR_example_1.elf  > "IIR_example_1.list"
-arm-none-eabi-objcopy  -O binary  IIR_example_1.elf  "IIR_example_1.bin"
-   text	   data	    bss	    dec	    hex	filename
-  17100	     20	   4012	  21132	   528c	IIR_example_1.elf
-Finished building: default.size.stdout
- 
-Finished building: IIR_example_1.bin
- 
-Finished building: IIR_example_1.list
  

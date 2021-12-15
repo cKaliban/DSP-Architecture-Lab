@@ -1,0 +1,10 @@
+08:34:37 **** Incremental Build of configuration Debug for project IIR_example_1 ****
+make -j4 all 
+arm-none-eabi-size   IIR_example_1.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17188	     20	   4012	  21220	   52e4	IIR_example_1.elf
+Finished building: default.size.stdout
+ 
+
+08:34:37 Build Finished. 0 errors, 0 warnings. (took 337ms)
+

@@ -19,6 +19,8 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "stm32f407xx.h"
+#include "arm_math.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -34,6 +36,11 @@
 /* USER CODE BEGIN PD */
 #define ADC_BUFF_LEN	1024
 #define  DMA_BUFF_LEN	16
+#define DC_OFFSET		2048
+#define DAC_RANGE		4096
+#define NZEROS 			3
+#define NPOLES 			3
+#define GAIN   			4.553605266e+003
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -54,6 +61,8 @@ TIM_HandleTypeDef htim3;
 uint16_t dma_buff[DMA_BUFF_LEN];
 uint16_t adc_data[ADC_BUFF_LEN];
 uint16_t adc_data_counter = 0;
+float32_t xv[NZEROS+1];
+float32_t yv[NPOLES+1];
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -64,6 +73,7 @@ static void MX_ADC1_Init(void);
 static void MX_DAC_Init(void);
 static void MX_TIM2_Init(void);
 static void MX_TIM3_Init(void);
+//static void filterloop(void);
 /* USER CODE BEGIN PFP */
 
 /* USER CODE END PFP */
@@ -416,19 +426,40 @@ static void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 4 */
+//void filterloop()
+//  { for (;;)
+//      { xv[0] = xv[1]; xv[1] = xv[2]; xv[2] = xv[3];
+////        xv[3] = `next input value' / GAIN;
+////        yv[0] = yv[1]; yv[1] = yv[2]; yv[2] = yv[3];
+////        yv[3] =   (xv[0] + xv[3]) + 3 * (xv[1] + xv[2])
+////                     + (  0.7776385602 * yv[0]) + ( -2.5282312191 * yv[1])
+////                     + (  2.7488358092 * yv[2]);
+////        `next output value' = yv[3];
+//      }
+//  }
+
+
 void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef *hadc){
 //	if(adc_data_counter < ADC_BUFF_LEN){
 	uint16_t ovs = 0;
+	uint16_t filtered_out = 0;
+	float32_t x_new = 0.0;
 	for(uint8_t i = 0; i < DMA_BUFF_LEN; i++){
 		ovs += dma_buff[i];
 	}
-//	adc_data[adc_data_counter] = (ovs >> 2); // 12-bit measurements -> 14-bit result
-//	adc_data_counter++;
-	HAL_DAC_SetValue(&hdac, DAC1_CHANNEL_2, DAC_ALIGN_12B_L, ovs);
-//	}
-//	else{
-//		HAL_GPIO_TogglePin(GPIOD, GPIO_PIN_12);
-//	}
+	ovs = (ovs >> 2);
+	x_new = ((int16_t)ovs - DC_OFFSET) / (float32_t)DAC_RANGE;
+
+	xv[0] = xv[1]; xv[1] = xv[2]; xv[2] = xv[3];
+	xv[3] = x_new / GAIN;
+	yv[0] = yv[1]; yv[1] = yv[2]; yv[2] = yv[3];
+	yv[3] =   (xv[0] + xv[3]) + 3 * (xv[1] + xv[2])
+	                     + (  0.7776385602 * yv[0]) + ( -2.5282312191 * yv[1])
+	                     + (  2.7488358092 * yv[2]);
+	filtered_out = (uint16_t)(yv[3] * DAC_RANGE) + DC_OFFSET;
+
+	HAL_DAC_SetValue(&hdac, DAC1_CHANNEL_2, DAC_ALIGN_12B_R, filtered_out);
+
 }
 /* USER CODE END 4 */
 

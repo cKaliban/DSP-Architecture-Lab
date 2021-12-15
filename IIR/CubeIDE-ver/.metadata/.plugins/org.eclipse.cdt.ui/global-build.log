@@ -71,3 +71,123 @@ arm-none-eabi-size   IIR_example_1.elf
   17188	     20	   4012	  21220	   52e4	IIR_example_1.elf
 Finished building: default.size.stdout
  
+08:54:15 **** Incremental Build of configuration Debug for project IIR_example_1 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DARM_MATH_CM4 -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I"D:/GitHub/DSP-Architecture-Lab/IIR/CubeIDE-ver/IIR_example_1/Drivers/CMSIS/DSP" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:121:29: warning: passing argument 2 of 'HAL_ADC_Start_DMA' from incompatible pointer type [-Wincompatible-pointer-types]
+  121 |   HAL_ADC_Start_DMA(&hadc1, &dma_buff, 16);
+      |                             ^~~~~~~~~
+      |                             |
+      |                             uint16_t (*)[16] {aka short unsigned int (*)[16]}
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:294,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:30,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h:595:72: note: expected 'uint32_t *' {aka 'long unsigned int *'} but argument is of type 'uint16_t (*)[16]' {aka 'short unsigned int (*)[16]'}
+  595 | HAL_StatusTypeDef HAL_ADC_Start_DMA(ADC_HandleTypeDef* hadc, uint32_t* pData, uint32_t Length);
+      |                                                              ~~~~~~~~~~^~~~~
+arm-none-eabi-gcc -o "IIR_example_1.elf" @"objects.list"  -larm_cortexM4lf_math -mcpu=cortex-m4 -T"D:\GitHub\DSP-Architecture-Lab\IIR\CubeIDE-ver\IIR_example_1\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="IIR_example_1.map" -Wl,--gc-sections -static -L"D:\GitHub\DSP-Architecture-Lab\IIR\CubeIDE-ver\IIR_example_1\Drivers\CMSIS\Lib\GCC" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: IIR_example_1.elf
+ 
+arm-none-eabi-size   IIR_example_1.elf 
+arm-none-eabi-objdump -h -S  IIR_example_1.elf  > "IIR_example_1.list"
+arm-none-eabi-objcopy  -O binary  IIR_example_1.elf  "IIR_example_1.bin"
+   text	   data	    bss	    dec	    hex	filename
+  17096	     20	   4012	  21128	   5288	IIR_example_1.elf
+Finished building: default.size.stdout
+ 
+Finished building: IIR_example_1.bin
+ 
+Finished building: IIR_example_1.list
+ 
+08:57:07 **** Incremental Build of configuration Debug for project IIR_example_1 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DARM_MATH_CM4 -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I"D:/GitHub/DSP-Architecture-Lab/IIR/CubeIDE-ver/IIR_example_1/Drivers/CMSIS/DSP" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:121:29: warning: passing argument 2 of 'HAL_ADC_Start_DMA' from incompatible pointer type [-Wincompatible-pointer-types]
+  121 |   HAL_ADC_Start_DMA(&hadc1, &dma_buff, 16);
+      |                             ^~~~~~~~~
+      |                             |
+      |                             uint16_t (*)[16] {aka short unsigned int (*)[16]}
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:294,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:30,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h:595:72: note: expected 'uint32_t *' {aka 'long unsigned int *'} but argument is of type 'uint16_t (*)[16]' {aka 'short unsigned int (*)[16]'}
+  595 | HAL_StatusTypeDef HAL_ADC_Start_DMA(ADC_HandleTypeDef* hadc, uint32_t* pData, uint32_t Length);
+      |                                                              ~~~~~~~~~~^~~~~
+arm-none-eabi-gcc -o "IIR_example_1.elf" @"objects.list"  -larm_cortexM4lf_math -mcpu=cortex-m4 -T"D:\GitHub\DSP-Architecture-Lab\IIR\CubeIDE-ver\IIR_example_1\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="IIR_example_1.map" -Wl,--gc-sections -static -L"D:\GitHub\DSP-Architecture-Lab\IIR\CubeIDE-ver\IIR_example_1\Drivers\CMSIS\Lib\GCC" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: IIR_example_1.elf
+ 
+arm-none-eabi-size   IIR_example_1.elf 
+arm-none-eabi-objdump -h -S  IIR_example_1.elf  > "IIR_example_1.list"
+arm-none-eabi-objcopy  -O binary  IIR_example_1.elf  "IIR_example_1.bin"
+   text	   data	    bss	    dec	    hex	filename
+  17096	     20	   4012	  21128	   5288	IIR_example_1.elf
+Finished building: default.size.stdout
+ 
+Finished building: IIR_example_1.bin
+ 
+Finished building: IIR_example_1.list
+ 
+08:58:54 **** Incremental Build of configuration Debug for project IIR_example_1 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DARM_MATH_CM4 -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I"D:/GitHub/DSP-Architecture-Lab/IIR/CubeIDE-ver/IIR_example_1/Drivers/CMSIS/DSP" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:121:29: warning: passing argument 2 of 'HAL_ADC_Start_DMA' from incompatible pointer type [-Wincompatible-pointer-types]
+  121 |   HAL_ADC_Start_DMA(&hadc1, &dma_buff, 16);
+      |                             ^~~~~~~~~
+      |                             |
+      |                             uint16_t (*)[16] {aka short unsigned int (*)[16]}
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:294,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:30,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h:595:72: note: expected 'uint32_t *' {aka 'long unsigned int *'} but argument is of type 'uint16_t (*)[16]' {aka 'short unsigned int (*)[16]'}
+  595 | HAL_StatusTypeDef HAL_ADC_Start_DMA(ADC_HandleTypeDef* hadc, uint32_t* pData, uint32_t Length);
+      |                                                              ~~~~~~~~~~^~~~~
+arm-none-eabi-gcc -o "IIR_example_1.elf" @"objects.list"  -larm_cortexM4lf_math -mcpu=cortex-m4 -T"D:\GitHub\DSP-Architecture-Lab\IIR\CubeIDE-ver\IIR_example_1\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="IIR_example_1.map" -Wl,--gc-sections -static -L"D:\GitHub\DSP-Architecture-Lab\IIR\CubeIDE-ver\IIR_example_1\Drivers\CMSIS\Lib\GCC" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: IIR_example_1.elf
+ 
+arm-none-eabi-size   IIR_example_1.elf 
+arm-none-eabi-objdump -h -S  IIR_example_1.elf  > "IIR_example_1.list"
+arm-none-eabi-objcopy  -O binary  IIR_example_1.elf  "IIR_example_1.bin"
+   text	   data	    bss	    dec	    hex	filename
+  17096	     20	   4012	  21128	   5288	IIR_example_1.elf
+Finished building: default.size.stdout
+ 
+Finished building: IIR_example_1.bin
+ 
+Finished building: IIR_example_1.list
+ 
+08:59:54 **** Incremental Build of configuration Debug for project IIR_example_1 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DARM_MATH_CM4 -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I"D:/GitHub/DSP-Architecture-Lab/IIR/CubeIDE-ver/IIR_example_1/Drivers/CMSIS/DSP" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:121:29: warning: passing argument 2 of 'HAL_ADC_Start_DMA' from incompatible pointer type [-Wincompatible-pointer-types]
+  121 |   HAL_ADC_Start_DMA(&hadc1, &dma_buff, 16);
+      |                             ^~~~~~~~~
+      |                             |
+      |                             uint16_t (*)[16] {aka short unsigned int (*)[16]}
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:294,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:30,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h:595:72: note: expected 'uint32_t *' {aka 'long unsigned int *'} but argument is of type 'uint16_t (*)[16]' {aka 'short unsigned int (*)[16]'}
+  595 | HAL_StatusTypeDef HAL_ADC_Start_DMA(ADC_HandleTypeDef* hadc, uint32_t* pData, uint32_t Length);
+      |                                                              ~~~~~~~~~~^~~~~
+arm-none-eabi-gcc -o "IIR_example_1.elf" @"objects.list"  -larm_cortexM4lf_math -mcpu=cortex-m4 -T"D:\GitHub\DSP-Architecture-Lab\IIR\CubeIDE-ver\IIR_example_1\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="IIR_example_1.map" -Wl,--gc-sections -static -L"D:\GitHub\DSP-Architecture-Lab\IIR\CubeIDE-ver\IIR_example_1\Drivers\CMSIS\Lib\GCC" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: IIR_example_1.elf
+ 
+arm-none-eabi-size   IIR_example_1.elf 
+arm-none-eabi-objdump -h -S  IIR_example_1.elf  > "IIR_example_1.list"
+arm-none-eabi-objcopy  -O binary  IIR_example_1.elf  "IIR_example_1.bin"
+   text	   data	    bss	    dec	    hex	filename
+  17100	     20	   4012	  21132	   528c	IIR_example_1.elf
+Finished building: default.size.stdout
+ 
+Finished building: IIR_example_1.bin
+ 
+Finished building: IIR_example_1.list
+ 

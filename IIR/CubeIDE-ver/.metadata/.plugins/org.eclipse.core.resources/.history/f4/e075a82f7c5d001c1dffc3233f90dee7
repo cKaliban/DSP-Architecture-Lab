@@ -447,7 +447,7 @@ void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef *hadc){
 	for(uint8_t i = 0; i < DMA_BUFF_LEN; i++){
 		ovs += dma_buff[i];
 	}
-	ovs = (ovs >> 4);
+	ovs = (ovs >> 2);
 	x_new = ((int16_t)ovs - DC_OFFSET) / (float32_t)DAC_RANGE;
 
 	xv[0] = xv[1]; xv[1] = xv[2]; xv[2] = xv[3];
@@ -456,7 +456,7 @@ void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef *hadc){
 	yv[3] =   (xv[0] + xv[3]) + 3 * (xv[1] + xv[2])
 	                     + (  0.7776385602f * yv[0]) + ( -2.5282312191f * yv[1])
 	                     + (  2.7488358092f * yv[2]);
-	filtered_out = (uint16_t)(yv[3] * DAC_RANGE + DC_OFFSET);
+	filtered_out = (uint16_t)(yv[3] * DAC_RANGE) + DC_OFFSET;
 
 	HAL_DAC_SetValue(&hdac, DAC1_CHANNEL_2, DAC_ALIGN_12B_R, filtered_out);
 

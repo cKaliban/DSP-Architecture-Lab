@@ -3,6 +3,7 @@ import sys
 import numpy as np
 import scipy.signal as signal
 from scipy.io import wavfile
+import sklearn as sk
 import librosa 
 import soundfile as sf
 from scipy.fft import fft, ifft
@@ -25,9 +26,13 @@ yf = 2.0/N * np.abs(fft_src[:N//2])
 x = np.linspace(0.0, N*Ts, N)
 xf = np.linspace(0.0, 1.0/(2.0*Ts), N//2)
 
+# W, S = sk.decomposition.fastica((source_signal, source_signal), n_components=2, whiten=False)
+# print(W)
+# print(S)
 
 
-b, a = iir_filter_coeffs = signal.iirdesign(2, 4, gpass=1, gstop=40, ftype='butter', fs=sample_rate)
+
+b, a =  signal.iirdesign(2, 4, gpass=1, gstop=40, ftype='butter', fs=sample_rate)
 signal_filtered = signal.lfilter(b, a, source_signal)
 
 

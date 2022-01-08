@@ -25,8 +25,8 @@ S_ = ica.fit_transform(X_p)
 A_ = ica.mixing_
 print(A_)
 
-S1 = np.dot(S_[:, 0].T, A_[0, :])
-print(S1)
+# S1 = np.dot(S_[:, 0].T, A_[0, :])
+# print(S1)
 
 plt.plot(S_)
 plt.show()

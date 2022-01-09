@@ -27,7 +27,7 @@ x = np.linspace(0.0, N*Ts, N)
 xf = np.linspace(0.0, 1.0/(2.0*Ts), N//2)
 
 
-b, a =  signal.iirdesign(2, 4, gpass=1, gstop=40, ftype='butter', fs=sample_rate)
+b, a =  signal.iirdesign(1, 3, gpass=1, gstop=40, fs=sample_rate)
 signal_filtered = signal.lfilter(b, a, source_signal)
 
 freq_s = fftfreq(N, Ts)[:N//2]
@@ -57,6 +57,7 @@ plt.show(block=False)
 # hp.plotter(working_data, measures)
 bpm_flt = hp.plotter(working_data_flt, measures_flt, show=True)
 plt.show(block=False)
+
 
 
 y1 = 0.01 * np.sin(1.2 * x * 2 * np.pi)

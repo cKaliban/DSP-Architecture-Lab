@@ -24,16 +24,20 @@ def determine_score(arr, angle):
   return histogram, score
 
 
-img = cv2.imread('car1.jpg',cv2.IMREAD_COLOR)
+img = cv2.imread('car2.jpg',cv2.IMREAD_COLOR)
 
 img = cv2.resize(img, (620,480) )
+cv2.imwrite("s1.jpg", img)
 
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY) #convert to grey scale
 
-gray = cv2.bilateralFilter(gray, 11, 17, 17) #Blur to reduce noise
+cv2.imwrite("s2.jpg", gray)
+gray = cv2.bilateralFilter(gray, 15, 50, 50) #Blur to reduce noise
 
+cv2.imwrite("s3.jpg", gray)
 edged = cv2.Canny(gray, 30, 200) #Perform Edge detection
 
+cv2.imwrite("s4.jpg",edged)
 # find contours in the edged image, keep only the largest
 # ones, and initialize our screen contour
 cnts = cv2.findContours(edged.copy(), cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
@@ -45,7 +49,7 @@ screenCnt = None
 for c in cnts:
  # approximate the contour
  peri = cv2.arcLength(c, True)
- approx = cv2.approxPolyDP(c, 0.009 * peri, True)
+ approx = cv2.approxPolyDP(c, 0.041 * peri, True)
  
  # if our approximated contour has four points, then
  # we can assume that we have found our screen
@@ -74,9 +78,11 @@ new_image = cv2.bitwise_and(img,img,mask=mask)
 Cropped = gray[topx:bottomx+1, topy:bottomy+1]
 
 cv2.imshow('image',img)
+cv2.imwrite("s5.jpg", img)
 cv2.imshow('Cropped',Cropped)
-
+cv2.imwrite("s6.jpg", Cropped)
 thresh = cv2.threshold(Cropped, 0, 255, cv2.THRESH_BINARY_INV + cv2.THRESH_OTSU)[1]
+cv2.imwrite("s7.jpg", thresh)
 # kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (3,3))
 # opening = cv2.morphologyEx(thresh, cv2.MORPH_OPEN, kernel, iterations=1)
 # inv = cv2.bitwise_not(thresh)

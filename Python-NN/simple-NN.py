@@ -1,3 +1,4 @@
+from turtle import color
 import tensorflow as tf
 import numpy as np
 from tensorflow import keras
@@ -24,7 +25,7 @@ ys = np.array([-3.0, -1.0, 1.0, 3.0, 7.0], dtype=float)
 m, res, _, _, _ = np.polyfit(xs, ys, 1, full=True)
 
 # Linear solution
-plt.scatter(xs, ys, marker='x')
+plt.scatter(xs, ys, marker='x', color='r')
 plt.plot(xs, m[0]*xs + m[1])
 plt.show(block=True)
 
@@ -46,3 +47,10 @@ print("y = " + str(lin_eq(10.0)))
 
 print("Model Summary:")
 print(model.summary())
+
+
+pred = np.array([10.,20.])
+print("NN prediction: x = [10,20], y = " +
+    str(model.predict(pred, batch_size=2)))
+print("LE prediction: x = [10,20], y = " +
+    str(pred*m[0]+m[1]))

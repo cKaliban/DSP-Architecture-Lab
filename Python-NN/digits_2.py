@@ -65,15 +65,15 @@ x_test = x_test.astype('float32') / 255.0
 
 model = keras.Sequential()
 model.add(keras.layers.Conv2D(32, (3,3), activation='relu', kernel_initializer='he_uniform', input_shape=in_shape))
-model.add(keras.layers.MaxPool2D((2, 2)))
+# model.add(keras.layers.MaxPool2D((2, 2)))
 model.add(keras.layers.Flatten())
 model.add(keras.layers.Dense(100, activation='relu', kernel_initializer='he_uniform'))
-model.add(keras.layers.Dropout(0.5))
+# model.add(keras.layers.Dropout(0.5))
 model.add(keras.layers.Dense(n_classes, activation='softmax'))
 
 model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])
 
-model.fit(x_train, y_train, epochs=100, batch_size=128, verbose=1)
+model.fit(x_train, y_train, epochs=10, batch_size=128, verbose=1)
 
 loss, acc = model.evaluate(x_test, y_test, verbose=0)
 print('Accuracy: %.3f' % acc)
@@ -135,4 +135,4 @@ plt.show()
 
 
 model.summary()
-keras.utils.plot_model(model, 'model.png', show_shapes=True)
+keras.utils.plot_model(model, 'model_2.png', show_shapes=True)
